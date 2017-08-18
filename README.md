@@ -1,92 +1,27 @@
-# The Minimal theme
-
-[![Build Status](https://travis-ci.org/pages-themes/minimal.svg?branch=master)](https://travis-ci.org/pages-themes/minimal) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-minimal.svg)](https://badge.fury.io/rb/jekyll-theme-minimal)
-
-*Minimal is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/minimal), or even [use it today](#usage).*
-
-![Thumbnail of minimal](thumbnail.png)
-
-## Usage
-
-To use the Minimal theme:
-
-1. Add the following to your site's `_config.yml`:
-
-    ```yml
-    theme: jekyll-theme-minimal
-    ```
-
-2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
-
-    ```ruby
-    gem "github-pages", group: :jekyll_plugins
-    ```
+This theme is designed by Xiaoying Riley at 3rd Wave Media (http://themes.3rdwavemedia.com/). Visit her website for more themes [http://themes.3rdwavemedia.com/](http://themes.3rdwavemedia.com/)
 
 
+I have made this into a Jekyll Theme.
+**Demo:** [http://webjeda.com/online-cv/](http://webjeda.com/online-cv/)
 
-## Customizing
+The default theme would look like this
 
-### Configuration variables
+![online cv Jekyll theme](https://github.com/sharu725/online-cv/raw/master/assets/images/online-cv-jekyll-theme.png)
 
-Minimal will respect the following variables, if set in your site's `_config.yml`:
+The theme is responsive
 
-```yml
-title: [The title of your site]
-description: [A short description of your site's purpose]
-```
+![online cv responsive Jekyll theme](https://github.com/sharu725/online-cv/raw/master/assets/images/online-cv-responsive-jekyll-theme.png)
 
-Additionally, you may choose to set the following optional variables:
+There are 6 color schemes available
 
-```yml
-show_downloads: ["true" or "false" to indicate whether to provide a download URL]
-google_analytics: [Your Google Analytics tracking ID]
-```
+![online cv Jekyll theme](https://github.com/sharu725/online-cv/raw/master/assets/images/online-cv-jekyll-theme-2.png)
 
-### Stylesheet
+## Installation
+* Fork the repository
+* Go to settings and set Github Pages source as master.
+* Your new site should be ready at https://username.github.io/online-cv/
 
-If you'd like to add your own custom styles:
+[Watch my video on instlallation](https://www.youtube.com/embed/T2nx6tj-ZH4)
 
-1. Create a file called `/assets/css/style.scss` in your site
-2. Add the following content to the top of the file, exactly as shown:
-    ```scss
-    ---
-    ---
 
-    @import "{{ site.theme }}";
-    ```
-3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
-
-### Layouts
-
-If you'd like to change the theme's HTML layout:
-
-1. [Copy the original template](https://github.com/pages-themes/minimal/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
-2. Create a file called `/_layouts/default.html` in your site
-3. Paste the default layout content copied in the first step
-4. Customize the layout as you'd like
-
-## Roadmap
-
-See the [open issues](https://github.com/pages-themes/minimal/issues) for a list of proposed features (and known issues).
-
-## Project philosophy
-
-The Minimal theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
-
-## Contributing
-
-Interested in contributing to Minimal? We'd love your help. Minimal is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](CONTRIBUTING.md) for instructions on how to contribute.
-
-### Previewing the theme locally
-
-If you'd like to preview the theme locally (for example, in the process of proposing a change):
-
-1. Clone down the theme's repository (`git clone https://github.com/pages-themes/minimal`)
-2. `cd` into the theme's directory
-3. Run `script/bootstrap` to install the necessary dependencies
-4. Run `bundle exec jekyll serve` to start the preview server
-5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
-
-### Running tests
-
-The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` one before the test script will work.
+Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com)
