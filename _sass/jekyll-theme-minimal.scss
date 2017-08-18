@@ -1,7 +1,7 @@
 //@import "fonts";
 @import "rouge-github";
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
 
 body {
   background-color: #fff;
@@ -58,7 +58,7 @@ a:hover small {
 }
 
 .wrapper {
-  width:860px;
+  width:480px;
   margin:0 auto;
 }
 
@@ -70,7 +70,7 @@ blockquote {
 }
 
 code, pre {
-  font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+  font-family:'Roboto Slab', serif;
   color:#333;
   font-size:12px;
 }
