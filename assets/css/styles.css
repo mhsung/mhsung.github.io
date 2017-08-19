@@ -61,6 +61,14 @@ a:visited {
 p {
   line-height: 1.5;
 }
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
 .wrapper {
   background: var(--side-background-color);
   max-width: 960px;
@@ -175,7 +183,8 @@ p {
 .main-wrapper {
   background: #fff;
   padding: 10px;
-  padding-left: 300px;
+  padding-left: 290px;
+  padding-right: 50px;
 }
 .main-wrapper .section-title {
   text-transform: uppercase;
@@ -210,6 +219,8 @@ p {
 .main-wrapper .section {
   margin-top: 30px;
   margin-bottom: 30px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .main-wrapper .experiences-section .item {
   margin-bottom: 30px;
@@ -219,6 +230,46 @@ p {
   overflow: hidden;
   margin-bottom: 2px;
 }
+.main-wrapper .publications-section .table {
+  display: table;
+}
+.main-wrapper .publications-section .table-row {
+  display: table-row;
+}
+.main-wrapper .publications-section .thumbnail-cell {
+  display: table-cell;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+.main-wrapper .publications-section .description-cell {
+  display: table-cell;
+  vertical-align: top;
+}
+.main-wrapper .publications-section .thumbnail {
+  width:120px;
+}
+.main-wrapper .publications-section .title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.main-wrapper .publications-section .summary {
+  font-size: 14px;
+}
+.footer {
+  padding: 30px;
+  padding-top: 60px;
+}
+.footer .copyright {
+  line-height: 1.6;
+  color: #545E6C;
+  font-size: 13px;
+}
+.footer .fa-heart {
+  color: #fb866a;
+}
+/*
 .main-wrapper .job-title {
   color: var(--header-color);
   font-size: 16px;
@@ -235,18 +286,6 @@ p {
 .main-wrapper .company {
   margin-bottom: 10px;
   color: #97AAC3;
-}
-.main-wrapper .project-title {
-  font-size: 16px;
-  font-weight: 400;
-  margin-top: 0;
-  margin-bottom: 5px;
-}
-.main-wrapper .projects-section .intro {
-  margin-bottom: 30px;
-}
-.main-wrapper .projects-section .item {
-  margin-bottom: 15px;
 }
 .skillset .item {
   margin-bottom: 15px;
@@ -265,18 +304,7 @@ p {
   height: 12px;
   background: #7bc2d3;
 }
-.footer {
-  padding: 30px;
-  padding-top: 60px;
-}
-.footer .copyright {
-  line-height: 1.6;
-  color: #545E6C;
-  font-size: 13px;
-}
-.footer .fa-heart {
-  color: #fb866a;
-}
+*/
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .sidebar-wrapper {
@@ -326,11 +354,3 @@ used for profile image
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
-}
