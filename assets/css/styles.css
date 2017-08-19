@@ -183,10 +183,11 @@ hr {
   display: table-cell;
   padding-right: 15px;
   padding-top: 5px;
-  padding-bottom: 15px;
+  vertical-align: top;
 }
 .wrapper .publications-section .description-cell {
   display: table-cell;
+  padding-bottom: 15px;
   vertical-align: top;
 }
 .wrapper .publications-section .thumbnail {
@@ -195,6 +196,9 @@ hr {
 .wrapper .publications-section .title {
   font-size: 16px;
   font-weight: 500;
+}
+.wrapper .publications-section .title a {
+  color: var(--header-color);
 }
 .wrapper .publications-section .summary {
   font-size: 14px;
