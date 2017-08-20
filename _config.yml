@@ -2,6 +2,7 @@
 title: Minhyuk Sung
 url: 'http://cs.stanford.edu/~mhsung'
 #baseurl: '/example' #change it according to your repository name
+permalink: none
 
 #Profile information
 name: Minhyuk Sung
@@ -14,7 +15,6 @@ website: cs.stanford.edu/~mhsung #do not add http://
 linkedin: mhsung
 github: mhsung
 cv: www.dropbox.com/s/oxg78455trxx2or/cv.pdf?dl=1
-
 
 # Tracker
 analytics: UA-35688210-1
