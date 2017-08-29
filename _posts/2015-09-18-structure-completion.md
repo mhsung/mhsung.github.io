@@ -182,7 +182,7 @@ We also present results in the presence of stronger occlusions simulated by a re
 
 
 #### Acknowledgements
-This project was supported by NSF grants CCF 1011228, DMS 1228304, AFOSR grant FA9550-12-1-0372, ONR MURI grant N00014-13-1-0341, a Google Focused Research Award, the Korea Foundation and Advanced Studies, and the Max Planck Center for Visual Computing and Communications.
+This project was supported by NSF grants CCF 1011228, DMS 1228304, AFOSR grant FA9550-12-1-0372, ONR MURI grant N00014-13-1-0341, a Google Focused Research Award, the Korea Foundation for Advanced Studies, and the Max Planck Center for Visual Computing and Communications.
 
 <br />
 <sub>

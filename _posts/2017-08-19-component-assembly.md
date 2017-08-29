@@ -57,6 +57,6 @@ TBA
 TBA
 
 #### Acknowledgements
-This project was supported by NSF grants IIS-1528025 and DMS-1521608, MURI award N00014-13-1-0341, a Google focused research award, the Korea Foundation and Advanced Studies, and gifts from the Adobe systems and Autodesk corporations.
+This project was supported by NSF grants IIS-1528025 and DMS-1521608, MURI award N00014-13-1-0341, a Google focused research award, the Korea Foundation for Advanced Studies, and gifts from the Adobe systems and Autodesk corporations.
 
 <br />
