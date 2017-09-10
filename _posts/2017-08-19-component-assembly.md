@@ -53,6 +53,21 @@ code-link: TBA
 ### Video
 TBA
 
+### Results
+![]({{site.baseurl}}/assets/images/{{page.slug}}/results.png)
+
+<style>
+p.caption {
+  font-size: 90%;
+  line-height: 100%;
+}
+</style>
+<p class="caption">
+<br>
+<b>Fig. 7.</b> Automatic iterative assembly results from a single component. Small component not typically labeled with semantics in the shape database (e.g. as slats between chair/table legs, pillows on sofas, cords in lamps/watercrafts) are appropriately retrieved and placed.
+</p>
+
+
 ### Benchmark Results
 TBA
 
