@@ -11,7 +11,7 @@ date: 2017-08-19
 
 arxiv-link: https://arxiv.org/abs/1708.01841
 
-paper-link: TBA
+paper-link: https://www.dropbox.com/s/kz06kob99iwwdg7/component-assembly.pdf?dl=1
 
 supplementary-link: TBA
 
@@ -38,7 +38,7 @@ code-link: TBA
 *{{page.author}}<br>
 **{{page.title}}**<br>
 {{page.journal}}*<br>
-[arXiv]({{page.arxiv-link}}){:target="_blank"}  |  Paper (TBA)  |  Slides (TBA)  |  Code (TBA)
+[arXiv]({{page.arxiv-link}}){:target="_blank"}  |  [Paper]({{page.paper-link}}){:target="_blank"}  |  Slides (TBA)  |  Code (TBA)
 
 ### Bibtex
 ```
