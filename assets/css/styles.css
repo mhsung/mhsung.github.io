@@ -286,15 +286,12 @@ used for profile image
   margin-top: 30px;
 }
 .post img {
-  max-width: 100%;
+  max-width: 90%;
+  display: block;  
+  margin: 0 auto;
 }
 .post blockquote {
   font-size: 14px;
-}
-.post caption {
-  color: #000;
-  padding: 1em 0;
-  text-align:center;
 }
 .post th, tr, td {
   border: 1px solid var(--background-color);
@@ -310,3 +307,11 @@ used for profile image
   #background-color: var(--background-color);
 }
 
+.caption {
+  color: #202020;
+  padding: 1em 0;
+  font-size: 90%;
+  max-width: 90%;
+  display: block;  
+  margin: 0 auto;
+}

@@ -51,24 +51,31 @@ code-link: TBA
 ```
 
 ### Video
-TBA
-
-### Results
-![]({{site.baseurl}}/assets/images/{{page.slug}}/results.png)
-
-<style>
-p.caption {
-  font-size: 90%;
-  line-height: 100%;
-}
-</style>
-<p class="caption">
-<br>
-<b>Fig. 7.</b> Automatic iterative assembly results from a single component. Small component not typically labeled with semantics in the shape database (e.g. as slats between chair/table legs, pillows on sofas, cords in lamps/watercrafts) are appropriately retrieved and placed.
+<p align="center">
+  <video width="640" height="360" controls preload>
+    <source src="{{site.baseurl}}/assets/videos/{{page.slug}}/{{page.slug}}.webm"></source> 
+  </video>
 </p>
 
+### Overview & Results
 
-### Benchmark Results
+![]({{site.baseurl}}/assets/images/{{page.slug}}/figure_2.png)
+<p class="caption">
+<b>Fig. 2.</b> Overview of the retrieval process at test time. From the given partial assembly, the retrieval network predicts a probability distribution (modeled as a mixture of Gaussians) over the component embedding space. Suggested complementary components are sampled from the predicted distribution, and then the placement network predicts their positions with respect to the query assembly.
+</p><br>
+
+![]({{site.baseurl}}/assets/images/{{page.slug}}/figure_7.png)
+<p class="caption">
+<b>Fig. 7.</b> Automatic iterative assembly results from a single component. Small component not typically labeled with semantics in the shape database (e.g. as slats between chair/table legs, pillows on sofas, cords in lamps/watercrafts) are appropriately retrieved and placed.
+</p><br>
+
+![]({{site.baseurl}}/assets/images/{{page.slug}}/figure_8.png)
+<p class="caption">
+<b>Fig. 8.</b> Automatic iterative assembly with two different random choices at every time. From the initial component at the bottom, various objects are synthesized
+by assembling different components.
+</p>
+
+### More Results
 TBA
 
 #### Acknowledgements
