@@ -76,6 +76,19 @@ by assembling different components.
 </p>
 
 ### More Results
+Automatic shape synthesis with maximal probability components (More examples of <b>Fig.7.</b>) <br>
+
+| <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_max_prob/Airplane/index.html" target="_blank">Airplane</a> | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_max_prob/Car/index.html" target="_blank">Car</a> | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_max_prob/Chair/index.html" target="_blank">Chair</a> | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_max_prob/Guitar/index.html" target="_blank">Guitar</a> | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_max_prob/Lamp/index.html" target="_blank">Lamp</a> | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_max_prob/Rifle/index.html" target="_blank">Rifle</a> | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_max_prob/Sofa/index.html" target="_blank">Sofa</a> | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_max_prob/Table/index.html" target="_blank">Table</a> | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_max_prob/Watercraft/index.html" target="_blank">Watercraft</a> |
+
+<br>
+
+Automatic shape synthesis with two different random choices each time (More examples of <b>Fig.8.</b>) <br>
+
+| <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_bin_tree/Airplane/index.html" target="_blank">Airplane</a> | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_bin_tree/Car/index.html" target="_blank">Car</a> | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_bin_tree/Chair/index.html" target="_blank">Chair</a> |<a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_bin_tree/Guitar/index.html" target="_blank">Guitar</a> | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_bin_tree/Lamp/index.html" target="_blank">Lamp</a> | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_bin_tree/Rifle/index.html" target="_blank">Rifle</a> | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_bin_tree/Sofa/index.html" target="_blank">Sofa</a> | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_bin_tree/Table/index.html" target="_blank">Table</a> | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_bin_tree/Watercraft/index.html" target="_blank">Watercraft</a> |
+
+<br>
+
+### Code & Data
 TBA
 
 #### Acknowledgements
