@@ -89,7 +89,9 @@ Automatic shape synthesis with two different random choices each time (More exam
 <br>
 
 ### Code & Data
-TBA
+For downloading 3D shape component mesh data, please register on <a href="https://www.shapenet.org/" target="_blank">ShapeNet</a> first, fill out an agreement to the [ShapeNet_Terms_of_Use]({{site.baseurl}}/assets/misc/ShapeNet_Terms_of_Use.pdf){:target="_blank"} with the ShapeNet account email address, and send it to <a href="mailto:mhsung@cs.stanford.edu">mhsung@cs.stanford.edu</a>.
+
+Code will be released shortly.
 
 #### Acknowledgements
 This project was supported by NSF grants IIS-1528025 and DMS-1521608, MURI award N00014-13-1-0341, a Google focused research award, the Korea Foundation for Advanced Studies, and gifts from the Adobe systems and Autodesk corporations.
