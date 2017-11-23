@@ -87,7 +87,11 @@ Automatic shape synthesis with two different random choices each time (More exam
 | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_bin_tree/Airplane/index.html" target="_blank">Airplane</a> | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_bin_tree/Car/index.html" target="_blank">Car</a> | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_bin_tree/Chair/index.html" target="_blank">Chair</a> |<a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_bin_tree/Guitar/index.html" target="_blank">Guitar</a> | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_bin_tree/Lamp/index.html" target="_blank">Lamp</a> | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_bin_tree/Rifle/index.html" target="_blank">Rifle</a> | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_bin_tree/Sofa/index.html" target="_blank">Sofa</a> | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_bin_tree/Table/index.html" target="_blank">Table</a> | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_bin_tree/Watercraft/index.html" target="_blank">Watercraft</a> |
 
 ### Code & Data
+<<<<<<< HEAD
 For downloading preprocessed component mesh data, please register on <a href="https://www.shapenet.org/" target="_blank">ShapeNet</a> first, fill out an agreement to the [ShapeNet Terms of Use]({{site.baseurl}}/assets/misc/ShapeNet_Terms_of_Use.pdf){:target="_blank"} with the ShapeNet account email address, and send it to <a href="mailto:mhsung@cs.stanford.edu">mhsung@cs.stanford.edu</a>.
+=======
+For downloading preprocessed component mesh data, please register on <a href="https://www.shapenet.org/" target="_blank">ShapeNet</a> first, fill out an agreement to the [ShapeNet_Terms_of_Use]({{site.baseurl}}/assets/misc/ShapeNet_Terms_of_Use.pdf){:target="_blank"} with the ShapeNet account email address, and send it to <a href="mailto:mhsung@cs.stanford.edu">mhsung@cs.stanford.edu</a>.
+>>>>>>> 3e5c7cb7a9cdd5cc3eb6d1260334004cf0cf4a4d
 
 Code will be released shortly.
 
