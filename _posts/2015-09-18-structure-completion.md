@@ -13,7 +13,7 @@ paper-link: https://www.dropbox.com/s/cbe5blo6l8g2drm/structure-completion.pdf?d
 
 supplementary-link: https://www.dropbox.com/s/trfdkgizj9gxub6/structure-completion-supplementary.pdf?dl=1
 
-slides-link: https://www.dropbox.com/s/4f0kvkqijkp4uh9/structure-completion-presentation.pdf?dl=1
+slides-link: https://www.dropbox.com/s/178d343u3f7wd6j/structure-completion-presentation.pptx?dl=1
 
 code-link: https://github.com/mhsung/structure-completion
 ---
@@ -35,7 +35,7 @@ code-link: https://github.com/mhsung/structure-completion
 *{{page.author}}<br>
 **{{page.title}}**<br>
 {{page.journal}}*<br>
-[Paper]({{page.paper-link}}){:target="_blank"}  |  [Supplementary material]({{page.supplementary-link}}){:target="_blank"}  |  [Slides]({{page.slides-link}}){:target="_blank"}  |  [Code]({{page.code-link}}){:target="_blank"}
+[Paper]({{page.paper-link}}){:target="_blank"}  |  [Supplementary material]({{page.supplementary-link}}){:target="_blank"}  |  [Slides(PPTX)]({{page.slides-link}}){:target="_blank"}  |  [Code]({{page.code-link}}){:target="_blank"}
 
 ### Bibtex
 ```

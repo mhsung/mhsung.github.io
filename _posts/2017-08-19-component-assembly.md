@@ -13,9 +13,7 @@ arxiv-link: https://arxiv.org/abs/1708.01841
 
 paper-link: https://www.dropbox.com/s/kz06kob99iwwdg7/component-assembly.pdf?dl=1
 
-supplementary-link: TBA
-
-slides-link: TBA
+slides-link: https://www.dropbox.com/s/x161i48rcwrbc28/component-assembly-presentation.pptx?dl=1
 
 code-link: https://github.com/mhsung/ComplementMe
 ---
@@ -38,7 +36,7 @@ code-link: https://github.com/mhsung/ComplementMe
 *{{page.author}}<br>
 **{{page.title}}**<br>
 {{page.journal}}*<br>
-[arXiv]({{page.arxiv-link}}){:target="_blank"}  |  [Paper]({{page.paper-link}}){:target="_blank"}  |  Slides (TBA)  |  [Code]({{page.code-link}}){:target="_blank"}
+[arXiv]({{page.arxiv-link}}){:target="_blank"}  |  [Paper]({{page.paper-link}}){:target="_blank"}  |  [Slides(PPTX)]({{page.slides-link}}){:target="_blank"}  |  [Code]({{page.code-link}}){:target="_blank"}
 
 ### Bibtex
 ```
