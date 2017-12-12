@@ -58,18 +58,21 @@ a {
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
 }
-a:hover {
-  text-decoration: underline;
-  color: var(--hover-color);
-}
-a:focus {
-  text-decoration: none;
+a:link {
+  color: var(--link-color);
 }
 a:active {
   color: var(--link-color);
 }
 a:visited {
   color: var(--link-color);
+}
+a:hover {
+  text-decoration: underline;
+  color: var(--hover-color);
+}
+a:focus {
+  text-decoration: none;
 }
 p {
   line-height: 1.5;
@@ -209,6 +212,11 @@ hr {
 }
 .wrapper .publications-section .title a {
   color: var(--header-color);
+}
+.wrapper .publications-section .emphasis {
+  color: var(--hover-color);
+  font-size: 15px;
+  font-weight: 500;
 }
 .wrapper .publications-section .summary {
   font-size: 14px;
