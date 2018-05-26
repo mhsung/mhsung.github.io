@@ -12,10 +12,10 @@
   /* https://identity.stanford.edu/color.html */
   --background-color:#f5f5f5;
   --side-background-color:#dad7cb;  /* Stanford Light Sandstone */
-  --body-color:#2e2d29; /* Stanford Black */
-  --header-color:#2F2424; /* Stanford Chocolate */
-  --link-color:#8c1515;  /* Stanford Cardinal Red */
-  --hover-color:#8c1515;  /* Stanford Cardinal Red */
+  --body-color:#2e2d29;             /* Stanford Black */
+  --header-color:#2F2424;           /* Stanford Chocolate */
+  --link-color:#8c1515;             /* Stanford Cardinal Red */
+  --hover-color:#8c1515;            /* Stanford Cardinal Red */
 }
 
 body {

@@ -1,6 +1,6 @@
 
 title: Minhyuk Sung
-url: 'http://cs.stanford.edu/~mhsung'
+url: 'http://mhsung.github.io/'
 #baseurl: '/example' #change it according to your repository name
 permalink: none
 
@@ -11,7 +11,7 @@ tagline: PhD Student<br>Computer Science<br>Stanford University
 
 #sidebar links
 email: mhsung@cs.stanford.edu
-website: cs.stanford.edu/~mhsung #do not add http://
+website: mhsung.github.io/ #do not add http://
 linkedin: mhsung
 github: mhsung
 cv: www.dropbox.com/s/oxg78455trxx2or/cv.pdf?dl=0
