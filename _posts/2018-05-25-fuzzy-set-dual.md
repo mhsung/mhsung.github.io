@@ -5,17 +5,17 @@ author: <a href="http://mhsung.github.io/" target="_blank">Minhyuk Sung</a>, <a 
 
 journal: Symposium on Geometry Processing 2018
 
-slug: fuzzy-set-partial
+slug: fuzzy-set-dual
 
 date: 2018-05-25
 
 arxiv-link: https://arxiv.org/abs/????
 
-paper-link: https://www.dropbox.com/s/kz06kob99iwwdg7/fuzzy-set-partial.pdf?dl=1
+paper-link: https://www.dropbox.com/s/kz06kob99iwwdg7/fuzzy-set-dual.pdf?dl=1
 
-slides-link: https://www.dropbox.com/s/x161i48rcwrbc28/fuzzy-set-partial-presentation.pptx?dl=1
+slides-link: https://www.dropbox.com/s/x161i48rcwrbc28/fuzzy-set-dual-presentation.pptx?dl=1
 
-code-link: https://github.com/mhsung/fuzzy-set-partial
+code-link: https://github.com/mhsung/fuzzy-set-dual
 ---
 
 
