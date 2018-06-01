@@ -15,7 +15,7 @@ paper-link: https://www.dropbox.com/s/kz06kob99iwwdg7/component-assembly.pdf?dl=
 
 slides-link: https://www.dropbox.com/s/x161i48rcwrbc28/component-assembly-presentation.pptx?dl=1
 
-code-link: https://github.com/mhsung/ComplementMe
+code-link: https://github.com/mhsung/complement-me
 ---
 
 
@@ -47,6 +47,17 @@ code-link: https://github.com/mhsung/ComplementMe
   year = {2017}
 }
 ```
+
+### Data download
+We provide ShapeNet model component and semantic part data used in the paper. You can directly download the *point cloud* and *contact graph* data in the following links:
+- [Components (877M)](https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/data/components.tgz)<br>
+  Point cloud and contact graph data of components (generated as described in Sec 4. of the paper). Refer to the included README file for the details of the data structure.
+- [Semantic parts (220M)](https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/data/components.tgz)<br>
+  Point cloud data of semantic parts. This is a *subset* of ShapeNet semantic part dataset created by [[Yi et al. 2016]](https://cs.stanford.edu/~ericyi/project_page/part_annotation/index.html){:target="_blank"}. Refer to the included README file for the details of the data structure.
+
+The *mesh* data is only provided to people who have already signed up for [ShapeNet](https://www.shapenet.org/){:target="_blank"} and have agreed to the Terms of Use. To download the mesh data, please fill out an agreement to the [ShapeNet Terms of Use]({{site.baseurl}}/assets/misc/ShapeNet_Terms_of_Use.pdf){:target="_blank"} with the ShapeNet account email address, and send it to <a href="mailto:mhsung@cs.stanford.edu">mhsung@cs.stanford.edu</a>.
+
+Please cite [our paper](#bibtex) and [all related papers](#acknowledgements) if you use this dataset in your research.
 
 ### Video
 <p align="center">
@@ -84,10 +95,14 @@ Automatic shape synthesis with two different random choices each time (More exam
 
 | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_bin_tree/Airplane/index.html" target="_blank">Airplane</a> | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_bin_tree/Car/index.html" target="_blank">Car</a> | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_bin_tree/Chair/index.html" target="_blank">Chair</a> |<a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_bin_tree/Guitar/index.html" target="_blank">Guitar</a> | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_bin_tree/Lamp/index.html" target="_blank">Lamp</a> | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_bin_tree/Rifle/index.html" target="_blank">Rifle</a> | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_bin_tree/Sofa/index.html" target="_blank">Sofa</a> | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_bin_tree/Table/index.html" target="_blank">Table</a> | <a href="https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/images/assembly_bin_tree/Watercraft/index.html" target="_blank">Watercraft</a> |
 
-### Data Download
-For downloading preprocessed component mesh data, please register on <a href="https://www.shapenet.org/" target="_blank">ShapeNet</a> first, fill out an agreement to the [ShapeNet Terms of Use]({{site.baseurl}}/assets/misc/ShapeNet_Terms_of_Use.pdf){:target="_blank"} with the ShapeNet account email address, and send it to <a href="mailto:mhsung@cs.stanford.edu">mhsung@cs.stanford.edu</a>.
-
 #### Acknowledgements
 This project was supported by NSF grants IIS-1528025 and DMS-1521608, MURI award N00014-13-1-0341, a Google focused research award, the Korea Foundation for Advanced Studies, and gifts from the Adobe systems and Autodesk corporations.
+
+<br />
+<sub>
+**[Yi et al.2016]** Li Yi, Vladimir G. Kim, Duygu Ceylan, I-Chao Shen, Mengyan Yan, Hao Su, Cewu Lu, Qixing Huang, Alla Sheffer, and Leonidas Guibas, "A Scalable Active Framework 
+for Region Annotation in 3D Shape Collections", SIGGRAPH Asia 2016.<br>
+**[ShapeNet]** [http://shapenet.cs.stanford.edu/](http://shapenet.cs.stanford.edu/){:target="_blank"}<br>
+</sub>
 
 <br />
