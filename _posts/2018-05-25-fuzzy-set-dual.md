@@ -11,7 +11,7 @@ date: 2018-05-25
 
 arxiv-link: https://arxiv.org/abs/????
 
-paper-link: https://www.dropbox.com/s/kz06kob99iwwdg7/fuzzy-set-dual.pdf?dl=1
+paper-link: https://www.dropbox.com/s/1a1cucafhn04n6v/fuzzy-set-dual.pdf?dl=1
 
 slides-link: https://www.dropbox.com/s/x161i48rcwrbc28/fuzzy-set-dual-presentation.pptx?dl=1
 
@@ -36,7 +36,7 @@ code-link: https://github.com/mhsung/fuzzy-set-dual
 *{{page.author}}<br>
 **{{page.title}}**<br>
 {{page.journal}}*<br>
-arXiv: TBA  |  [Code]({{page.code-link}}){:target="_blank"}
+arXiv: TBA  |  [Preprint]({{page.paper-link}}){:target="_blank"}  |  [Code]({{page.code-link}}){:target="_blank"}
 
 ### Bibtex
 ```

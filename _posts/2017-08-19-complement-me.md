@@ -5,15 +5,15 @@ author: <a href="http://mhsung.github.io/" target="_blank">Minhyuk Sung</a>, <a 
 
 journal: SIGGRAPH Asia 2017
 
-slug: component-assembly
+slug: complement-me
 
 date: 2017-08-19
 
 arxiv-link: https://arxiv.org/abs/1708.01841
 
-paper-link: https://www.dropbox.com/s/kz06kob99iwwdg7/component-assembly.pdf?dl=1
+paper-link: https://www.dropbox.com/s/kz06kob99iwwdg7/complement-me.pdf?dl=1
 
-slides-link: https://www.dropbox.com/s/x161i48rcwrbc28/component-assembly-presentation.pptx?dl=1
+slides-link: https://www.dropbox.com/s/x161i48rcwrbc28/complement-me-presentation.pptx?dl=1
 
 code-link: https://github.com/mhsung/complement-me
 ---
