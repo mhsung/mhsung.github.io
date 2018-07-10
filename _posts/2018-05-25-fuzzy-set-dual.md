@@ -36,7 +36,7 @@ code-link: https://github.com/mhsung/fuzzy-set-dual
 *{{page.author}}<br>
 **{{page.title}}**<br>
 {{page.journal}}*<br>
-[arXiv]({{page.arxiv-link}}){:target="_blank"}  |  [PDF]({{page.paper-link}}){:target="_blank"}  |  [Code]({{page.code-link}}){:target="_blank"}
+[arXiv]({{page.arxiv-link}}){:target="_blank"}  |  [PDF]({{page.paper-link}}){:target="_blank"}  |  [Slides(PPTX)]({{page.slides-link}}){:target="_blank"}  |  [Code]({{page.code-link}}){:target="_blank"}
 
 ### Bibtex
 ```
