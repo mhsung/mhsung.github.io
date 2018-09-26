@@ -52,7 +52,7 @@ code-link: https://github.com/mhsung/complement-me
 We provide ShapeNet model component and semantic part data used in the paper. You can directly download the *point cloud* and *contact graph* data in the following links:
 - [Components (877M)](https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/data/components.tgz)<br>
   Point cloud and contact graph data of components (generated as described in Sec 4. of the paper). Refer to the included README file for the details of the data structure.
-- [Semantic parts (220M)](https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/data/components.tgz)<br>
+- [Semantic parts (220M)](https://shapenet.cs.stanford.edu/media/minhyuk/ComplementMe/data/parts.tgz)<br>
   Point cloud data of semantic parts. This is a *subset* of ShapeNet semantic part dataset created by [[Yi et al. 2016]](https://cs.stanford.edu/~ericyi/project_page/part_annotation/index.html){:target="_blank"}. Refer to the included README file for the details of the data structure.
 
 The *mesh* data is only provided to people who have already signed up for [ShapeNet](https://www.shapenet.org/){:target="_blank"} and have agreed to the Terms of Use. To download the mesh data, please fill out an agreement to the [ShapeNet Terms of Use]({{site.baseurl}}/assets/misc/ShapeNet_Terms_of_Use.pdf){:target="_blank"} with the ShapeNet account email address, and send it to <a href="mailto:mhsung@cs.stanford.edu">mhsung@cs.stanford.edu</a>.
