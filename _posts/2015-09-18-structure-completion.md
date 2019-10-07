@@ -48,9 +48,9 @@ code-link: https://github.com/mhsung/structure-completion
 ```
 
 ### Data Download
-[Ground truth datasets (41.8MB)](http://vkim.ctlprojects.com/ground_truth_datasets.tgz)<br>
-[Benchmark results (2.2GB)](http://vkim.ctlprojects.com/benchmark_results.tgz)<br>
-[Kinect scan data (27.7MB)](http://www.stanford.edu/~mhsung/kinect_scan_data.tgz)
+[Ground truth datasets (41.8MB)](https://shapenet.cs.stanford.edu/media/minhyuk/structure-completion/ground_truth_datasets.tgz)<br>
+[Benchmark results (2.2GB)](https://shapenet.cs.stanford.edu/media/minhyuk/structure-completion/benchmark_results.tgz)<br>
+[Kinect scan data (27.7MB)](https://shapenet.cs.stanford.edu/media/minhyuk/structure-completion/kinect_scan_data.tgz)
 
 ### Benchmark Results
 On the following linked webpages, we present several experimental results organized as tables, where each row corresponds to a model.
