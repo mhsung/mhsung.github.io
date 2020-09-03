@@ -11,10 +11,6 @@ date: 2018-05-25
 
 arxiv-link: https://arxiv.org/abs/1807.01519
 
-paper-link: https://www.dropbox.com/s/6thxhn4alu9o2bb/fuzzy-set-dual.pdf?dl=1
-
-slides-link: https://www.dropbox.com/s/dy17xldh53bp8ib/fuzzy-set-dual-slides.pptx?dl=1
-
 code-link: https://github.com/mhsung/fuzzy-set-dual
 ---
 
@@ -36,7 +32,10 @@ code-link: https://github.com/mhsung/fuzzy-set-dual
 *{{page.author}}<br>
 **{{page.title}}**<br>
 {{page.journal}}*<br>
-[arXiv]({{page.arxiv-link}}){:target="_blank"}  |  [PDF]({{page.paper-link}}){:target="_blank"}  |  [Slides(PPTX)]({{page.slides-link}}){:target="_blank"}  |  [Code]({{page.code-link}}){:target="_blank"}
+[arXiv]({{page.arxiv-link}}){:target="_blank"}  | 
+[Paper]({{site.baseurl}}/assets/files/{{page.slug}}.pdf){:target="_blank"}  | 
+[Slides(PPTX)]({{site.baseurl}}/assets/files/{{page.slug}}-slides.pptx){:target="_blank"}  | 
+[Code]({{page.code-link}}){:target="_blank"}
 
 ### Bibtex
 ```

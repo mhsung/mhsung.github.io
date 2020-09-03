@@ -9,12 +9,6 @@ slug: structure-completion
 
 date: 2015-09-18
 
-paper-link: https://www.dropbox.com/s/cbe5blo6l8g2drm/structure-completion.pdf?dl=1
-
-supplementary-link: https://www.dropbox.com/s/trfdkgizj9gxub6/structure-completion-supplementary.pdf?dl=1
-
-slides-link: https://www.dropbox.com/s/178d343u3f7wd6j/structure-completion-presentation.pptx?dl=1
-
 code-link: https://github.com/mhsung/structure-completion
 ---
 
@@ -35,7 +29,10 @@ code-link: https://github.com/mhsung/structure-completion
 *{{page.author}}<br>
 **{{page.title}}**<br>
 {{page.journal}}*<br>
-[Paper]({{page.paper-link}}){:target="_blank"}  |  [Supplementary material]({{page.supplementary-link}}){:target="_blank"}  |  [Slides(PPTX)]({{page.slides-link}}){:target="_blank"}  |  [Code]({{page.code-link}}){:target="_blank"}
+[Paper]({{site.baseurl}}/assets/files/{{page.slug}}.pdf){:target="_blank"}  | 
+[Supplementary material]({{site.baseurl}}/assets/files/{{page.slug}}-supplementary.pdf){:target="_blank"}  | 
+[Slides(PPTX)]({{site.baseurl}}/assets/files/{{page.slug}}-slides.pptx){:target="_blank"}  | 
+[Code]({{page.code-link}}){:target="_blank"}
 
 ### Bibtex
 ```

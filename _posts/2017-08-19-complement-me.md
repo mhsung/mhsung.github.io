@@ -11,10 +11,6 @@ date: 2017-08-19
 
 arxiv-link: https://arxiv.org/abs/1708.01841
 
-paper-link: https://www.dropbox.com/s/kz06kob99iwwdg7/complement-me.pdf?dl=1
-
-slides-link: https://www.dropbox.com/s/x161i48rcwrbc28/complement-me-presentation.pptx?dl=1
-
 code-link: https://github.com/mhsung/complement-me
 ---
 
@@ -36,7 +32,10 @@ code-link: https://github.com/mhsung/complement-me
 *{{page.author}}<br>
 **{{page.title}}**<br>
 {{page.journal}}*<br>
-[arXiv]({{page.arxiv-link}}){:target="_blank"}  |  [Paper]({{page.paper-link}}){:target="_blank"}  |  [Slides(PPTX)]({{page.slides-link}}){:target="_blank"}  |  [Code]({{page.code-link}}){:target="_blank"}
+[arXiv]({{page.arxiv-link}}){:target="_blank"}  | 
+[Paper]({{site.baseurl}}/assets/files/{{page.slug}}.pdf){:target="_blank"}  | 
+[Slides(PPTX)]({{site.baseurl}}/assets/files/{{page.slug}}-slides.pptx){:target="_blank"}  | 
+[Code]({{page.code-link}}){:target="_blank"}
 
 ### Bibtex
 ```
