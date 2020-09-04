@@ -71,7 +71,6 @@ usemathjax: true
 <b>Fig. 10.</b> Examples of partial scan completion. We used synthetic partial scan data from the benchmark of <a href="{{site.baseurl}}/structure-completion.html" target="_blank">[Sung et al. 2015]</a> (first row). We first use ICP to retrieve the best fitting partial shape from our database (second row, colored in pink), and then complete it to a full shape using various complements retrieved by the proposed method (colored in green). Three out of the best ten completions are shown in third, fourth, and fifth rows. The positions of the complements are automatically predicted using the placement network of <a href="{{site.baseurl}}/complement-me.html" target="_blank">[Sung et al. 2017]</a>.
 </p>
 
-
 #### Acknowledgements
 This project was supported by NSF grants IIS-1528025 and DMS-1521608, MURI award N00014-13-1-0341, a Google focused research award, the Korea Foundation for Advanced Studies, and gifts from the Adobe systems and Autodesk corporations.
 
