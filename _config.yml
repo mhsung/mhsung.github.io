@@ -9,11 +9,11 @@ tagline: Research Scientist<br>Adobe Research
 #pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
-email: msung@adobe.com
+email: mhsung@cs.stanford.edu
 website: mhsung.github.io/ #do not add http://
 linkedin: mhsung
 github: mhsung
-cv: cs.stanford.edu/~mhsung/sung_cv.pdf
+cv: cv/sung_cv.pdf
 google_scholar: scholar.google.com/citations?user=PcIYMp4AAAAJ&hl=en
 research_statement: cs.stanford.edu/~mhsung/sung_research_statement.pdf
 teaching_statement: cs.stanford.edu/~mhsung/sung_teaching_statement.pdf

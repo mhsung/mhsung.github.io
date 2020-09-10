@@ -1,0 +1,538 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+%\documentclass[a4paper,10pt]{article} % Default font size and paper size
+\documentclass[letterpaper,10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+%\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+%\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+% FONTS
+\defaultfontfeatures{Mapping=tex-text} % converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
+\setromanfont[Scale=1.2]{Crimson Text}
+%\setmonofont[Scale=0.8]{Monaco} 
+%\setsansfont[Scale=0.9]{Optima Regular} 
+% ---- MARGIN YEARS
+\newcommand{\years}[1]{\marginpar{\scriptsize #1}}
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+%\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be
+%\usepackage{fullpage}
+\usepackage[margin=1in]{geometry}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+%\definecolor{linkcolor}{rgb}{0,0.2,0.6} % Link color
+\definecolor{linkcolor}{rgb}{0.5075,0,0} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolor,linkcolor=linkcolor} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+% To add some paragraph space between lines.
+% This also tells LaTeX to preferably break a page on one of these gaps
+% if there is a needed pagebreak nearby.
+\newcommand{\blankline}{\quad\pagebreak[2]}
+
+\usepackage{makecell}
+
+\begin{document}
+
+%\pagestyle{empty} % Removes page numbering
+
+%----------------------------------------------------------------------------------------
+%	CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\huge Minhyuk Sung}\bigskip\par} % Your name
+
+\section{Contact Information}
+
+\begin{tabular}{rl}
+%\textsc{Address:} & Clark Center, S297, 318 Campus Drive, Stanford, CA 94305 \\
+%%\textsc{Phone:} & 650-391-6340\\
+%\textsc{Email:} & \href{mailto:mhsung@cs.stanford.edu}{mhsung@cs.stanford.edu} \\
+%%\textsc{Website:} & \href{https://mhsung.github.io/}{https://mhsung.github.io/}
+%\textsc{Website:} & \href{https://cs.stanford.edu/~mhsung}{https://cs.stanford.edu/\symbol{126}mhsung}
+
+\textsc{Address:} & 345 Park Ave, San Jose, CA 95110, USA. \\ 
+\textsc{Email:} & \href{mailto:msung@adobe.com}{msung@adobe.com} \\
+\textsc{Website:} & \href{https://mhsung.github.io}{https://mhsung.github.io}
+\end{tabular}
+
+\blankline
+
+
+%----------------------------------------------------------------------------------------
+%	CURRENT POSITION
+%----------------------------------------------------------------------------------------
+
+\section{Current Position}
+
+\textbf{Research Scientist} \\
+\href{https://research.adobe.com}{\textbf{Adobe Research}} \\
+San Jose, CA, USA \\
+3D Machine Learning, Geometry Processing, Computer Graphics, Computer Vision.
+
+\blankline
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{r|p{14cm}}
+2013 - 2019 & Ph.D. in \textsc{Computer Science},\\
+& \href{https://www.stanford.edu}{\textbf{Stanford University}} \\
+& Stanford, CA, USA\\
+& Dissertation: \href{https://searchworks.stanford.edu/view/13333384}{\textbf{Learning and exploring the compositional structure of 3D data}}\\
+& Advisor: \href{https://geometry.stanford.edu/member/guibas/}{Leonidas Guibas}\\
+&\\
+
+%------------------------------------------------
+
+2008 - 2010 & Master of Science in \textsc{Computer Science},\\
+& \href{https://www.kaist.ac.kr/en/}{\textbf{Korea Advanced Institute of Science and Technology (KAIST)}} \\
+& Daejeon, South Korea\\
+& Thesis: \href{http://koasas.kaist.ac.kr/handle/10203/34894}{\textbf{A Spectral Approach to Shape Matching Using a Heat Kernel Function}}\\
+& Advisor: Sung Yong Shin\\
+&\\
+
+%------------------------------------------------
+
+2004 - 2008 & Bachelor of Science in \textsc{Computer Science},\\
+& \href{https://www.kaist.ac.kr/en/}{\textbf{Korea Advanced Institute of Science and Technology (KAIST)}} \\
+& Daejeon, South Korea\\
+& \emph{Top Rank} in Computer Science Department\\
+%& Summa Cum Laude | \textsc{Gpa}: 4.07/4.3\\
+%&\\
+
+%------------------------------------------------
+
+%2004& \textbf{Hansung Science High School}, Seoul, South Korea\\
+\end{tabular}
+
+\blankline
+
+
+%----------------------------------------------------------------------------------------
+%	PRIOR EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{Prior Experience}
+
+Research Intern \hfill{\textsc{Jun 2017 - Sep 2017}}\\
+\href{https://www.autodeskresearch.com}{\textbf{Autodesk Research}}, San Francisco, CA, USA
+%	\begin{itemize}
+%		\item Project: Learning and Exploiting Component and Assembly Variability in Design
+%	\end{itemize}
+
+%------------------------------------------------
+
+Research Intern \hfill{\textsc{Jun 2016 - Sep 2016}}\\
+\href{https://research.adobe.com/}{\textbf{Adobe Research}}, Seattle, WA, USA
+%	\begin{itemize}
+%		\item Project: 3D Object Priors for Visual Odometry
+%	\end{itemize}
+
+%------------------------------------------------
+
+Research Intern \hfill{\textsc{Jun 2015 - Sep 2015}}\\
+\href{http://www.google.com}{\textbf{Google}}, Mountain View, CA, USA
+%	\begin{itemize}
+%		\item Developed a global-sampling-based remeshing algorithm.
+%	\end{itemize}
+
+%------------------------------------------------
+
+Research Intern \hfill{\textsc{Jun 2014 - Sep 2014}}\\
+\href{http://www.google.com}{\textbf{Google}}, Mountain View, CA, USA
+%	\begin{itemize}
+%    %\item Developed mesh simplification and mesh texturing algorithms for color and depth images scanned by `Project Tango' mobile devices.
+%		\item Developed mesh simplification and texturing algorithms in `Project Tango' team.
+%	\end{itemize}
+
+%------------------------------------------------
+
+Researcher \hfill{\textsc{Mar 2010 - Jul 2013}}\\
+\href{https://www.imrc.kist.re.kr/en/}{Imaging Media Research Center (IMRC)}\\
+\href{https://eng.kist.re.kr/}{\textbf{Korea Institute of Science and Technology (KIST)}}, Seoul, South Korea\\
+%	\begin{itemize}
+%		\item Developed a novel framework of 3D scene reconstruction using a single color image and a sparse depth point set
+%		[\ref{icip13}].
+%		
+%		\item Developed a novel shape correspondence algorithm discovering multiple plausible matching configurations under the
+%		symmetry ambiguity [\ref{cg13}, \ref{ms10}].
+%		
+%		\item Developed a 3D color object reconstruction system using Kinect [\ref{isuvr12}].\\
+%		(Contributed to generate a smooth mesh surface based on acquired 3D voxel data, and project multi-view color images on the
+%		reconstructed 3D mesh.)\\
+%		YouTube: \href{http://youtu.be/qNlm01k7_hQ}{IMRC Gangnam Style (Kinect 3D Modeling \& Character Animation)}
+%		
+%		\item Developed an augment reality system detecting multiple 2D planar objects real-time on mobile platforms (iOS,
+%		Android, Unity 3D).\\
+%		Launched an augmented reality tour guide service in National Palace Museum of Korea.\\
+%		Press (in Korean, Translated): \href{http://goo.gl/1bFGiQ}{Hankook Economy Newspaper}, Jul 31. 2012
+%		
+%		\item Implemented PTAM (Parallel Tracking and Mapping) on Android platform [\ref{kjmr11}].\\
+%		(Co-worked with Visual Computing Lab., Kookmin University (Prof. Junho Kim))\\
+%		YouTube: \href{http://youtu.be/drSEK8k3QJ0}{PTAM on Android Phone (Team AVatAR)}
+%	\end{itemize}
+\blankline
+
+%%------------------------------------------------
+%
+%Research Assistant \hfill{\textsc{Sep 2008-Jan 2010}}\\
+%Computer Grahpics Lab., \textbf{KAIST}, Seoul, Korea
+%	\begin{itemize}
+%		\item  Developed a triangular-invariant algorithm extending the previous OUM(Ordered
+%Upwind Method)-based anisotropic geodesic solver on 2-manifolds [\ref{tvcg12}].
+%	\end{itemize}
+%\blankline
+
+
+%%----------------------------------------------------------------------------------------
+%%	WORK EXPERIENCE
+%%----------------------------------------------------------------------------------------
+%
+%\section{Work Experience}
+%
+%\begin{tabular}{r|p{11cm}}
+%%\textsc{Jun 2008-Aug 2008} & Software Engineer Intern\\
+%%& \textbf{Association for International Practical Training (AIPT)},\\
+%%& Columbia, MD, USA\\
+%%& (Currently changed to Cultural Vistas)\\
+%%& \small Designed database of internship programs and applicants information.\\
+%%& \\
+%
+%%------------------------------------------------
+%
+%\textsc{Dec 2007-Apr 2008} & Intern\\
+%& \textbf{Sony Computer Entertainment Korea (SCEK)}, Seoul, South Korea\\
+%& \small Developed a visual GUI editor on PlayStation\textregistered 3 platform.\\
+%& \\
+%
+%%------------------------------------------------
+%
+%\textsc{Apr 2007-Jul 2007} & Undergraduate Research Assistant\\
+%& Virtual Media Lab., \textbf{KAIST}, Daejeon, South Korea\\
+%& \small Developed a 3ds Max\textregistered 9.0 plug-in of automatic facial rigging system.\\
+%& \\
+%
+%%------------------------------------------------
+%
+%\textsc{Jul 2006-Aug 2006} & Undergraduate Research Assistant\\
+%& \textbf{Information and Communications University (ICU)}, Daejeon, South Korea\\
+%& (Currently changed to KAIST-ICC)\\
+%& \small Designed a teleconference software GUI based on AccessGrid\textregistered framework and Tcl/Tk.\\
+%& \\
+%
+%%------------------------------------------------
+%
+%\textsc{Dec 2007-Apr 2008} & Undergraduate Research Assistant\\
+%& \textbf{Fudan University}, Shanghai, China\\
+%& \small Participated in research of face recognition.\\
+%\end{tabular}
+%
+%\blankline
+
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Publications}
+
+\begin{enumerate}
+\item \label{siggraphasia20}
+\href{https://mhsung.github.io/deform-sync-net.html}{\textbf{DeformSyncNet: Deformation Transfer via Synchronized Shape Deformation Spaces}}\\
+\textbf{Minhyuk Sung}*, Zhenyu Jiang*, Panos Achlioptas, Niloy J. Mitra, Leonidas J. Guibas\\
+(* Equal contribution)\\
+SIGGRAPH Asia 2020 (To appear)\\
+\blankline
+
+\item \label{eccv20_4}
+\href{https://deformscan2cad.github.io/}{\textbf{Deformation-Aware 3D Shape Embedding and Retrieval}}\\
+Mikaela Angelina Uy, Jingwei Huang, \textbf{Minhyuk Sung}, Tolga Birdal, Leonidas Guibas\\
+ECCV 2020\\
+\blankline
+
+\item \label{eccv20_3}
+\href{https://arxiv.org/abs/2007.11855}{\textbf{Neural Geometric Parser for Single Image Camera Calibration}}\\
+Jinwoo Lee, \textbf{Minhyuk Sung}, Hyunjoon Lee, Junho Kim\\
+ECCV 2020\\
+\blankline
+
+\item \label{eccv20_2}
+\href{https://geometry.stanford.edu/projects/pix2surf/}{\textbf{Pix2Surf: Learning Parametric 3D Surface Models of Objects from Images}}\\
+Jiahui Lei, Srinath Sridhar, Paul Guerrero, \textbf{Minhyuk Sung}, Niloy Mitra, Leonidas Guibas\\
+ECCV 2020\\
+\blankline
+
+\item \label{eccv20_1}
+\href{https://cs.stanford.edu/~kaichun/impartass/}{\textbf{Learning 3D Part Assembly from a Single Image}}\\
+Yichen Li*, Kaichun Mo*, Lin Shao, \textbf{Minhyuk Sung}, Leonidas Guibas\\
+(* Equal contribution)\\
+ECCV 2020\\
+\blankline
+
+\item \label{cvpr19_2}
+\href{https://arxiv.org/abs/1811.08988}{\textbf{Supervised Fitting of Geometric Primitives to 3D Point Clouds}}\\
+Lingxiao Li*, \textbf{Minhyuk Sung}*, Anastasia Dubrovina, Li Yi, and Leonidas Guibas\\
+(* Equal contribution)\\
+CVPR 2019 (Oral)\\
+%\href{https://arxiv.org/abs/1811.08988}{arxiv:1811.08988}\\
+\blankline
+
+\item \label{cvpr19_1}
+\href{https://arxiv.org/abs/1812.03320}{\textbf{GSPN: Generative Shape Proposal Network for 3D Instance Segmentation in Point Cloud}}\\
+Li Yi, Wang Zhao, He Wang, \textbf{Minhyuk Sung}, and Leonidas Guibas\\
+CVPR 2019\\
+%\href{https://arxiv.org/abs/1812.03320}{arXiv:1812.03320}\\
+\blankline
+
+\item \label{neurips18}
+\href{https://arxiv.org/abs/1805.09957}{\textbf{Deep Functional Dictionaries: Learning Consistent Semantic Structures on 3D Models from Functions}}\\
+\textbf{Minhyuk Sung}, Hao Su, Ronald Yu, and Leonidas Guibas\\
+NeurIPS 2018\\
+%\href{https://arxiv.org/abs/1805.09957}{arxiv:1805.09957}\\
+\blankline
+
+\item \label{sgp18}
+\href{https://mhsung.github.io/fuzzy-set-dual}{\textbf{Learning Fuzzy Set Representations of Partial Shapes on Dual Embedding Spaces}}\\
+\textbf{Minhyuk Sung}, Anastasia Dubrovina, Vladimir G. Kim, and Leonidas Guibas\\
+SGP 2018 (Symposium on Geometry Processing)\\
+%Project page: \href{https://mhsung.github.io/fuzzy-set-dual}{https://mhsung.github.io/fuzzy-set-dual}\\
+\blankline
+
+\item \label{siggraphasia17}
+\href{https://mhsung.github.io/complement-me.html}{\textbf{ComplementMe: Weakly-Supervised Component Suggestions for 3D Modeling}}\\
+\textbf{Minhyuk Sung}, Hao Su, Vladimir G. Kim, Siddhartha Chaudhuri, and Leonidas Guibas\\
+SIGGRAPH Asia 2017\\
+{\color{linkcolor}
+\textbf{Featured in an ACM SIGGRAPH press release}:
+\href{https://www.eurekalert.org/pub_releases/2017-11/afcm-sad120417.php}{[Link 1]}
+\href{https://scienmag.com/simplifying-assembly-based-design-for-3-d-modeling/}{[Link 2]}
+}\\
+%Project page: \href{https://mhsung.github.io/complement-me}{https://mhsung.github.io/complement-me}\\
+\blankline
+
+\item \label{siggraphasia15}
+\href{https://mhsung.github.io/structure-completion.html}{\textbf{Data-Driven Structural Priors for Shape Completion}}\\
+\textbf{Minhyuk Sung}, Vladimir G. Kim, Roland Angst, and Leonidas Guibas\\
+SIGGRAPH Asia 2015\\
+%Project page: \href{https://mhsung.github.io/structure-completion}{https://mhsung.github.io/structure-completion}\\
+\blankline
+
+\item \label{icip13}
+\href{http://dx.doi.org/10.1109/icip.2013.6738034}{\textbf{Image Unprojection for 3D Surface Reconstruction: A Triangulation-based Approach}}\\
+\textbf{Min-Hyuk Sung}, Hwasup Lim, Hyoung-Gon Kim, and Sang Chul Ahn\\
+IEEE International Conference on Image Processing (ICIP) 2013\\
+%doi: \href{http://dx.doi.org/10.1109/icip.2013.6738034}{10.1109/icip.2013.6738034}\\
+\blankline
+
+\item \label{cg13}
+\href{http://dx.doi.org/10.1016/j.cag.2012.11.002}{\textbf{Finding the M-best Consistent Correspondences between 3D Symmetric Objects}} \\
+\textbf{Min-Hyuk Sung} and Junho Kim\\
+Computers \& Graphics, Feb.-Apr. 2013.\\
+%Computers \& Graphics, Feb.-Apr. 2013 (vol. 37, no. 1-2)\\
+%doi: \href{http://dx.doi.org/10.1016/j.cag.2012.11.002}{10.1016/j.cag.2012.11.002}\\
+\blankline
+
+\item \label{tvcg12}
+\href{http://dx.doi.org/10.1109/TVCG.2012.29}{\textbf{A Triangulation-Invariant Method for Anisotropic Geodesic Map Computation on Surface Meshes}} \\
+Sang Wook Yoo, Joon-Kyung Seong, \textbf{Min-Hyuk Sung}, Sung Yong Shin and Elaine Cohen\\
+IEEE Transactions on Visualization and Computer Graphics (TVCG), Oct. 2012.\\
+%IEEE Transactions on Visualization and Computer Graphics (TVCG), Oct. 2012 (vol. 18, no. 10) \\
+%doi: \href{http://dx.doi.org/10.1109/TVCG.2012.29}{10.1109/TVCG.2012.29}\\
+\blankline
+
+%\item \label{isuvr12}
+%\href{http://dx.doi.org/10.1109/ISUVR.2012.12}{\textbf{Putting Real-World Objects into Virtual World: Fast Automatic Creation of Animatable 3D models with a Consumer Depth Camera}} (The Best Paper Award)\\
+%Seong-Oh Lee, Jong-Ho Lee, \textbf{Min-Hyuk Sung}, Young-Woon Cha, Hyoung-Gon Kim, Sang Chul Ahn \\
+%International Symposium on Ubiquitous Virtual Reality (ISUVR), 2012\\
+%doi: \href{http://dx.doi.org/10.1109/ISUVR.2012.12}{10.1109/ISUVR.2012.12}\\
+%\blankline
+%
+%\item \label{urai11}
+%\href{http://dx.doi.org/10.1109/URAI.2011.6145896}{\textbf{Plane-dominant Object Reconstruction for Robotic Spatial Augmented Reality}} \\
+%Changwoo Nam, \textbf{Min-Hyuk Sung}, Joo-Haeng Lee, Junho Kim \\
+%Ubiquitous Robots and Ambient Intelligence (URAI), 2011 \\
+%doi: \href{http://dx.doi.org/10.1109/URAI.2011.6145896}{10.1109/URAI.2011.6145896}\\
+%\blankline
+%
+%\item \label{kjmr11}
+%\textbf{Implementing Parallel Tracking and Mapping on Android Phones} \\
+%Jinwoo Lee, \textbf{Min-Hyuk Sung}, Kyuman Jeong, Jae-In Hwang, and Junho Kim \\
+%The 4th Korea-Japan Workshop on Mixed Reality, 2011\\
+%\blankline
+%
+%\item \label{ms10}
+%\href{http://library.kaist.ac.kr/thesis02/2010/2010M020084064_S1Ver2.pdf}{
+%\textbf{A Spectral Approach to Shape Matching Using a Heat Kernel Function}} \\
+%\textbf{Min-Hyuk Sung} \\
+%Master's thesis, Korea Advanced Institute of Science and Technology (KAIST), Daejeon, South Korea, 2010 \\
+%link: \href{http://library.kaist.ac.kr/thesis02/2010/2010M020084064_S1Ver2.pdf}{http://library.kaist.ac.kr/thesis02/2010/2010M020084064\_S1Ver2.pdf}
+
+\end{enumerate}
+%\blankline
+
+
+%----------------------------------------------------------------------------------------
+%	HONORS AND SCHOLARSHIPS
+%----------------------------------------------------------------------------------------
+
+\section{Honors, Invited Talks, and Scholarships}
+
+\begin{tabular}{rl}
+2019 & Doctoral Consortium\\
+& ICCV 2019\\
+&\\
+2019 & Doctoral Consortium\\
+& SIGGRAPH 2019\\
+&\\
+2013 & Doctoral Study Abroad Scholarship Recipient Honors\\
+& Korea Foundation for Advanced Studies (KFAS)\\
+&\\
+2008-2010 & National Science and Engineering Graduate Research Scholarship\\
+& (S2-2008-000-00006-2)\\
+& Korea Student Aid Foundation (KOSAF)\\
+&\\
+2004-2008 & National Science and Engineering Scholarship \\
+& Korea Student Aid Foundation (KOSAF)\\
+&\\
+2005-2008 & Merit-based Scholarship\\
+& Korea Advanced Institute of Science and Technology (KAIST)\\
+&\\
+\end{tabular}
+
+\blankline
+
+%----------------------------------------------------------------------------------------
+%	TEACHING EXPREENCE
+%----------------------------------------------------------------------------------------
+
+\section{Teaching Experience}
+
+\begin{tabular}{r|p{11cm}}
+\textsc{2018 Spring} & Guest Lecturer\\
+& \textbf{CS233 Geometric and Topological Data Analysis}, Stanford\\
+& \\
+
+%------------------------------------------------
+
+\textsc{2016 Fall} & Course Assistance\\
+& \textbf{CS268 Geometric Algorithms}, Stanford\\
+& \\
+
+%------------------------------------------------
+
+\textsc{2015 Fall} & Course Assistance\\
+& \textbf{CS348A Computer Graphics: Geometric Modeling}, Stanford\\
+& \\
+
+%------------------------------------------------
+
+\textsc{2009 Spring} & Teaching Assistance\\
+& \textbf{CS202 Problem Solving}, KAIST\\
+\end{tabular}
+
+\blankline
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL SKILLS 
+%----------------------------------------------------------------------------------------
+
+%\section{Technical Skills}
+%
+%\begin{tabular}{rl}
+%Programming Languages: &C, C++, Java, Objective-C, Python, OpenGL Shader Language\\
+%Graphics Libraries: &OpenGL (ver.1.x, 2.x, 3.x), OpenGL ES (ver.1.x, 2.x), OpenCV,\\
+%& OpenSceneGraph(OSG), OpenMesh, CGAL\\
+%Numerical  Libraries: &BLAS, LAPACK, TAUCS, SuperLU, Eigen, SparseLM, ILOG CPLEX, Matlab\\
+%Programming Libraries: &STL, Boost C++, ARM Neon Instructions\\
+%GUI Frameworks: &Qt, MFC, Tcl/Tk\\
+%Operating Systems: &Windows, Mac OS X, Linux(Ubuntu)\\
+%Mobile Platforms: &iOS, Android (including NDK), Unity 3D\\
+%\end{tabular}
+%
+%\blankline
+
+%----------------------------------------------------------------------------------------
+%	ACADEMIC ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\section{Academic Activities}
+
+Reviewer, SIGGRAPH. 2019, 2020.\\
+Reviewer, SIGGRAPH Asia. 2018, 2019, 2020.\\
+Reviewer, NeurIPS. 2020.\\
+Reviewer, ACCV. 2020.\\
+Reviewer, WACV. 2021.\\
+Reviewer, 3DV. 2017, 2018, 2019, 2020.\\
+Reviewer, RA-L. 2019.\\
+Reviewer, IEEE TPAMI. 2019, 2020.\\
+Reviewer, IEEE TVCG. 2019.\\
+Reviewer, Pacific Graphics. 2016, 2018, 2019, 2020.\\
+Reviewer, Computer Graphics Forum. 2018, 2019, 2020.\\
+Reviewer, The Visual Computer. 2009, 2016, 2019.\\
+Reviewer, Computers \& Graphics. 2012, 2019.\\
+Reviewer, IEEE Virtual Reality. 2012.\\
+Reviewer, Computer Animation and Virtual Worlds. 2011.\\
+\blankline
+
+
+\section{References}
+
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{lll}
+
+\href{https://geometry.stanford.edu/member/guibas/}{\textbf{Leonidas Guibas}} &
+Professor, Stanford University &
+guibas@cs.stanford.edu\\
+
+\href{http://www.vovakim.com/}{\textbf{Vladimir Kim}} &
+Senior Research Scientist, Adobe Research &
+vokim@adobe.com\\
+
+%\multirow{2}{*}{\href{https://www.cse.iitb.ac.in/~sidch/}{\textbf{Siddhartha Chaudhuri}}} &
+\href{https://www.cse.iitb.ac.in/~sidch/}{\textbf{Siddhartha Chaudhuri}} &
+\makecell[l]{Assistant Professor, IIT Bombay \\ Senior Research Scientist, Adobe Research} &
+\makecell[l]{sidch@cse.iitb.ac.in \\ sidch@adobe.com} \\
+
+\href{http://www.cs.sfu.ca/~haoz/}{\textbf{Hao (Richard) Zhang}} &
+Professor, Simon Fraser University &
+haoz@cs.sfu.ca\\
+
+\end{tabular}
+
+\end{document}
