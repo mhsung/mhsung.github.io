@@ -3,7 +3,7 @@ title:  "DeformSyncNet: Deformation Transfer via Synchronized Shape Deformation 
 
 author: <a href="http://mhsung.github.io/" target="_blank">Minhyuk Sung</a>&#42;, <a href="http://jiangzhenyu.xyz/" target="_blank">Zhenyu Jiang</a>&#42;, <a href="http://ai.stanford.edu/~optas/" target="_blank">Panos Achlioptas</a>, <a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/" target="_blank">Niloy J. Mitra</a>, and <a href="https://geometry.stanford.edu/member/guibas/" target="_blank:">Leonidas J. Guibas</a> <br>(&#42; equal contribution)
 
-journal: SIGGRAPH Asia 2020 (To appear)
+journal: SIGGRAPH Asia 2020
 
 slug: deform-sync-net
 
