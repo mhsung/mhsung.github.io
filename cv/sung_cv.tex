@@ -44,12 +44,13 @@
 
 %\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be
 %\usepackage{fullpage}
-\usepackage[margin=1in]{geometry}
+\usepackage[margin=0.75in]{geometry}
 % To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
 
 \usepackage{hyperref} % Required for adding links	and customizing them
 %\definecolor{linkcolor}{rgb}{0,0.2,0.6} % Link color
-\definecolor{linkcolor}{rgb}{0.5075,0,0} % Link color
+%\definecolor{linkcolor}{rgb}{0.5075,0,0} % Link color
+\definecolor{linkcolor}{rgb}{0,0.2549,0.5686} % Link color
 \hypersetup{colorlinks,breaklinks,urlcolor=linkcolor,linkcolor=linkcolor} % Set link colors throughout the document
 
 \usepackage{titlesec} % Used to customize the \section command
@@ -73,34 +74,38 @@
 
 \par{\centering{\huge Minhyuk Sung}\bigskip\par} % Your name
 
-\section{Contact Information}
+\par{\centering{\large
+Assistant Professor,
+\href{http://cs.kaist.ac.kr/}{School of Computing},
+\href{http://www.kaist.ac.kr/}{KAIST}
+}\bigskip\par}
 
-\begin{tabular}{rl}
+\par{\centering{
+\begin{tabular}{c|rl}
+  N1, Room 607                      & \textsc{Phone:} & +82-42-350-3587 \\
+  291 Daehak-ro, Yuseong-gu         & \textsc{Email:} & \href{mailto:msung@kaist.ac.kr}{msung@kaist.ac.kr} \\
+  Daejeon, 34141, Republic of Korea & \textsc{Website:} & \href{https://mhsung.github.io}{https://mhsung.github.io}
+\end{tabular}
+}\bigskip\par}
+
+%\section{Contact Information}
+%\begin{tabular}{l|r}
 %\textsc{Address:} & Clark Center, S297, 318 Campus Drive, Stanford, CA 94305 \\
 %%\textsc{Phone:} & 650-391-6340\\
 %\textsc{Email:} & \href{mailto:mhsung@cs.stanford.edu}{mhsung@cs.stanford.edu} \\
 %%\textsc{Website:} & \href{https://mhsung.github.io/}{https://mhsung.github.io/}
 %\textsc{Website:} & \href{https://cs.stanford.edu/~mhsung}{https://cs.stanford.edu/\symbol{126}mhsung}
-
-\textsc{Address:} & 345 Park Ave, San Jose, CA 95110, USA. \\ 
-\textsc{Email:} & \href{mailto:msung@adobe.com}{msung@adobe.com} \\
-\textsc{Website:} & \href{https://mhsung.github.io}{https://mhsung.github.io}
-\end{tabular}
+%\end{tabular}
 
 \blankline
 
 
 %----------------------------------------------------------------------------------------
-%	CURRENT POSITION
+%	RESEARCH INTERESTS
 %----------------------------------------------------------------------------------------
 
-\section{Current Position}
-
-\textbf{Research Scientist} \\
-\href{https://research.adobe.com}{\textbf{Adobe Research}} \\
-San Jose, CA, USA \\
+\section{Research Interests}
 3D Machine Learning, Geometry Processing, Computer Graphics, Computer Vision.
-
 \blankline
 
 
@@ -145,10 +150,20 @@ San Jose, CA, USA \\
 
 
 %----------------------------------------------------------------------------------------
-%	PRIOR EXPERIENCE 
+%	EMPLOYMENT
 %----------------------------------------------------------------------------------------
 
-\section{Prior Experience}
+\section{Employment}
+
+Assistant Professor \hfill{\textsc{Jan 2021 - Present}\\
+\href{http://cs.kaist.ac.kr/}{\textbf{School of Computing}}, \href{http://www.kaist.ac.kr/}{\textbf{KAIST}}, Daejeon, Republic of Korea
+
+%------------------------------------------------
+
+Research Scientist \hfill{\textsc{Oct 2019 - Dec 2020}}\\
+\href{https://research.adobe.com}{\textbf{Adobe Research}}, San Jose, CA, USA 
+
+%------------------------------------------------
 
 Research Intern \hfill{\textsc{Jun 2017 - Sep 2017}}\\
 \href{https://www.autodeskresearch.com}{\textbf{Autodesk Research}}, San Francisco, CA, USA
@@ -514,7 +529,7 @@ IEEE Transactions on Visualization and Computer Graphics (TVCG), Oct. 2012.\\
 
 \begin{tabular}{rl}
 Reviewer & SIGGRAPH, SIGGRAPH Asia, Eurographics, Pacific Graphics, \\
-  & NeurIPS, ICLR, 3DV, WACV, ACCV, \\
+  & NeurIPS, ICLR, CVPR, 3DV, WACV, ACCV, \\
   & ACM TOG, IEEE TVCG, CGF, TVC, C\&G, \\
   & IEEE TPAMI, IEEE RA-L. \\
 \end{tabular}
