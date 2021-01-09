@@ -13,10 +13,9 @@ email: mhsung@kaist.ac.kr
 website: mhsung.github.io/ #do not add http://
 linkedin: mhsung
 github: mhsung
-cv: cv/sung_cv.pdf
 google_scholar: scholar.google.com/citations?user=PcIYMp4AAAAJ&hl=en
-research_statement: cs.stanford.edu/~mhsung/sung_research_statement.pdf
-teaching_statement: cs.stanford.edu/~mhsung/sung_teaching_statement.pdf
+cv: cv/sung_cv.pdf
+research_statement: assets/files/sung-sig19-dc.pdf
 
 # Tracker
 analytics: UA-35688210-1
