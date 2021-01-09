@@ -11,11 +11,17 @@
 :root {
   /* https://identity.stanford.edu/color.html */
   --background-color:#f5f5f5;
-  --side-background-color:#dad7cb;  /* Stanford Light Sandstone */
-  --body-color:#2e2d29;             /* Stanford Black */
-  --header-color:#2F2424;           /* Stanford Chocolate */
-  --link-color:#8c1515;             /* Stanford Cardinal Red */
-  --hover-color:#8c1515;            /* Stanford Cardinal Red */
+  /*--side-background-color:#dad7cb;  Stanford Light Sandstone */
+  /* --body-color:#2e2d29;            Stanford Black */
+  /* --header-color:#2F2424;          Stanford Chocolate */
+  /*--link-color:#8c1515;             Stanford Cardinal Red */
+  /*--hover-color:#8c1515;            Stanford Cardinal Red */
+  /* https://kaist.ac.kr/en/html/kaist/011901.html */
+  --side-background-color:#D9D9D6;  /* PANTONE  Cool Gray 1 C */
+  --body-color:#2D2926;             /* PANTONE  Black C */
+  --header-color:#2D2926;           /* PANTONE  Black C */
+  --link-color:#0032A0;             /* PANTONE  286 C */
+  --hover-color:#0072CE;            /* PANTONE  285 C */
 }
 
 body {
