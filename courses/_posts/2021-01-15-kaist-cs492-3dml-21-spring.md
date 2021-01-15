@@ -1,0 +1,64 @@
+---
+title:  "CS492: Machine Learning for 3D Data"
+
+class_info: <a href="http://mhsung.github.io/" target="_blank">Minhyuk Sung</a>, <a href="https://www.kaist.ac.kr/" target="_blank">KAIST</a>, Spring 2021
+
+slug: kaist-cs492-3dml-21-spring
+
+date: 2021-01-15
+---
+
+
+## {{ page.title }}
+{:.title}
+#### {{ page.class_info }}
+{:.title}
+
+<br />
+![]({{site.baseurl}}/assets/images/{{page.slug}}/teaser.png)
+
+
+### Description
+3D Data (both 3D scans captured by depth sensors and 3D models created by designers) are widely used in many applications in computer vision, computer graphics, and robotic, such as autonomous driving, AI-assisted 3D object/scene design, augmented reality, and physical robot interaction. Along with the recent increasing demands on processing and analyzing such 3D data, there has been tremendous progress in developing novel technologies, especially based on deep learning. In this course, we will cover the recent advances in machine learning techniques for 3D data and also discuss the remaining challenges. Most of the course material will be less-than-5-year-old research papers in CVPR/ICCV/ECCV (Vision), SIGGRAPH/SIGGRAPH Asia (Graphics), and NeurIPS/ICML (Machine Learning). The course will be project-oriented (no exam, no paper-and-pencil homework, but easy programming assignment), and it will combine pedagogical lectures and seminar-style reading group presentations (followed by interactive discussions). Lectures will be held online via zoom.
+<br />
+
+
+### Lectures
+Tue/Thu 9:00am - 10:15am in Zoom
+<br />
+
+
+### Course Staff
+<a href="http://mhsung.github.io/" target="_blank">Minhyuk Sung</a> (Instructor)
+- Email: <a href="mailto: {{site.email}}">{{site.email}}</a>
+- Office Hours: TBD
+<br />
+
+
+### Prerequisites
+This course is intended for undergraduate/master students who have a basic background in deep learning and experience with PyTorch. But there will be jump-start lectures/sessions for students who do not have any background in deep learning.
+<br />
+
+
+### Grading (Subject to change)
+- Project: 50%
+- Paper Presentation: 30%
+- Programming Assignments: 10%
+- In-Class Partcipation: 10%
+<br />
+
+
+### Useful Links
+This webpage kindly provides a comprehensive summary of resources regarding 3D machine learning:<br>
+<a href="https://github.com/timzhang642/3D-Machine-Learning" target="_blank">https://github.com/timzhang642/3D-Machine-Learning</a>
+<br />
+
+
+### Acknowledgements
+Most of the lectures will be based on the materials in the following courses:<br>
+<a href="http://graphics.stanford.edu/courses/cs468-17-spring/">Stanford CS468: Machine Learning for 3D Data (Spring 2017)</a><br>
+<a href="https://cse291-i.github.io/WI18/index.html">UCSD CSE291-I00: Machine Learning for 3D Data (Winter 2018)</a><br>
+<a href="http://3ddl.stanford.edu/">A Tutorial on 3D Deep Learning (CVPR 2017)</a>
+<br />
+
+<br />
