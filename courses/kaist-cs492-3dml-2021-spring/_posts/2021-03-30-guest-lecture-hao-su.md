@@ -5,9 +5,9 @@ presenter: <a href="https://cseweb.ucsd.edu/~haosu/" target="_blank">Hao Su</a>
 
 schedule: Mar 30, 2021 (Tue), 9:00 a.m. KST
 
-google_calendar_link: <a target="_blank" href="https://calendar.google.com/calendar/r/eventedit/copy/NTNwcWdyYnA3ZTJsM2g2Y2VoMThxNmxtaW8gZWk2NDA0M3YxZzcxdGUwZXJ2dml2bWhqbGNAZw">Link</a>
+google_calendar_link: <a target="_blank" href="https://calendar.google.com/calendar/r/eventedit/copy/NTNwcWdyYnA3ZTJsM2g2Y2VoMThxNmxtaW8gZWk2NDA0M3YxZzcxdGUwZXJ2dml2bWhqbGNAZw"><i class="fa fa-calendar" aria-hidden="true"></i> Add to Google Calendar</a>
 
-zoom_link: TBA
+zoom_link: <i class="fa fa-video-camera" aria-hidden="true"></i> Zoom Webinar Link
 
 slug: guest-lecture-hao-su
 
@@ -30,9 +30,9 @@ date: 2021-01-15
 ![]({{site.baseurl}}/{{page.path}}/../../images/guest-lecture-hao-su.png)
 <br />
 
-#### Add to Google Calendar: {{ page.google_calendar_link }}
+#### {{ page.google_calendar_link }}
 {:.title}
-#### Zoom Webinar Link: {{ page.zoom_link }}
+#### {{ page.zoom_link }}
 {:.title}
 
 ### Abstract
