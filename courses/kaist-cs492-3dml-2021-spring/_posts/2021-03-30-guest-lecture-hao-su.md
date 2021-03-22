@@ -27,7 +27,7 @@ date: 2021-01-15
 {:.title}
 <br />
 
-![]({{site.baseurl}}/{{page.path}}/../../guest-lecture-hao-su.png)
+![]({{site.baseurl}}/{{page.path}}/../../images/guest-lecture-hao-su.png)
 <br />
 
 ### Abstract
