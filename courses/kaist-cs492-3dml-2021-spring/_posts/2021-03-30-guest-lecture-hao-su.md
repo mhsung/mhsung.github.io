@@ -21,7 +21,7 @@ date: 2021-01-15
 {:.title}
 #### {{ page.schedule }}
 {:.title}
-#### Guest Lecture at <a href="{{site.baseurl}}/{{page.path}}/../../main/" target="_blank">CS492(H) Machine Learning for 3D Data (Spring 2021)</a>, <a href="https://www.kaist.ac.kr/" target="_blank">KAIST</a>.
+#### Guest Lecture at <a href="{{site.baseurl}}/{{page.path}}/../../" target="_blank">CS492(H) Machine Learning for 3D Data (Spring 2021)</a>, <a href="https://www.kaist.ac.kr/" target="_blank">KAIST</a>.
 {:.title}
 #### Host: <a href="{{site.baseurl}}/" target="_blank">Minhyuk Sung</a>
 {:.title}
