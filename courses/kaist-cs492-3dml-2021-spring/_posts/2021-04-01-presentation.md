@@ -67,7 +67,7 @@ In each group, please write a <em>short comment</em> to the presenter and <em>ch
 - <h>It could be better!</h>
 - <h>Poor.</h>
 
-<em>DO NOT write the evaluation resul in the public channel.</em><br>
+<em>DO NOT write the evaluation result in the public channel.</em><br>
 Our TA will send a direct message to the <em>group moderators</em> in Slack and ask about the peer evaluation result.
 <br />
 
