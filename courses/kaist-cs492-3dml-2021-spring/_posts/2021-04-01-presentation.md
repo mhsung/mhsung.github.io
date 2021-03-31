@@ -60,7 +60,7 @@ Please evaluate the presentation based on the following criteria:
 - whether the presenter used the author’s other’s slides.<br>
 (Feel free to use slides on the Internet with reference.)
 
-In each group, please write a <em>short comment</em> to the presenter and <em>choose one of the following:</em>
+In each group, please write a <em>short comment</em> to the presenter and <em>choose one of the following</em> (you can choose <em>in-betweens</em>):
 - <h>Probably the best presentation!</h>
 - <h>It was clear and well organized.</h>
 - <h>Good, but I couldn’t follow some.</h>
