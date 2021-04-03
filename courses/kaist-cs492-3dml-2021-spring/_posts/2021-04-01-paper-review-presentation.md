@@ -1,17 +1,17 @@
 ---
-title:  "CS492(H): Machine Learning for 3D Data"
+title: "CS492(H): Machine Learning for 3D Data"
 
 topic: "Paper Review Presentation"
 
 class_info: <a href="http://mhsung.github.io/" target="_blank">Minhyuk Sung</a>, <a href="https://www.kaist.ac.kr/" target="_blank">KAIST</a>, Spring 2021
 
-slug: presentation
+slug: paper-review-presentation
 
-date: 2021-03-25
+date: 2021-04-01
 ---
 
 
-## {{ page.title }}
+## <a href="{{site.baseurl}}/{{page.path}}/../../" target="_blank">{{ page.title }}</a>
 {:.title}
 ## {{ page.topic }}
 {:.title}
