@@ -42,6 +42,7 @@ Start your video with a title slide.
 - Download the template and fill in your project information.
 - Title slide template: <a href="https://kaistackr-my.sharepoint.com/:u:/g/personal/mhsung_kaist_ac_kr/ESfgDtPBMHlNgyOayvxaUe0BExPSKdIfWeZyM6I7Xmy2Fg?e=UF6epk" target=_blanm><h>Link</h></a>
 - Show the title slide at least <em>5 seconds</em> at the beginning (you can start your narration from the title slide).
+- Feel free to add your photo (actually recommended!) and change the layout of the title slide.
 
 #### Contents
 Include the followings in your video:
