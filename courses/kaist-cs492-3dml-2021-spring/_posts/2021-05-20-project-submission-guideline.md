@@ -145,7 +145,7 @@ h { background-color:#FFC107 }
 
 <h><b>Criteria of score 4 (‘Great!’) (AND conditions)</b></h>
 - [All] <b>(Report Writing)</b> The report is well-organized and clearly written.
-- [All] <b>(Experiment Design)</b> The experimental results are well-demonstrated and convincing.
+- [All] <b>(Experiment Designs)</b> The experimental results are well-demonstrated and convincing.
 - [Development] <b>(Experimental Results)</b> Achieved similar results in a challenging development task or improved/outperformed the original work in a doable task.
 - [Research] <b>(Experimental Results)</b> Achieved promising results. Worth pursuing the direction for future paper publication (although not ready for now).
 - [All] <b>(Etc)</b> No significant flaws in the report writing, experimental result demonstration, and poster presentation.
@@ -158,11 +158,11 @@ h { background-color:#FFC107 }
 
 <h><b>Criteria of score 2 (‘Not Good’) (OR conditions)</b></h>
 - Has two significant reasons not to be ‘Great!’.
-- Shows poor experimenal design or experimental results or technical contribution (while everything else is ok).
+- Shows poor experimenal designs or experimental results or technical contributions (while everything else is ok).
 
 <h><b>Criteria of score 1 (‘Poor’) (OR conditions)</b></h>
 - Has three or more significant reasons not to be ‘Great!’.
-- Shows poor experimental design or experimental results or technical contribution, and has one more significant reason not to be ‘Great!’.
+- Shows poor experimental designs or experimental results or technical contributions, and has one more significant reason not to be ‘Great!’.
 
 <br/>
 
