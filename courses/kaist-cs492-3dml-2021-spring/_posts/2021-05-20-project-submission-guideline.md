@@ -89,7 +89,7 @@ h { background-color:#FFC107 }
 
 #### Overall Evaluation
 
-<b>[Development] (Degree of Challenges) How do you assess the difficulty of the implementation (when considering the number of team members, external collaborators, the parts where the authors used the existing codes)?</b><br>
+<b>[Development] (Degree of Challenges) How do you assess the difficulty of the implementation (when considering the number of team members, external collaborators, the parts where the submitters used the existing codes)?</b><br>
 - Very hard, requires extraordinary efforts and/or skills.
 - Challenging.
 - Moderate. Doable.
@@ -134,7 +134,7 @@ h { background-color:#FFC107 }
 <h>Please be constructive, respectful, and detailed in your comments.</h><br>
 
 
-<b>[All] (Feedback) Provide questions or comments to the authors if you have.</b><br>
+<b>[All] (Feedback) Provide questions or comments to the submitters if you have.</b><br>
 
 
 <b>[All] (Overall Score) Please provide an "overall score" for this submission (in [1-5] range).</b><br>
@@ -158,11 +158,11 @@ h { background-color:#FFC107 }
 
 <h><b>Criteria of score 2 (‘Not Good’) (OR conditions)</b></h>
 - Has two significant reasons not to be ‘Great!’.
-- Shows poor experimental results (while everything else is ok).
+- Shows poor experimenal design or experimental results or technical contribution (while everything else is ok).
 
 <h><b>Criteria of score 1 (‘Poor’) (OR conditions)</b></h>
 - Has three or more significant reasons not to be ‘Great!’.
-- Shows poor experimental results and has one more significant reason not to be ‘Great!’.
+- Shows poor experimental design or experimental results or technical contribution, and has one more significant reason not to be ‘Great!’.
 
 <br/>
 
