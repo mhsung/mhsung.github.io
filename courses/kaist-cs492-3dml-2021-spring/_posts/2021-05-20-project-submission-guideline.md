@@ -145,7 +145,7 @@ h { background-color:#FFC107 }
 
 <h><b>Criteria of score 4 (‘Great!’) (AND conditions)</b></h>
 - [All] <b>(Report Writing)</b> The report is well-organized and clearly written.
-- [All] <b>(Experiment Designs)</b> The experimental results are well-demonstrated and convincing.
+- [All] <b>(Experiment Designs)</b> The experiments are well-designed and convincing.
 - [Development] <b>(Experimental Results)</b> Achieved similar results in a challenging development task with the original or improved/outperformed the original work in a doable task.
 - [Research] <b>(Experimental Results)</b> Achieved promising results. Worth pursuing the direction for future paper publication (although not ready for now).
 - [All] <b>(Etc)</b> No significant flaws in the report writing, experimental result demonstration, and poster presentation.
