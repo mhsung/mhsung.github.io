@@ -1,11 +1,11 @@
 ---
 title: "CS492(H): Machine Learning for 3D Data"
 
-topic: "Project Submission Guideline"
+topic: "Project Submission Guidelines"
 
 class_info: <a href="http://mhsung.github.io/" target="_blank">Minhyuk Sung</a>, <a href="https://www.kaist.ac.kr/" target="_blank">KAIST</a>, Spring 2021
 
-slug: project-submission-guideline
+slug: project-submission-guidelines
 
 date: 2021-05-20
 ---
