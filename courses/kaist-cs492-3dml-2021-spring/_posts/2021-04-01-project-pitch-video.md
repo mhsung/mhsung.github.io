@@ -26,7 +26,7 @@ h { background-color:#FFC107 }
 </style>
 
 
-#### Due Date
+#### Submission Deadline
 <h>Apr 13 (Tue), 23:59 KST</h>
 
 #### Video Format
@@ -66,7 +66,7 @@ Include the followings in your video:
 Google "CVPR Oral Session".<br>
 Example: <a href="https://www.youtube.com/watch?v=KHEknuuCz0E" target=_blank>CVPR 2019 Oral Session 1-1A</a><br>
 These are 5-minute long videos, and you need to prepare a 2.5-minute long video.<br>
-(But you don't need to show any results of your experiments.)
+(But you don't need to show any experimental results.)
 
 #### Penalty
 - <em>No submission</em>: <h>20%</h> penalty in the project evaluation (There is no late day.)
