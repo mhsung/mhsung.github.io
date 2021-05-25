@@ -73,7 +73,7 @@ Additional sections/subsections are allowed. Also, the detailed instructions in 
 
 <h><b>[Development Track]</b></h><br>
 
-<h><em>DO NOT COPY the texts or figures in the original paper — it will be considered as Plagiarism</em>. Write the report in your own words.</h><br>
+<h><em>DO NOT COPY the texts or figures in the original paper — it will be considered plagiarism</em>. Write the report in your own words.</h><br>
 
 - <b>Abstract</b>
     - one-sentence *TL;DR*,
@@ -96,7 +96,7 @@ Additional sections/subsections are allowed. Also, the detailed instructions in 
 
 
 - <b> Implementation Details</b>
-    - First, briefly but clearly state *which parts you implemented* in the framework. If you used some existing codes, describe in detail *how you also adopted the existing codes*. Add *references* for the existing codes. <h><em>Hiding the use of existing codes will be considered as plagiarism</em></h>.
+    - First, briefly but clearly state *which parts you implemented* in the framework. If you used some existing codes, describe in detail *how you also adopted the existing codes*. Add *references* for the existing codes. <h><em>Hiding the use of existing codes will be considered plagiarism</em></h>.
     - *Data generation/preprocessing* and *evaluations* are also parts of the implementation. If you implemented these yourself, illustrate the details.
     - Consider as you explain the implementation details to help readers reproduce the results (like providing a *recipe in cooking*). Make the exposition *easy to follow*, but also *clear* and *specific* as much as possible.
     - Use *visual aids* in your exposition. More would be better. But <h><em>DO NOT COPY figures in the original paper.</em></h> Formulations are fine (but do not copy and paste an image but write them yourself).
@@ -116,7 +116,7 @@ Additional sections/subsections are allowed. Also, the detailed instructions in 
 - <b>Acknowledgments</b>
     - Make 'acknowledgments' as a subsection without a section number or a paragraph.
     - Describe the *role* of each team member and the *external collaborators* and their contributions.
-    - <h><em>Hiding the external collaborators will be considered committing academic dishonesty.</em></h>
+    - <h><em>Hiding the external collaborators will be considered academic misconduct.</em></h>
 
 
 <br>
@@ -162,7 +162,7 @@ Additional sections/subsections are allowed. Also, the detailed instructions in 
 - <b>Acknowledgments</b>
     - Make 'acknowledgments' as a subsection without a section number or a paragraph.
     - Describe the *role* of each team member and the *external collaborators* and their contributions.
-    - <h><em>Hiding the external collaborators will be considered committing academic dishonesty.</em></h>
+    - <h><em>Hiding the external collaborators will be considered academic misconduct.</em></h>
 
 
 #### Poster Guidelines
@@ -190,10 +190,12 @@ Do not need to use this template.
 - Any formats (PDF document, video, web page) are allowed (maximum 100MB).
 - Submit as a *ZIP* file.
 
-#### <h>Plagiarism / Academic Dishonesty</h>
-If plagiarism or academic dishonesty is found in your report, poster, or code, you will receive an F grade, and also it will be reported to the university.
+#### <h>Plagiarism / Academic Misconduct</h>
+*Plagiarism consists of appropriating someone else's ideas or any texts, figures, or results of the other work, without sharing credit or correctly citing or mentioning the work.
+If plagiarism or other academic misconduct is discovered in your submission (in any of your report, poster, code, or supplementary), you will receive an F grade, and also it will be reported to the university.*
 
 
+<br>
 [Back to top](#)
 <br>
 
@@ -207,6 +209,7 @@ If plagiarism or academic dishonesty is found in your report, poster, or code, y
 We'll use [Gather.town](https://gather.town/){:target="_blank"}.
 
 
+<br>
 [Back to top](#)
 <br>
 
@@ -224,6 +227,7 @@ We'll use [Gather.town](https://gather.town/){:target="_blank"}.
 - Each *unsubmitted* or *rejected* review will be *penalized by 20%* in the project evaluation.
 
 
+<br>
 [Back to top](#)
 <br>
 
@@ -368,6 +372,7 @@ We'll use [Gather.town](https://gather.town/){:target="_blank"}.
 - Has three or more significant reasons not to be ‘Great!’.
 - Shows poor experimental designs or experimental results or technical contributions, and has one more significant reason not to be ‘Great!’.
 
+<br>
 [Back to top](#)
 
 <br/>
