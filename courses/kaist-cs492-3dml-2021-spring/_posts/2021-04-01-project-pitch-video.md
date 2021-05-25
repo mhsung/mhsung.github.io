@@ -30,10 +30,10 @@ h { background-color:#FFC107 }
 <h>Apr 13 (Tue), 23:59 KST</h>
 
 #### Video Format
-Please prepare your project pitch video <em><h>with voice-over</h></em> in the following format:
-- Video format: <em>mp4</em>
-- Max video length: <em><h>150 seconds per person</h></em> (if your team has two people, you get 300 seconds).
-- Resolution: <em>1920x1080</em>
+Please prepare your project pitch video *<h>with voice-over</h>* in the following format:
+- Video format: *mp4*
+- Max video length: *<h>150 seconds per person</h>* (if your team has two people, you get 300 seconds).
+- Resolution: *1920x1080*
 
 In the project pitch video session, your video will be just played, and you won't be able to speak over the video.
 
@@ -41,19 +41,19 @@ In the project pitch video session, your video will be just played, and you won'
 Start your video with a title slide.
 - Download the template and fill in your project information.
 - Title slide template: <a href="https://kaistackr-my.sharepoint.com/:u:/g/personal/mhsung_kaist_ac_kr/EZje4hw84GtJtrry4Dt8TfsBtLi5jum3vKyr7ldrQsV8Eg?e=dA8abz" target=_blanm><h>Link</h></a>
-- Show the title slide at least <em>5 seconds</em> at the beginning (you can start your narration from the title slide).
-- Feel free to add <em>your photo</em> (actually recommended!) and change the layout of the title slide.
-- Check out your <em>project ID</em> in slack.
+- Show the title slide at least *5 seconds* at the beginning (you can start your narration from the title slide).
+- Feel free to add *your photo* (actually recommended!) and change the layout of the title slide.
+- Check out your *project ID* in slack.
 
 #### Contents
 Include the followings in your video:
 - The <b>motivation</b> of the work
 - <b>Problem definition</b> (Input, output, training data, supervision provided, expected results.)
-- <em>[Research Track]</em> <b>Previous work</b> and the <b>novelty/technical contributions</b> of the proposed idea
+- *[Research Track]* <b>Previous work</b> and the <b>novelty/technical contributions</b> of the proposed idea
 - <b>Key technical ideas</b>
-- <em>[Development Track]</em> Expected <b>challenges</b> in the implementation
-- <em>[Research Track]</em> Any components getting help from <b>external collaborators</b>
-- <em>[Development Track]</em> Any components using <b>existing codes</b>
+- *[Development Track]* Expected <b>challenges</b> in the implementation
+- *[Research Track]* Any components getting help from <b>external collaborators</b>
+- *[Development Track]* Any components using <b>existing codes</b>
 - <b>Timeline</b> (Be <b>specific</b> as much as possible.)
 
 #### Video Capture/Editing Tools
@@ -69,8 +69,8 @@ These are 5-minute long videos, and you need to prepare a 2.5-minute long video.
 (But you don't need to show any experimental results.)
 
 #### Penalty
-- <em>No submission</em>: <h>20%</h> penalty in the project evaluation (There is no late day.)
-- <em>Wrong video format</em>: <h>5%</h> penalty in the project evaluation<br>
+- *No submission*: <h>20%</h> penalty in the project evaluation (There is no late day.)
+- *Wrong video format*: <h>5%</h> penalty in the project evaluation<br>
 The wrong video format includes:
     - wrong video file format,
     - wrong video resolution,
@@ -78,8 +78,8 @@ The wrong video format includes:
     - exceeding the allocated time.
 
 #### Award
-You will be asked to vote for the <em>best</em> project pitch.<br>
-The <em>best</em> pitch will be awarded up to a <h>10%</h> bonus in the project evaluation.
+You will be asked to vote for the *best* project pitch.<br>
+The *best* pitch will be awarded up to a <h>10%</h> bonus in the project evaluation.
 <br />
 
 <br />
