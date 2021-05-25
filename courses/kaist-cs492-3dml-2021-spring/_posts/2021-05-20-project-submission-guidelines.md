@@ -69,7 +69,7 @@ h { background-color:#FFC107 }
 
 <h><b>Structure</b></h>
 Please use the *same section names* below to facilitate the review process.<br>
-Additional sections/subsections are allowed. Also, the detailed instructions in each section are *recommendations*, and you do need to exactly follow them.
+Additional sections/subsections are allowed. Also, the detailed instructions in each section are *recommendations*, and *you do NOT need to exactly follow them*.
 
 <h><b>[Development Track]</b></h><br>
 
@@ -85,28 +85,28 @@ Additional sections/subsections are allowed. Also, the detailed instructions in 
 - <b>Introduction</b>
     - What is the *motivation* of the (original) work? Why is it important to solve the problem? What would be the potential impacts of this work in the research field, or what would be the potential applications?
     - What is the *problem setup* the original work introduce? (Add a citation of the original work.)  What are the input and desired output? What are the given information in the training time and the given assumptions? What are the *main ideas* of the original work to solve the problem?
-    - What are the *key challenges* in implementing the proposed method? Does the framework include some components that are not implemented in public libraries (e.g., PyTorch, PyTorch3D)? Are you implementing some components from scratch without the public libraries? (Using CUDA?) Are there lots of components to implement? Are there lots of technical details hidden in the paper/code? Doesn't the authors provide their code or datasets? Does the authors' code even not reproduce the results in the paper? Is the network training tricky or unstable? Or, do you improve the original work?
-    - Summarize the *implementation details*. *Clearly differentiate* the parts you implemented and the parts you borrowed existing code or got some help from the external collaborators. How did you implement each part, and how did you handle the challenges? A *teaser* figure that illustrates the parts you focused on in the implementation would be great.
-    - Briefly describe the *experimental setups*. Which datasets/benchmarks did you use? How did you evaluate the results? Did you need to make any changes in the experimental setups of the original work? If yes, why? How good are your results compared with the results reported in the original paper (or the results of the authors' code)? Did you conduct more experiments than the original work?
-    - A *summary of contributions* (in terms of providing your code) at the end is also recommended (in a bullet point list). You can start the summary with (for example) ‘In summary, our contributions are:’.
+    - What are the *key challenges* in implementing the proposed method? Does the framework include some components that are not implemented in public libraries (e.g., PyTorch, PyTorch3D)? Do you implement some components from scratch without the public libraries? (Using CUDA?) Is the framework complicated with lots of components? Are there technical details hidden in the paper/code? Doesn't the authors provide their code or datasets? Does the authors' code even not reproduce the results in the paper? Is the network training tricky or unstable? Or, do you improve the original work?
+    - Summarize the *implementation details*. *Clearly differentiate* the parts you implemented and the parts you borrowed existing code or got some help from the external collaborators. How do you implement each part, and how do you handle the challenges? A *teaser* figure that illustrates the parts you focused on in the implementation would be great.
+    - Briefly describe the *experimental setups*. Which datasets/benchmarks do you use? How do you evaluate the results? Do you make any changes in the experimental setups of the original work? If yes, why? How good are your results compared with the results reported in the original paper (or the results of the authors' code)? Do you improve the original method, or do you conduct additional experiments not shown in the original work?
+    - A *summary of achievements* at the end is also recommended (in a bullet point list). You can start the summary with (for example) ‘In summary, our achievements are:’.
 
 - <b>Method Summary</b>
     - Describe the *problem setup* again, but in detail and also in a formal way. Introduce essential math notations for the following formulations. <h><em>DO NOT COPY the texts or figures in the original paper</em></h>, but use the *same math notations* in the original work.
-    - Briefly *summarize* the method proposed in the original work, while focusing on the parts that you implemented (if you used existing codes for some parts). The report needs to be *self-contained*; the readers must be able to understand the main ideas without reading the original paper.
+    - Briefly *summarize* the method proposed in the original work, while focusing on the parts that you implemented (if you used existing codes for some parts). The report needs to be *self-contained*; the readers must be able to understand the main ideas of the original work without reading the paper.
 
 
 - <b> Implementation Details</b>
-    - First, clearly state *which parts you implemented*. If you used some existing codes, describe *how you adopted the existing codes* as well in detail. Add *references* for the existing codes. <h><em>Hiding the use of existing codes will be considered as plagiarism</em></h>.
+    - First, briefly but clearly state *which parts you implemented* in the framework. If you used some existing codes, describe in detail *how you also adopted the existing codes*. Add *references* for the existing codes. <h><em>Hiding the use of existing codes will be considered as plagiarism</em></h>.
     - *Data generation/preprocessing* and *evaluations* are also parts of the implementation. If you implemented these yourself, illustrate the details.
-    - Consider as you explain the implementation details in a way that the readers can reproduce the results (like providing a *recipe in cooking*). Make the exposition *easy to follow*, but also *clear* and *specific* as much as possible.
-    - Use visual aids in your exposition. More would be better. But <h><em>DO NOT COPY figures in the original paper.</em></h> Formulations are fine (but do not copy and paste an image but write them yourself).
+    - Consider as you explain the implementation details to help readers reproduce the results (like providing a *recipe in cooking*). Make the exposition *easy to follow*, but also *clear* and *specific* as much as possible.
+    - Use *visual aids* in your exposition. More would be better. But <h><em>DO NOT COPY figures in the original paper.</em></h> Formulations are fine (but do not copy and paste an image but write them yourself).
 
 - <b>Experimental Results</b>
     - Clearly describe the *experiment setups*, including *benchmarks/datasets* and *evaluation metrics*. If you change or simplify the experimental setups of the original work, explain why.
     - Provide *comparisons* with the original work. Use the *exact results* reported in the original paper for comparison. If you test the authors' code in new datasets, explain why. Provide both *quantitative results (tables)* and *qualitative results (figures)*. Explain in which aspects the results of your method is better or comparable.
     - Try to reproduce *all the results* in the original paper. Any *lack of experiments, evaluations, or comparisons* (without any appropriate reasons) will be penalized in the evaluation.
-    - Make *fair*, *apple-to-apple* comparisons. Unfair benefits to your implementation in the experiments will also be penalized.
-    - If you achieve *better performance* than the original work, if you *improve* the proposed algorithm, or if you conduct some *additional experiments* that were not performed in the original paper, *emphasize* the results.
+    - Make *fair and reasonable* (apples-to-apples) comparisons. Unfair benefits to your implementation in the experiments will also be penalized.
+    - If you achieve *better performance* than the original work, if you *improve* the proposed algorithm, or if you conduct some *additional experiments* not performed in the original paper, *emphasize* the results.
     - In here or in the conclusion, consider showing some *remarkable failure cases* explaining the limitation of the proposed method or your implementation, or motivating some future works.
 
 - <b>Conclusion</b>
@@ -114,7 +114,7 @@ Additional sections/subsections are allowed. Also, the detailed instructions in 
     - Describe the *limitation* of the proposed work or your implementation and *potential future research directions* (if you have space in the report).
 
 - <b>Acknowledgments</b>
-    - Make it as a subsection (without a section number) or a paragraph.
+    - Make 'acknowledgments' as a subsection without a section number or a paragraph.
     - Describe the *role* of each team member and the *external collaborators* and their contributions.
     - <h><em>Hiding the external collaborators will be considered committing academic dishonesty.</em></h>
 
@@ -135,16 +135,16 @@ Additional sections/subsections are allowed. Also, the detailed instructions in 
     - What are the *challenges* in the problem? How has previous work approached this problem, and what are the limitations (add citations)? Or, why hasn't the problem been addressed while it is important?
     - What is the *problem statement*? What are the input and desired output? What are the given information in the training time and the given assumptions? A *teaser figure* that effectively illustrates the problem setup or the desired output would be great. (E.g., show the best result with the input.)
     - What are your *key ideas* for solving the challenges? It would be also great if your teaser image also describes the key ideas. (E.g. how do your key ideas make differences in the results?)
-    - Briefly describe the *experimental setups*. Which datasets/benchmarks did you use? How did you evaluate the results? What is the conclusion? (E.g. our method outperformed SotA methods by huge margins.)
+    - Briefly describe the *experimental setups*. Which datasets/benchmarks do you use? How do you evaluate the results? What is the conclusion? (E.g. our method outperformed SotA methods by huge margins.)
     - *A summary of contributions* at the end is also recommended (in a bullet point list). You can start the summary with (for example) 'In summary, our contributions are:'.
 - <b>Related Work</b>:
-    - Consider making *two or three* groups of related papers and writing a short paragraph for each of them, which a *paragraph title*. Also, an intro sentence briefly describing the groups is recommended (but not necessary). E.g., if your project is about '3D GAN', you can consider groups of 'Deep Learning for 3D Data' and 'Deep Generative Models'.
+    - Consider making *two or three* groups of related papers and writing a short paragraph for each of them, which a *paragraph title*. E.g., if your project is about '3D GAN', you can consider groups of 'Deep Learning for 3D Data' and 'Deep Generative Models'. Also, an intro sentence briefly describing the groups is recommended (but not necessary).
     - Summarize each work with 1-2 sentences while focusing on describing in which aspects your work is *different* or *overcoming the limitations*.
 
 - <b>Method</b>
     - Describe the *problem setup* again, but in detail and also in a formal way. Introduce *essential math notations* for the following formulations. A *figure* describing the overall method is recommended.
-    - The report needs to be *self-contained*; the readers must be able to understand the ideas without reading the other papers. Provide *background knowledge* if needed (not necessary). If needed, provided the 'minimal' background to understand your work.
-    - Think about the most effective way of explaining the *key ideas*. One option would be *prioritizing* components in your method not based on the order in the method but based on the *importance*. Less important details can go to the end or to the supplementary.
+    - The report needs to be *self-contained*; the readers must be able to understand the ideas without reading the other papers. If needed, provide *background knowledge* (the 'minimal' background to understand your work).
+    - Think about the most effective way to explain the *key ideas*. One option would be *prioritizing* components in your method not based on the order in the method but based on the *importance*. Less important details can go to the end or to the supplementary.
     - Use *visual aids* in your exposition. More would be better.
     - Make the exposition as *clear* and *specific* as possible. *Formulations* can make the exposition clearer and more concise.
 - <b>Experimental Results</b>:
@@ -152,7 +152,7 @@ Additional sections/subsections are allowed. Also, the detailed instructions in 
     - Provide both *quantitative results (tables)* and *qualitative results (figures)*. Provide *comparisons* with the baseline methods. Explain in which aspects your method is better. Think about the best way to demonstrate the advantages of your method over the baseline methods.
     - Conduct the *ablation study* and show the results. If you have multiple technical contributions, demonstrate how each component affects the results.
     - *Do not miss* any well-known benchmarks/datasets, standard evaluation metrics, or previous methods. Any *lack of experiments, evaluations, or comparisons* will be penalized in the evaluation.
-    - Make *fair*, *apple-to-apple* comparisons. (Or, if the baseline methods take some advantages such as stronger supervision, describe clearly.) Unfair benefits to the proposed method in the experiments will also be penalized.
+    - Make *fair and reasonable* (apples-to-apples) comparisons. (Or, if the baseline methods take some advantages such as stronger supervision, describe clearly.) Unfair benefits to the proposed method in the experiments will also be penalized.
     - In here or in the conclusion, consider showing some *remarkable failure cases* explaining the limitation of the proposed method or motivating some future works.
 
 - <b>Conclusion</b>
@@ -160,7 +160,7 @@ Additional sections/subsections are allowed. Also, the detailed instructions in 
     - Describe the *limitation* of the proposed work and *potential future research* directions (if you have space in the report).
 
 - <b>Acknowledgments</b>
-    - Make it as a subsection (without a section number) or a paragraph.
+    - Make 'acknowledgments' as a subsection without a section number or a paragraph.
     - Describe the *role* of each team member and the *external collaborators* and their contributions.
     - <h><em>Hiding the external collaborators will be considered committing academic dishonesty.</em></h>
 
@@ -321,7 +321,7 @@ We'll use [Gather.town](https://gather.town/){:target="_blank"}.
 - Insufficient, unfair, inadequate, or uninformative comparisons with related work  (Research) or the original work (Development).
 
 
-<b>[Development] (Reproduction) Did the implementation reproduce the results in the original work?</b><br>
+<b>[Development] (Reproduction) Do the implementation reproduce the results in the original work?</b><br>
 - Yes, and even improved/outperformed the original work, or showed more results in different applications.
 - Almost, the results are similar.
 - A bit worse but comparable.
