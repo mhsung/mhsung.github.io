@@ -115,7 +115,7 @@ Additional sections/subsections are allowed. Also, the detailed instructions in 
 
 - <b>Acknowledgments</b>
     - Make it as a subsection (without a section number) or a paragraph.
-    - Describe the role of each team member and the external collaborators and their contributions.
+    - Describe the *role* of each team member and the *external collaborators* and their contributions.
     - <h><em>Hiding the external collaborators will be considered committing academic dishonesty.</em></h>
 
 
@@ -161,7 +161,7 @@ Additional sections/subsections are allowed. Also, the detailed instructions in 
 
 - <b>Acknowledgments</b>
     - Make it as a subsection (without a section number) or a paragraph.
-    - Describe the role of each team member and the external collaborators and their contributions.
+    - Describe the *role* of each team member and the *external collaborators* and their contributions.
     - <h><em>Hiding the external collaborators will be considered committing academic dishonesty.</em></h>
 
 
