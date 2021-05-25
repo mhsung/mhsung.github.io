@@ -54,8 +54,8 @@ h { background-color:#FFC107 }
 *TBA.*<br>
 
 - Must include a *report*, a *poster*, and a *code repository link*.<br>
-- Supplementary materials are optional.
-- Submission with the wrong format or any missing items may receive a zero score.
+- *Supplementary materials* are optional.
+- Submission with the *wrong format* or any *missing items* may receive a *zero* score.
 
 
 #### Report Guidelines
