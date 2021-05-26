@@ -56,6 +56,7 @@ h { background-color:#FFC107 }
 - Must include a *report*, a *poster*, and a *code repository link*.<br>
 - *Supplementary materials* are optional.
 - Submission with the *wrong format* or any *missing items* may receive a *zero* score.
+- <h><em>Development Track:</em> Make the <em>title</em> to be the <em>same</em> as the original paper.</h>
 
 
 #### Report Guidelines
@@ -69,15 +70,17 @@ h { background-color:#FFC107 }
 
 <h><b>Structure</b></h>
 Please use the *same section names* below to facilitate the review process.<br>
-Additional sections/subsections are allowed. Also, the detailed instructions in each section are *recommendations*, and *you do NOT need to exactly follow them*.
+Additional sections/subsections are allowed. Also, the detailed instructions in each section are *recommendations*, and *you do NOT need to exactly follow them*, except for the <h>highlighted</h> parts.<br>
+The review will be *single-blind*. *Add your names as authors* in the report.
 
 <h><b>[Development Track]</b></h><br>
 
-<h><em>DO NOT COPY the texts or figures in the original paper — it will be considered plagiarism</em>. Write the report in your own words.</h><br>
+- <h><em>DO NOT COPY the texts or figures in the original paper — it will be considered plagiarism</em>. Write the report in your own words.</h>
+- <h><em>Make the title to be the same as the original paper.</em></h><br>
 
 - <b>Abstract</b>
     - one-sentence *TL;DR*,
-    - 2-3 sentences for the *motivation* and *key ideas* of the original work,
+    - 2-3 sentences for the *motivation* and *key ideas* of the *original work* <h><em>(add a citation)</em></h>,
     - a few sentences summary of the *implementation challenges* and *your approaches*, and
     - 1-2 sentences summary of the *experimental results*.
     - In the end, add *“Code is available at: {link}.”*
@@ -114,8 +117,8 @@ Additional sections/subsections are allowed. Also, the detailed instructions in 
     - Describe the *limitation* of the proposed work or your implementation and *potential future research directions* (if you have space in the report).
 
 - <b>Acknowledgments</b>
-    - Make 'acknowledgments' as a subsection without a section number or a paragraph.
-    - Describe the *role* of each team member and the *external collaborators* and their contributions.
+    - Make acknowledgments as a subsection without a section number or as a paragraph.
+    - <h>Describe the <em>role</em> of each team member and the <em>external collaborators</em> and their contributions.</h>
     - <h><em>Hiding the external collaborators will be considered academic misconduct.</em></h>
 
 
@@ -160,8 +163,8 @@ Additional sections/subsections are allowed. Also, the detailed instructions in 
     - Describe the *limitation* of the proposed work and *potential future research* directions (if you have space in the report).
 
 - <b>Acknowledgments</b>
-    - Make 'acknowledgments' as a subsection without a section number or a paragraph.
-    - Describe the *role* of each team member and the *external collaborators* and their contributions.
+    - Make acknowledgments as a subsection without a section number or as a paragraph.
+    - <h>Describe the <em>role</em> of each team member and the <em>external collaborators</em> and their contributions.</h>
     - <h><em>Hiding the external collaborators will be considered academic misconduct.</em></h>
 
 
