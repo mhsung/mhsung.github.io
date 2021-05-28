@@ -71,7 +71,7 @@ h { background-color:#FFC107 }
 <h><b>Structure</b></h>
 Please use the *same section names* below to facilitate the review process.<br>
 Additional sections/subsections are allowed. Also, the detailed instructions in each section are *recommendations*, and *you do NOT need to exactly follow them*, except for the <h>highlighted</h> parts.<br>
-The review will be *single-blind*. *Add your names as authors* in the report.
+The review will be *single-blind*. Add *author names* in the report (*uncomment* `\cvprfinalcopy` in the CVPR template).
 
 <h><b>[Development Track]</b></h><br>
 
@@ -223,7 +223,7 @@ We'll use [Gather.town](https://gather.town/){:target="_blank"}.
 
 *TBA.*<br>
 
-- Each project will be reviewed by *four* peer reviewers.
+- You will be asked to review *four* projects, and each project will be reviewed by *at least four* peer reviewers.
 - The review will be *single-blind* and will be performed in *OpenReview*.<br>
 (Both the submissions and reviews will NOT be open to the public.)
 - Reviews can be *rejected* based on the assessment of the review quality.
