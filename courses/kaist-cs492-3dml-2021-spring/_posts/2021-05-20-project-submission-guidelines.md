@@ -75,7 +75,7 @@ The review will be *single-blind*. Add *author names* in the report (*uncomment*
 
 <h><b>[Development Track]</b></h><br>
 
-- <h><em>DO NOT COPY the texts or figures in the original paper — it will be considered plagiarism</em>. Write the report in your own words.</h>
+- <h><em>DO NOT COPY the texts or figures in the original paper (except for qualitative result figures) — it will be considered plagiarism.</em></h> Write the report in your own words. You are allowed to use qualitative result figures for comparisons, but *clearly mention* that the figures are from the original paper.
 - <h><em>Make the title to be the same as the original paper.</em></h><br>
 
 - <b>Abstract</b>
@@ -185,6 +185,7 @@ Do not need to use this template.
 #### Code Submission
 - Create a *public code repository* in GitHub or Bitbucket and submit the link.
 - Also, add the link in the *abstract* of the report (see [Report Guidelines](#report-guidelines)).
+- <h>All the results shown in the report must be replicable with your code.</h> In the code repository, provide *links of the pretrained models* (stored in Google Drive or any other places), so that anyone can easily check the replicability.
 
 
 #### Supplementary Materials
