@@ -47,14 +47,14 @@ code-link: https://github.com/Colin97/DeepMetaHandles
 
 ### Interactive Shape Editing Demo
 
-**[[Open in a New Window](https://shapenet.cs.stanford.edu/media/minhyuk/DeepMetaHandlesDemo/web_demo.html){:target="_blank"}]**
+**[[Open in a New Window](https://mhsung.github.io/deep-meta-handles-demo/web_demo.html){:target="_blank"}]**
 
 Move the meta-handle sliders on the right panel to edit the shapes jointly.<br>
 Drag on shapes to change the viewpoint.<br>
 <font color="grey">(It may take 10-20 seconds for loading.)</font>
 
 <p align="center">
-<iframe width="100%" height="600px" src="https://shapenet.cs.stanford.edu/media/minhyuk/DeepMetaHandlesDemo/web_demo_embed.html" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="600px" src="https://mhsung.github.io/deep-meta-handles-demo/web_demo_embed.html" frameborder="0" allowfullscreen></iframe>
 </p>
 
 
@@ -66,7 +66,7 @@ Each row shows deformations of meta-handles with the same index for different sh
 Scroll down for more results.
 
 <p align="center">
-<iframe width="100%" height="720px" src="https://shapenet.cs.stanford.edu/media/minhyuk/DeepMetaHandlesDemo/web_animations_embed.html" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="720px" src="https://mhsung.github.io/deep-meta-handles-demo/web_animations_embed.html" frameborder="0" allowfullscreen></iframe>
 </p>
 
 #### Acknowledgements
