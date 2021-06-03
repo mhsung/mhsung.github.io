@@ -262,7 +262,7 @@ We'll use [Gather.town](https://gather.town/){:target="_blank"}.
 <div id='infeasible-experiments'/>
 #### Infeasible Experiments
 
-The *authors* of the report can argue the *infeasibility* of experiments that are expected to be shown in the results.
+In the report, you can argue the *infeasibility* of experiments that are expected to be shown in the results.
 For example,
 - Some experiments in the original work (Development Track) may not be reproducible if the experiments require too many GPUs or too large disk/memory spaces or some important details in the experiment are missing.
 - An exact comparison with the original work (Development Track) or previous work (Research Track) may not be possible when the data used in the experiment is not released.
