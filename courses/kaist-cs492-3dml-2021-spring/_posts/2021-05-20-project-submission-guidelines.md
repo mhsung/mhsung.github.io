@@ -27,29 +27,49 @@ h { background-color:#FFC107 }
 
 
 ### Table of Contents
-1. [Submission Deadline](#submission-deadline')
-2. [Submission Guidelines](#submission-guidelines)
-3. [Poster Sessions](#poster-sessions)
-4. [Review Guidelines](#review-guidelines)
-5. [Review Questions](#review-questions)
+1. [Submission Deadline & Website](#submission-deadline-website)
+2. [Corrections and Clarifications](#corrections-and-clarifications)
+3. [Submission Guidelines](#submission-guidelines)
+4. [Poster Sessions](#poster-sessions)
+5. [Review Guidelines](#review-guidelines)
+6. [Review Questions](#review-questions)
+
+
+<br>
+
+
+---
+
+<div id='submission-deadline-website'/>
+### 1. Submission Deadline & Website
+
+*Submission deadline*: <h><b>Jun 06 (Sun), 23:59 KST</b></h><br>
+*OpenReview* submission website:<br>
+[https://openreview.net/group?id=kaist.ac.kr/KAIST/Spring2021/CS492H](https://openreview.net/group?id=kaist.ac.kr/KAIST/Spring2021/CS492H){:target="_blank"}<br>
 
 
 <br>
 
 ---
 
-<div id='submission-deadline'/>
-### 1. Submission Deadline
+<div id='corrections-and-clarifications'/>
+### 2. Corrections and Clarifications
+- <b>[Report Guidelines]</b> The review will be *single-blind*. Add *author names* in the report (*uncomment* `\cvprfinalcopy` in the CVPR template).
+- <b>[Report Guidelines]</b> Add the *project type* (Development Track / Research Track) in the *Second line* of the report title. Using LaTex, you can add like this: `\title{Project Title \\ {Development/Research} Track}`.
+- <b>[Report Guidelines]</b> <em>Acknowledgments section is required</em>, even when you do not have the other team member, external collaborators, or any data/codes you borrowed from the other places (state the fact).
+- <b>[Report Guidelines]</b> For development track, it is allowed to *use qualitative result figures* in the original paper for comparisons (actually *highly recommended*), but *clearly mention* that the figures are from the original paper.
+- <b>[Code Submission]</b> In the code repository, provide *links of the pretrained models* (stored in Google Drive or any other places) and also *datasets you created*, so that anyone can easily check the replicability.
+- <b>[Review Guideline]</b> Guidelines about "<a href="{{site.baseurl}}/{{page.path}}/../../project-submission-guidelines.html#infeasible-experiments">Infeasible Experiments</a>" are added. The review question about experimental results is also revised to refer to the guidelines about "Infeasible Experiments".
 
-<h>Jun 06 (Sun), 23:59 KST</h>
 
-
+<br>
+[Back to top](#)
 <br>
 
 ---
 
 <div id='submission-guidelines'/>
-### 2. Submission Guidelines
+### 3. Submission Guidelines
 
 <h><em>OpenReview</em> submission website:</h>
 [https://openreview.net/group?id=kaist.ac.kr/KAIST/Spring2021/CS492H](https://openreview.net/group?id=kaist.ac.kr/KAIST/Spring2021/CS492H){:target="_blank"}<br>
@@ -73,6 +93,7 @@ If you don't have an account at OpenReview, sign up here:<br>
 - Must be in *CVPR* format:<br>
 [LaTeX/Word Templates Zip file (CVPR 2021 format)](http://cvpr2021.thecvf.com/sites/default/files/2020-09/cvpr2021AuthorKit_2.zip){:target="_blank"}<br>
 [Overleaf template (CVPR 2018 format)](https://www.overleaf.com/latex/templates/cvpr-2018-template/qgmrfntfbqns){:target="_blank"}
+- Add the *project type* (Development Track / Research Track) in the second line of the report title. Using LaTex, you can add like this: `\title{Project Title \\ {Development/Research} Track}`.
 - Must be up to *four* pages long, including figures, tables, and acknowledgments, but not references. Additional pages containing only cited references are allowed.
 
 <h><b>Structure</b></h>
@@ -82,7 +103,7 @@ The review will be *single-blind*. Add *author names* in the report (*uncomment*
 
 <h><b>[Development Track]</b></h><br>
 
-- <h><em>DO NOT COPY the texts or figures in the original paper (except for qualitative result figures) — it will be considered plagiarism.</em></h> Write the report in your own words. You are allowed to use qualitative result figures for comparisons, but *clearly mention* that the figures are from the original paper.
+- <h><em>DO NOT COPY the texts or figures in the original paper (except for qualitative result figures) — it will be considered plagiarism.</em></h> Write the report in your own words. It is allowed to *use qualitative result figures* in the original paper for comparisons (actually *highly recommended*), but *clearly mention* that the figures are from the original paper.
 - <h><em>Make the title to be the same as the original paper.</em></h><br>
 
 - <b>Abstract</b>
@@ -127,6 +148,7 @@ The review will be *single-blind*. Add *author names* in the report (*uncomment*
     - Make acknowledgments as a subsection without a section number or as a paragraph.
     - <h>Describe the <em>role</em> of each team member and the <em>external collaborators</em> and their contributions.</h>
     - <h><em>Hiding the external collaborators will be considered academic misconduct.</em></h>
+    - <h><em>Acknowledgments section is required</em>, even when you do not have the other team member, external collaborators, or any data/codes you borrowed from the other places (state the fact).</h>
 
 
 <br>
@@ -173,6 +195,7 @@ The review will be *single-blind*. Add *author names* in the report (*uncomment*
     - Make acknowledgments as a subsection without a section number or as a paragraph.
     - <h>Describe the <em>role</em> of each team member and the <em>external collaborators</em> and their contributions.</h>
     - <h><em>Hiding the external collaborators will be considered academic misconduct.</em></h>
+    - <h><em>Acknowledgments section is required</em>, even when you do not have the other team member, external collaborators, or any data/codes you borrowed from the other places (state the fact).</h>
 
 
 #### Poster Guidelines
@@ -192,7 +215,7 @@ Do not need to use this template.
 #### Code Submission
 - Create a *public code repository* in GitHub or Bitbucket and submit the link.
 - Also, add the link in the *abstract* of the report (see [Report Guidelines](#report-guidelines)).
-- <h>All the results shown in the report must be replicable with your code.</h> In the code repository, provide *links of the pretrained models* (stored in Google Drive or any other places), so that anyone can easily check the replicability.
+- <h>All the results shown in the report must be replicable with your code.</h> In the code repository, provide *links of the pretrained models* (stored in Google Drive or any other places) and also *datasets you created*, so that anyone can easily check the replicability.
 
 
 #### Supplementary Materials
@@ -213,7 +236,7 @@ If plagiarism or other academic misconduct is discovered in your submission (in 
 ---
 
 <div id='poster-sessions'/>
-### 3. Poster Sessions (Virtual)
+### 4. Poster Sessions (Virtual)
 
 *TBA.*<br>
 
@@ -227,15 +250,32 @@ We'll use [Gather.town](https://gather.town/){:target="_blank"}.
 ---
 
 <div id='review-guidelines'/>
-### 4. Review Guidelines
-
-*TBA.*<br>
+### 5. Review Guidelines
 
 - You will be asked to review *four* projects, and each project will be reviewed by *at least four* peer reviewers.
 - The review will be *single-blind* and will be performed in *OpenReview*.<br>
 (Both the submissions and reviews will NOT be open to the public.)
 - Reviews can be *rejected* based on the assessment of the review quality.
 - Each *unsubmitted* or *rejected* review will be *penalized by 20%* in the project evaluation.
+
+
+<div id='infeasible-experiments'/>
+#### Infeasible Experiments
+
+The *authors* of the report can argue the *infeasibility* of experiments that are expected to be shown in the results.
+For example,
+- Some experiments in the original work (Development Track) may not be reproducible if the experiments require too many GPUs or too large disk/memory spaces or some important details in the experiment are missing.
+- An exact comparison with the original work (Development Track) or previous work (Research Track) may not be possible when the data used in the experiment is not released.
+
+For such infeasible experiments, the authors must consider *substituting* them with similar but feasible experiments (or, also argue why it is even not possible to substitute them).
+For example,
+- If an experiment is computationally infeasible, try to simplify the experiment (use a smaller dataset, use a simplified neural network, reduce the batch size, etc).
+- If data for replication is not provided, consider using the other similar data.
+- If some experiment details for replication are not provided, use any common parameters or approaches.
+
+As a *reviewer*, you need to judge whether the argument about infeasibility is valid or not and whether the authors tried to substitute the infeasible experiments.
+
+For the experiments considered infeasible, do not take them into account in the evaluation.
 
 
 <br>
@@ -245,7 +285,7 @@ We'll use [Gather.town](https://gather.town/){:target="_blank"}.
 ---
 
 <div id='review-questions'/>
-### 5. Review Questions
+### 6. Review Questions
 
 #### <h>Project Summary</h>
 
@@ -330,6 +370,7 @@ We'll use [Gather.town](https://gather.town/){:target="_blank"}.
 
 
 <b>[All] (Experimental Results) Are the experiments well designed, sufficient, clearly described?</b><br>
+*(Refer to the guidelines about "<a href="{{site.baseurl}}/{{page.path}}/../../project-submission-guidelines.html#infeasible-experiments">Infeasible Experiments</a>" before answering this question.)*<br>
 - Extensive, detailed, and informative evaluations without any missing benchmarks/datasets, evaluation metric, and comparison.
 - Solid and sufficient to convince the merits of the proposed method (Research) or the performance of the implementation (Development) (although lacking some minor experiments or simplifying the experiment setup a bit.)
 - Lacking some important experiments (in terms of benchmarks/datasets, evaluation metrics, comparisons, quantitative/qualitative results, etc).
