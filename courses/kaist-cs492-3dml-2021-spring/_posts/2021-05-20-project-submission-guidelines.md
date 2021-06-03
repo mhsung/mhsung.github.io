@@ -78,7 +78,7 @@ If you don't have an account at OpenReview, sign up here:<br>
 [https://openreview.net/signup](https://openreview.net/signup){:target="_blank"}<br>
 *Please use your KAIST email address.*
 
-- Must include a *report*, a *poster*, and a *code repository link*. (Supplementary materials are optional.)
+- A submission must include a *report*, a *poster*, and a *code repository link*. (Supplementary materials are optional.)
 - Submission with the *wrong format* or any *missing items* may receive a *zero* score.
 - Make a submission for each *team* (not for each person). Add all the team members' names in the submission.
 - *Development Track:* Make the *title* to be the *same* as the original paper.
