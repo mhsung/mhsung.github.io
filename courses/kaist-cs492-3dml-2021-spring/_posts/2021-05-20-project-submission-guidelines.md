@@ -55,7 +55,7 @@ h { background-color:#FFC107 }
 <div id='corrections-and-clarifications'/>
 ### 2. Corrections and Clarifications
 - <b>[Report Guidelines]</b> The review will be *single-blind*. Add *author names* in the report (*uncomment* `\cvprfinalcopy` in the CVPR template).
-- <b>[Report Guidelines]</b> Add the *project type* (Development Track / Research Track) in the *Second line* of the report title. Using LaTex, you can add like this: `\title{Project Title \\ {Development/Research} Track}`.
+- <b>[Report Guidelines]</b> Add the *project type* (Development Track / Research Track) in the *second line* of the report title. Using LaTex, you can add like this: `\title{Project Title \\ {Development/Research} Track}`.
 - <b>[Report Guidelines]</b> <em>Acknowledgments section is required</em>, even when you do not have the other team member, external collaborators, or any data/codes you borrowed from the other places (state the fact).
 - <b>[Report Guidelines]</b> For development track, it is allowed to *use qualitative result figures* in the original paper for comparisons (actually *highly recommended*), but *clearly mention* that the figures are from the original paper.
 - <b>[Code Submission]</b> In the code repository, provide *links of the pretrained models* (stored in Google Drive or any other places) and also *datasets you created*, so that anyone can easily check the replicability.
@@ -93,7 +93,7 @@ If you don't have an account at OpenReview, sign up here:<br>
 - Must be in *CVPR* format:<br>
 [LaTeX/Word Templates Zip file (CVPR 2021 format)](http://cvpr2021.thecvf.com/sites/default/files/2020-09/cvpr2021AuthorKit_2.zip){:target="_blank"}<br>
 [Overleaf template (CVPR 2018 format)](https://www.overleaf.com/latex/templates/cvpr-2018-template/qgmrfntfbqns){:target="_blank"}
-- Add the *project type* (Development Track / Research Track) in the second line of the report title. Using LaTex, you can add like this: `\title{Project Title \\ {Development/Research} Track}`.
+- Add the *project type* (Development Track / Research Track) in the *second line* of the report title. Using LaTex, you can add like this: `\title{Project Title \\ {Development/Research} Track}`.
 - Must be up to *four* pages long, including figures, tables, and acknowledgments, but not references. Additional pages containing only cited references are allowed.
 
 <h><b>Structure</b></h>
