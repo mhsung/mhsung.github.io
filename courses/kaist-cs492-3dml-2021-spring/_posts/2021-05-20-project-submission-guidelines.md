@@ -59,6 +59,7 @@ h { background-color:#FFC107 }
 - <b>[Report Guidelines]</b> For development track, it is allowed to *use qualitative result figures* in the original paper for comparisons (actually *highly recommended*), but *clearly mention* that the figures are from the original paper.
 - <b>[Code Submission]</b> In the code repository, provide *links of the pretrained models* (stored in Google Drive or any other places) and also *datasets you created*, so that anyone can easily check the replicability.
 - <b>[Review Guideline]</b> Guidelines about "<a href="{{site.baseurl}}/{{page.path}}/../../project-submission-guidelines.html#infeasible-experiments">Infeasible Experiments</a>" are added. The review question about experimental results is also revised to refer to the guidelines about "Infeasible Experiments".
+- <b>[Poster Guidelines]</b> The poster must *only* include the figures and experimental results shown in the report. Any new figures and new experimental results must *not* be shown on the poster. It is allowed to *edit* the figures and tables.
 
 
 <br>
@@ -205,6 +206,7 @@ The review will be *single-blind*. Add *author names* in the report (*uncomment*
 - Poster template: [<b>Link</b>](https://kaistackr-my.sharepoint.com/:p:/g/personal/mhsung_kaist_ac_kr/EQz68whVxahPoGdcBExRSqIBhcbldxFCXE9p-otheEmCTg?e=VF2sNi){:target="_blank"} (Design adapted from [Zoya Bylinskii](https://web.mit.edu/zoya/www/docs.html){:target="_blank"})<br>
 Do not need to use this template.
 - Must include *project title*, *project track*, *team member names*, and *acknowledgments*.
+- Must *only* include the figures and experimental results shown in the report. Any new figures and new experimental results must *not* be shown on the poster. It is allowed to *edit* the figures and tables.
 
 
 <b>Resources</b>
