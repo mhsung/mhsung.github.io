@@ -26,7 +26,26 @@ h { background-color:#FFC107 }
 </style>
 
 
-#### Schedule
+#### Poster Sessions
+<b>Check-In</b>: <h>Jun 7 (Mon), 7:30 pm - 8:30 pm KST</h> <br>
+<b>Poster Sesseion 1</b>: <h>Jun 8 (Tue), 8:50 am - 10:20 am KST</h> <br>
+<b>Poster Sesseion 2</b>: <h>Jun 10 (Thu), 8:50 am - 10:20 am KST</h> <br>
+
+
+<b>Gather.town Link</b>: <h>TBA</h><br>
+
+*All sessions (including the check-in session) are mandatory.*
+You will get a *20% penalty in the project evaluation if you are absent* from any session. Your attendance will be checked at the beginning, end, and middle of each session.
+
+
+#### Poster Session Logistics
+- Check your *presentation date* below. You will play a role as a *presenter* one day and *questioner* the other day. <h>Note that your project and the other projects reviewed by you will NOT be presented on the same day.</h> When you are not presenting (playing the role as a *questioner*), find the projects you are reviewing and ask questions in detail.
+- On the date when you are presenting, you must be stand-by in front of your poster *during the entire session* and waiting for questioners.
+- As a *presenter*, please prepare a *1-2 minutes pitch*. Questioners may bump into posters and ask presenters to "introduce your project".
+- The instructor will stop by each poster with the schedule below (subject to change).
+- All discussions during the poster sessions must be done in *English*.
+
+#### Poster Presentation Schedule
 
 <style>
 table th:first-of-type {
@@ -51,7 +70,7 @@ table td {
 
 <table style="width:100%;">
   <tr style="background-color:#F5F5F5">
-    <th>Time</th>
+    <th>Instructor<br>Schedule</th>
     <th>Jun 8 (Tue)</th>
     <th>Jun 10 (Thu)</th>
   </tr>
@@ -136,6 +155,9 @@ table td {
 
 </table>
 
-
+#### Award
+You will be asked to vote for the *best* poster.<br>
+The *best* poster will be awarded a <h>5%</h> bonus in the project evaluation.
 <br />
 
+<br />
