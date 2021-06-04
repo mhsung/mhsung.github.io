@@ -30,9 +30,8 @@ h { background-color:#FFC107 }
 1. [Submission Deadline & Website](#submission-deadline-website)
 2. [Corrections and Clarifications](#corrections-and-clarifications)
 3. [Submission Guidelines](#submission-guidelines)
-4. [Poster Sessions](#poster-sessions)
-5. [Review Guidelines](#review-guidelines)
-6. [Review Questions](#review-questions)
+4. [Review Guidelines](#review-guidelines)
+5. [Review Questions](#review-questions)
 
 
 <br>
@@ -235,22 +234,8 @@ If plagiarism or other academic misconduct is discovered in your submission (in 
 
 ---
 
-<div id='poster-sessions'/>
-### 4. Poster Sessions (Virtual)
-
-*TBA.*<br>
-
-We'll use [Gather.town](https://gather.town/){:target="_blank"}.
-
-
-<br>
-[Back to top](#)
-<br>
-
----
-
 <div id='review-guidelines'/>
-### 5. Review Guidelines
+### 4. Review Guidelines
 
 - You will be asked to review *four* projects, and each project will be reviewed by *at least four* peer reviewers.
 - The review will be *single-blind* and will be performed in *OpenReview*.<br>
@@ -264,7 +249,7 @@ We'll use [Gather.town](https://gather.town/){:target="_blank"}.
 
 In the report, you can argue the *infeasibility* of experiments that are expected to be shown in the results.
 For example,
-- Some experiments in the original work (Development Track) may not be reproducible if the experiments require too many GPUs or too large disk/memory spaces or some important details in the experiment are missing.
+- Some experiments in the original work (Development Track) may not be reproducible if the experiments require multiple GPUs or too large disk/memory spaces *(note that only one GPU is provided to each student)* or some important details in the experiment are missing.
 - An exact comparison with the original work (Development Track) or previous work (Research Track) may not be possible when the data used in the experiment is not released.
 
 For such infeasible experiments, the authors must consider *substituting* them with similar but feasible experiments (or, also argue why it is even not possible to substitute them).
@@ -285,7 +270,7 @@ For the experiments considered infeasible, do not take them into account in the 
 ---
 
 <div id='review-questions'/>
-### 6. Review Questions
+### 5. Review Questions
 
 #### <h>Project Summary</h>
 
