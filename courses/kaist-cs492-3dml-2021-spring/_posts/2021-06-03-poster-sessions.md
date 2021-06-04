@@ -107,7 +107,7 @@ table td {
 
   <tr>
   <td>09:30am - 09:35am</td>
-  <td>Ju il Koo</td>
+  <td>Juil Koo</td>
   <td>Junho Lee</td>
   </tr>
 
