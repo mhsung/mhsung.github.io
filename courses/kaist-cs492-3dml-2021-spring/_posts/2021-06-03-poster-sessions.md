@@ -28,8 +28,8 @@ h { background-color:#FFC107 }
 
 #### Poster Sessions
 <b>Check-In</b>: <h>Jun 7 (Mon), 7:30 pm - 8:30 pm KST</h> <br>
-<b>Poster Sesseion 1</b>: <h>Jun 8 (Tue), 8:50 am - 10:20 am KST</h> <br>
-<b>Poster Sesseion 2</b>: <h>Jun 10 (Thu), 8:50 am - 10:20 am KST</h> <br>
+<b>Poster Session 1</b>: <h>Jun 8 (Tue), 8:50 am - 10:20 am KST</h> <br>
+<b>Poster Session 2</b>: <h>Jun 10 (Thu), 8:50 am - 10:20 am KST</h> <br>
 
 
 <b>Gather.town Link</b>: <h>TBA</h><br>
