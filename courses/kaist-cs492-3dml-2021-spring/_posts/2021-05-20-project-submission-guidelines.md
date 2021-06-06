@@ -365,6 +365,7 @@ For the experiments considered infeasible, do not take them into account in the 
 
 
 <b>[Development] (Reproduction) Do the implementation reproduce the results in the original work?</b><br>
+*(Refer to the guidelines about "<a href="{{site.baseurl}}/{{page.path}}/../../project-submission-guidelines.html#infeasible-experiments">Infeasible Experiments</a>" before answering this question.)*<br>
 - Yes, and even improved/outperformed the original work, or showed more results in different applications.
 - Almost, the results are similar.
 - A bit worse but comparable.
@@ -384,11 +385,13 @@ For the experiments considered infeasible, do not take them into account in the 
 <b>[All] (Feedback) Provide questions or comments to the submitters if you have.</b><br>
 
 
-<b>[All] (Overall Score) Please provide an "overall score" for this submission (in [1-5] range).</b><br>
+<b>[All] (Overall Score) Please provide an "overall score" for this submission (in [1-5] range). One decimal is allowed (e.g., 3.5).</b><br>
+*(Refer to the "<a href="{{site.baseurl}}/{{page.path}}/../../project-submission-guidelines.html#rating-criteria">Rating Criteria</a>" before answering this question.)*<br>
 <br>
 
 
-#### <h>Scoring Criteria</h>
+<div id='rating-criteria'/>
+#### <h>Rating Criteria</h>
 
 *Criteria of score 4 (‘Great!’) (AND conditions)*<br>
 - [All] <b>(Report Writing)</b> The report is well-organized and clearly written.
