@@ -32,7 +32,7 @@ h { background-color:#FFC107 }
 <b>Poster Session 2</b>: <h>Jun 10 (Thu), 8:50 am - 10:20 am KST</h> <br>
 
 
-<b>Gather.town Link</b>: <h>TBA</h><br>
+<b>Gather.town Link</b>: [https://gather.town/i/D9hpxV89](https://gather.town/i/D9hpxV89){:target="_blank"}<br>
 
 *All sessions (including the check-in session) are mandatory.*
 You will get a *20% penalty in the project evaluation if you are absent* from any session. Your attendance will be checked at the beginning, end, and middle of each session.
