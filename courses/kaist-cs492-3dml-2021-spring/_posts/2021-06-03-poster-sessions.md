@@ -78,13 +78,13 @@ table td {
   <tr>
   <td>09:05am - 09:10am</td>
   <td>Wonkwang Lee, Whie Jung</td>
-  <td>Yunpyo An</td>
+  <td>Shyngys Aitkazinov</td>
   </tr>
 
   <tr>
   <td>09:10am - 09:15am</td>
   <td>Soomin Park </td>
-  <td>Taegyu Jin</td>
+  <td>Yunpyo An</td>
   </tr>
 
   <tr>
@@ -145,12 +145,6 @@ table td {
   <td>10:00am - 10:05am</td>
   <td>Byeoli Choi</td>
   <td>Chong Soo Chang</td>
-  </tr>
-
-  <tr>
-  <td>10:05am - 10:10am</td>
-  <td>Shyngys Aitkazinov</td>
-  <td></td>
   </tr>
 
 </table>
