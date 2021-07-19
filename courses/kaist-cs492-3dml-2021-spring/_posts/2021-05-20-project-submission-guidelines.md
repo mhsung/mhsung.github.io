@@ -42,7 +42,9 @@ h { background-color:#FFC107 }
 <div id='submission-deadline-website'/>
 ### 1. Submission Deadline & Website
 
-*Submission deadline*: <h><b>Jun 06 (Sun), 23:59 KST</b></h><br>
+*Submission Deadline*: <h><b>Jun 06 (Sun), 23:59 KST</b></h><br>
+*Review Deadline*: <h><b>Jun 17 (Thu), 23:59 KST</b></h><br>
+*Rebuttal & Final Decision deadline*: <h><b>Jun 20 (Sun), 23:59 KST</b></h><br>
 *OpenReview* submission website:<br>
 [https://openreview.net/group?id=kaist.ac.kr/KAIST/Spring2021/CS492H](https://openreview.net/group?id=kaist.ac.kr/KAIST/Spring2021/CS492H){:target="_blank"}<br>
 
