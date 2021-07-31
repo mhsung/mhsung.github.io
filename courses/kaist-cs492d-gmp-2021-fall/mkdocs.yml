@@ -1,6 +1,0 @@
-site_name: CS492(D) Geometry Modeling and Processing (KAIST, Fall 2021)
-theme:
-  name: material
-extra_css:
-  - stylesheets/extra.css
-plugins: []
