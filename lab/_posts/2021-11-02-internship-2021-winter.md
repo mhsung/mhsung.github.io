@@ -3,7 +3,7 @@ title: "Call for Winter Internships"
 
 info: <a href="http://mhsung.github.io/" target="_blank">Minhyuk Sung</a>, <a href="https://www.kaist.ac.kr/" target="_blank">KAIST</a>, Winter 2021
 
-slug: test
+slug: internship-2021-winter
 
 date: 2021-11-02
 ---
