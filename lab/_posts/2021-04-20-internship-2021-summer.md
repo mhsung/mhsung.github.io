@@ -44,7 +44,7 @@ For reference, check out
 
 
 ### Requirements
-- We're looking for students who have experience in developing any <em>deep learning</em> techiniques (either with PyTorch or TensorFlow).
+- We're looking for students who have experience in developing any <em>deep learning</em> techniques (either with PyTorch or TensorFlow).
 - Students who are now taking or auditing the <em><a href="{{site.baseurl}}/courses/kaist-cs492-3dml-2021-spring/" target="_blank">CS492(H): Machine Learning for 3D Data</a></em> course will be preferred (but not required). All potential candidates will be asked to finish following the course materials before starting the internship so that they can have enough background to do research.
 - Students who can extend the internship after the summer will be preferred.
 
