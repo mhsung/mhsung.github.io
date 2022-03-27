@@ -1,7 +1,7 @@
 ---
 title:  "Data-driven Structural Priors for Shape Completion"
 
-author: <a href="http://mhsung.github.io/" target="_blank">Minhyuk Sung</a>, <a href="http://www.vovakim.com/" target="_blank">Vladimir G. Kim</a>, <a href="http://rangst.github.io" target="_blank">Roland Angst</a>, and <a href="http://geometry.stanford.edu/member/guibas/" target="_blank">Leonidas Guibas</a>
+author: <a href="http://mhsung.github.io/" target="_blank">Minhyuk Sung</a>, <a href="http://www.vovakim.com/" target="_blank">Vladimir G. Kim</a>, <a href="http://rangst.github.io" target="_blank">Roland Angst</a>, <a href="http://geometry.stanford.edu/member/guibas/" target="_blank">Leonidas Guibas</a>
 
 journal: SIGGRAPH Asia 2015
 

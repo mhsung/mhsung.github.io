@@ -1,7 +1,7 @@
 ---
 title:  "Learning Fuzzy Set Representations of Partial Shapes on Dual Embedding Spaces"
 
-author: <a href="http://mhsung.github.io/" target="_blank">Minhyuk Sung</a>, <a href="http://web.stanford.edu/~adkarni/" target="_blank">Anastasia Dubrovina</a>, <a href="http://www.vovakim.com/" target="_blank">Vladimir G. Kim</a>, and <a href="https://geometry.stanford.edu/member/guibas/" target="_blank:">Leonidas Guibas</a>
+author: <a href="http://mhsung.github.io/" target="_blank">Minhyuk Sung</a>, <a href="http://web.stanford.edu/~adkarni/" target="_blank">Anastasia Dubrovina</a>, <a href="http://www.vovakim.com/" target="_blank">Vladimir G. Kim</a>, <a href="https://geometry.stanford.edu/member/guibas/" target="_blank:">Leonidas Guibas</a>
 
 journal: SGP 2018 (Symposium on Geometry Processing)
 

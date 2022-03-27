@@ -1,7 +1,7 @@
 ---
 title:  "DeepMetaHandles: Learning Deformation Meta-Handles of 3D Meshes with Biharmonic Coordinates"
 
-author: <a href="http://cseweb.ucsd.edu/~mil070/" target="_blank">Minghua Liu</a>, <a href="http://mhsung.github.io/" target="_blank">Minhyuk Sung</a>, <a href="https://research.adobe.com/person/radomir-mech/" target="_blank">Radomír Měch</a>, and <a href="http://cseweb.ucsd.edu/~haosu/" target="_blank">Hao Su</a>
+author: <a href="http://cseweb.ucsd.edu/~mil070/" target="_blank">Minghua Liu</a>, <a href="http://mhsung.github.io/" target="_blank">Minhyuk Sung</a>, <a href="https://research.adobe.com/person/radomir-mech/" target="_blank">Radomír Měch</a>, <a href="http://cseweb.ucsd.edu/~haosu/" target="_blank">Hao Su</a>
 
 journal: CVPR 2021 (Oral)
 
