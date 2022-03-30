@@ -45,7 +45,7 @@ Start your video with a title slide.
 - Feel free to add *your photo* (actually recommended!) and change the layout of the title slide.
 - Check out your *project ID* in slack.
 
-#### Contents
+#### Content
 Include the followings in your video:
 - The <b>motivation</b> of the work
 - <b>Problem definition</b> (Input, output, training data, supervision provided, expected results.)
