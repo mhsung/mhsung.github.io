@@ -1,0 +1,55 @@
+{% assign news = site.data.news.news | reverse %}
+{% assign news_limit = 10 %}
+<section class="section news-section">
+
+    <h2 class="section-title">
+        News
+    </h2>
+
+    <div class="news-table">
+        {% if page.news_show_less %}
+
+            {% for item in news limit:news_limit %}
+
+            <div class="news-table-row">
+                <div class="news-time-cell">{{ item.time }}</div>
+                {% if item.link %}
+                    <a href="{{ item.link }}" target=_blank>
+                        <div class="news-description-cell">{{ item.title }}</div>
+                    </a>
+                {% else %}
+                    <div class="news-description-cell">{{ item.title }}</div>
+                {% endif %}
+            </div>
+
+            {% endfor %}
+
+            {% if news.size > news_limit %}
+                <a href="{{ side.baseurl }}/archive/news.html">More</a>
+            {% endif %}
+
+        {% else %}
+
+            {% for item in news %}
+
+            <div class="news-table-row">
+                <div class="news-time-cell">{{ item.time }}</div>
+                {% if item.link %}
+                    <a href="{{ item.link }}" target=_blank>
+                        <div class="news-description-cell">{{ item.title }}</div>
+                    </a>
+                {% else %}
+                    <div class="news-description-cell">{{ item.title }}</div>
+                {% endif %}
+            </div>
+
+            {% endfor %}
+
+            <a href="{{ side.baseurl }}/index.html">Less</a>
+
+        {% endif %}
+
+    </div>
+
+
+</section><!--//section-->

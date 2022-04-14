@@ -1,25 +1,29 @@
+#Update all the sections by editing the data.yml file inside _data folder.
+
+# Site Settings
 title: Minhyuk Sung
-url: 'https://mhsung.github.io/'
-#baseurl: '/example' #change it according to your repository name
+url: https://mhsung.github.io/
+baseurl: '' #change it according to your repository name
+description: Minhyuk Sung
+# Style will be applied only after restarting the build or serve. Just choose one of the options.
+theme_skin: kaist # blue turquoise green berry orange ceramic
+chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 permalink: none
 
-#Profile information
-name: Minhyuk Sung
-tagline: Assistant Professor<br>School of Computing<br>KAIST
-#pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-
-#sidebar links
-email: mhsung@kaist.ac.kr
-website: mhsung.github.io/ #do not add http://
-linkedin: mhsung
-github: mhsung
-google_scholar: scholar.google.com/citations?user=PcIYMp4AAAAJ&hl=en
-cv: cv/sung_cv.pdf
-research_statement: assets/files/sung-sig19-dc.pdf
-
 # Tracker
-google-analytics: G-J7CL2CDZJL
-#Update all the sections by editing the files inside _includes folder.
+analytics: UA-35688210-1
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Build settings
-markdown: kramdown
+compress-site: yes
+
+encoding: "utf-8"
+compress_html: # - http://jch.penibelst.de/
+  clippings: all
+  ignore:
+    envs: development
+

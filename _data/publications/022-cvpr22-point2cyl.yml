@@ -1,0 +1,20 @@
+key: point2cyl
+title: "Point2Cyl: Reverse Engineering 3D Objects from Point Clouds to Extrusion Cylinders"
+authors:
+    - name: Mikaela Angelina Uy*
+      link: https://mikacuy.github.io/
+    - name: Yen-yu Chang*
+      link: https://yuyuchang.github.io/
+    - name: Minhyuk Sung
+    - name: Purvi Goel
+      link: https://www.purvigoel.com/
+    - name: Joseph Lambourne
+      link: https://www.autodesk.com/research/people/joseph-lambourne
+    - name: Tolga Birdal
+      link: http://tbirdal.me/
+    - name: Leonidas Guibas
+      link: https://geometry.stanford.edu/member/guibas/
+authors_note: equal contributions
+venue: CVPR 2022
+#publication_note:
+arXiv: https://arxiv.org/abs/2112.09329

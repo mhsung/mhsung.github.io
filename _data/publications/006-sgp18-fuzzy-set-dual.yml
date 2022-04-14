@@ -1,0 +1,18 @@
+key: fuzzy-set-dual
+title: "Learning Fuzzy Set Representations of Partial Shapes on Dual Embedding Spaces"
+authors:
+    - name: Minhyuk Sung
+    - name: Anastasia Dubrovina
+      link: https://anastasiadk.github.io/
+    - name: Vladimir G. Kim
+      link: http://www.vovakim.com/
+    - name: Leonidas Guibas
+      link: https://geometry.stanford.edu/member/guibas/
+#authors_note:
+venue: SGP 2018
+#publication_note:
+project_exist: true
+pdf_exist: true
+slides_exist: true
+arXiv: https://arxiv.org/abs/1807.01519
+code: https://github.com/mhsung/fuzzy-set-dual

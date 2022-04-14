@@ -1,0 +1,16 @@
+key: gspn
+title: "GSPN: Generative Shape Proposal Network for 3D Instance Segmentation in Point Cloud"
+authors:
+    - name: Li Yi
+      link: https://ericyi.github.io/
+    - name: Wang Zhao
+    - name: He Wang
+      link: https://hughw19.github.io/
+    - name: Minhyuk Sung
+    - name: Leonidas Guibas
+      link: https://geometry.stanford.edu/member/guibas/
+#authors_note:
+venue: CVPR 2019
+#publication_note:
+arXiv: https://arxiv.org/abs/1812.03320
+code: https://github.com/ericyi/GSPN

@@ -1,0 +1,13 @@
+key: neural-parser
+title: "Neural Geometric Parser for Single Image Camera Calibration"
+authors:
+    - name: Jinwoo Lee
+    - name: Minhyuk Sung
+    - name: Hyunjoon Lee
+      link: https://sites.google.com/site/eldercrow/
+    - name: Junho Kim
+      link: https://home1.kookmin.ac.kr/~junho/
+#authors_note:
+venue: ECCV 2020
+#publication_note:
+arXiv: https://arxiv.org/abs/2007.11855

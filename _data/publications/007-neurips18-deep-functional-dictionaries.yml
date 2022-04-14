@@ -1,0 +1,16 @@
+key: deep-functional-dictionaries
+title: "Deep Functional Dictionaries: Learning Consistent Semantic Structures on 3D Models from Functions"
+authors:
+    - name: Minhyuk Sung
+    - name: Hao Su
+      link: http://cseweb.ucsd.edu/~haosu/
+    - name: Ronald Yu
+    - name: Leonidas Guibas
+      link: https://geometry.stanford.edu/member/guibas/
+#authors_note:
+venue: NeurIPS 2018
+#publication_note:
+pdf_exist: true
+poster_exist: true
+arXiv: https://arxiv.org/abs/1805.09957
+code: https://github.com/mhsung/deep-functional-dictionaries

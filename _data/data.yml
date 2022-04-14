@@ -1,0 +1,37 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+# https://github.com/yuyq96/yuyq96.github.io
+
+sidebar:
+  # Profile information
+  name: Minhyuk Sung
+  name_legacy: Min-Hyuk Sung
+  tagline: |
+    Assistant Professor  
+    [School of Computing](http://cs.kaist.ac.kr/){:target="_blank"}  
+    [Graduate School of AI](http://gsai.kaist.ac.kr/){:target="_blank"}  
+    [KAIST](http://www.kaist.ac.kr/){:target="_blank"}<br>  
+    [Curriculum Vitae (PDF)](http://mhsung.github.io/cv/sung_cv.pdf){:target="_blank"}
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    # Sidebar links
+  email: mhsung@kaist.ac.kr
+  phone: +82-42-350-3587
+  website: mhsung.github.io/ # do not add http://
+    #linkedin: mhsung
+  github: github.com/mhsung
+  twitter: minhyuk_sung
+  cv: mhsung.github.io/cv/sung_cv.pdf
+  google-scholar: PcIYMp4AAAAJ&hl
+
+  address: | 
+    N1, Rm 607, KAIST  
+    291 Daehak-ro, Yuseong-gu,  
+    Daejeon, South Korea 34141  
+    Tel: (+82)-042-350-3587
+
+profile:
+    title: Biography
+    summary: |
+      I am an assistant professor in the [School of Computing](http://cs.kaist.ac.kr/){:target="_blank"} at [KAIST](http://www.kaist.ac.kr/){:target="_blank"} (also affiliated with the [Graduate School of AI](http://gsai.kaist.ac.kr/){:target="_blank"}). Before joining KAIST, I was a research scientist at [Adobe Research](https://research.adobe.com/){:target="_blank"}. I received my Ph.D. from [Stanford University](https://www.stanford.edu/){:target="_blank"}, advised by [Leonidas Guibas](http://geometry.stanford.edu/member/guibas){:target="_blank"}, and received M.S. and B.S. degrees from [KAIST](http://www.kaist.ac.kr/){:target="_blank"}. My research focuses on 3D deep learning and geometry processing.
+

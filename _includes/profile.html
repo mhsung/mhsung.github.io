@@ -1,46 +1,10 @@
-<div class="profile-container">
-  <img class="profile-img" src="{{site.baseurl}}/assets/images/profile.png" alt="profile picture" />
-  <h1 class="name">{{site.name}}</h1>
-  <h3 class="tagline">
-    Assistant Professor<br>
-    <a href="http://cs.kaist.ac.kr/" target="_blank">School of Computing</a><br>
-    <a href="http://www.kaist.ac.kr/" target="_blank">KAIST</a>
-  </h3>
-  <h3 class="icon">
-    <a href="http://{{site.website}}"><i class="fa fa-globe"></i></a> 
-    <a href="mailto:{{site.email}}"><i class="fa fa-envelope"></i></a>
-    <a href="https://in.linkedin.com/in/{{site.linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a> 
-    <!-- <a href="http://github.com/{{site.github}}" target="_blank"><i class="fa fa-github"></i></a> -->
-  </h3>
-</div><!--//profile-container-->
+{% assign profile = site.data.data.profile %}
+{% if profile %}
+<section class="section summary-section">
 
-<div class="about-container">
-  <section class="section summary-section">
-    <h2 class="section-title">About Me</h2>
     <div class="summary">
-      <p>
-      I am an assistant professor in the <a href="http://cs.kaist.ac.kr/" target="_blank">School of Computing</a> at <a href="http://www.kaist.ac.kr/" target="_blank">KAIST</a> (also affiliated with the <a href="http://gsai.kaist.ac.kr/" target="_blank">Graduate School of AI</a>). Before joining KAIST, I was a research scientist at <a href="https://research.adobe.com/" target="_blank">Adobe Research</a>.
-      <!--
-      I received my Ph.D. in the <a href="https://cs.stanford.edu/" target="_blank">Computer Science</a> department at <a href="https://www.stanford.edu/" target="_blank">Stanford University</a>, advised by <a href="http://geometry.stanford.edu/member/guibas/" target="_blank">Leonidas Guibas</a>. My research focuses on 3D deep learning and geometry processing.
-      Previously, I have interned at <a href="https://www.google.com/" target="_blank">Google</a>, <a href="https://research.adobe.com/" target="_blank">Adobe Research</a>, and <a href="https://www.autodeskresearch.com/" target="_blank">Autodesk Research</a>, and worked as a researcher at <a href="https://eng.kist.re.kr/kist_eng/main/" target="_blank">Korea Institute of Science and Technology (KIST)</a>. I received MS and BS degrees in <a href="https://cs.kaist.ac.kr/" target="_blank">Computer Science</a> at <a href="http://www.kaist.edu/" target="_blank">Korea Advanced Institute of Science and Technology (KAIST)</a>.
-      -->
-      I received my Ph.D. from <a href="https://www.stanford.edu/" target="_blank">Stanford University</a>, advised by <a href="http://geometry.stanford.edu/member/guibas/" target="_blank">Leonidas Guibas</a>, and received M.S. and B.S. degrees from <a href="http://www.kaist.edu/" target="_blank">KAIST</a>. My research focuses on 3D deep learning and geometry processing.
-      </p>
-      <p>
-      <b>I am looking for new graduate students to join my group. Please reach out to me via <a href="mailto: {{site.email}}">email</a> if you are interested in.</b>
-      </p>
-      <div class="icon">
-      <i class="ai ai-cv-square ai-1x"></i>  <a href="{{site.baseurl}}/{{site.cv}}" target="_blank">CV</a> &nbsp; | &nbsp;
-      <i class="ai ai-google-scholar-square ai-1x"></i>  <a href="https://{{site.google_scholar}}" target="_blank">Google Scholar</a> &nbsp; | &nbsp;
-      <i class="fa fa-github"></i>  <a href="https://github.com/{{site.github}}" target="_blank">GitHub</a>
-      </div>
-      <span class="icon">
-      <i class="fa fa-file-pdf-o"></i>  <a href="{{site.baseurl}}/{{site.research_statement}}" target="_blank">Research Statement</a>
-      </span>
-      <span class="small">(Presented at SIGGRAPH 2019 Doctoral Consortium)</div>
+        {{ profile.summary | markdownify }}
     </div><!--//summary-->
-  </section><!--//section-->
-  <hr>
-</div><!--//about-container-->
 
-
+</section><!--//section-->
+{% endif %}

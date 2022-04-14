@@ -1,0 +1,51 @@
+{% assign talks = site.data.talks.talks %}
+{% assign talks_limit = 2 %}
+<div class="talks-container container-block">
+
+    <h2 class="container-block-title">
+        Talks
+    </h2>
+
+    <ul class="list-unstyled talks-list">
+        {% if page.talks_show_less %}
+
+            {% for item in talks limit: talks_limit %}
+                {% if item.link %}
+                    <li>
+                        {{ item.time }}<br>
+                        <a href="{{ item.link }}" target="_blank">{{ item.title }}</a>
+                    </li>
+                {% else %}
+                    <li>
+                        {{ item.time }}<br>
+                        {{ item.title }}
+                    </li>
+                {% endif %}
+            {% endfor %}
+
+            {% if talks.size > talks_limit %}
+                <a href="{{ side.baseurl }}/archive/talks.html">More</a>
+            {% endif %}
+
+        {% else %}
+
+            {% for item in talks %}
+                {% if item.link %}
+                    <li>
+                        {{ item.time }}<br>
+                        <a href="{{ item.link }}" target="_blank">{{ item.title }}</a>
+                    </li>
+                {% else %}
+                    <li>
+                        {{ item.time }}<br>
+                        {{ item.title }}
+                    </li>
+                {% endif %}
+            {% endfor %}
+
+            <a href="{{ side.baseurl }}/index.html">Less</a>
+
+        {% endif %}
+    </ul>
+
+</div><!--//talks-->

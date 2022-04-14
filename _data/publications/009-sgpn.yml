@@ -1,0 +1,18 @@
+key: spfn
+title: "Supervised Fitting of Geometric Primitives to 3D Point Clouds"
+authors:
+    - name: Lingxiao Li*
+      link: https://www.csail.mit.edu/person/lingxiao-li
+    - name: Minhyuk Sung*
+    - name: Anastasia Dubrovina
+      link: https://anastasiadk.github.io/
+    - name: Li Yi
+      link: https://ericyi.github.io/
+    - name: Leonidas Guibas
+      link: https://geometry.stanford.edu/member/guibas/
+authors_note: equal contributions
+venue: CVPR 2019
+publication_note: Oral
+arXiv: https://arxiv.org/abs/1811.08988
+video: https://www.youtube.com/watch?v=BQZ5xKd5kis&t=5815s
+code: https://github.com/lingxiaoli94/SPFN

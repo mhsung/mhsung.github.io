@@ -1,0 +1,13 @@
+key: anisotropic
+title: "A Triangulation-Invariant Method for Anisotropic Geodesic Map Computation on Surface Meshes"
+authors:
+    - name: Sang Wook Yoo
+    - name: Joon-Kyung Seong
+      link: https://koreauniv.pure.elsevier.com/en/persons/jun-kyung-seong
+    - name: Min-Hyuk Sung
+    - name: Sung Yong Shin
+    - name: Elaine Cohen
+#authors_note:
+venue: TVCG 2012
+#publication_note:
+link: https://doi.org/10.1109/TVCG.2012.29

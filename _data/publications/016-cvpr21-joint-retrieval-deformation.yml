@@ -1,0 +1,20 @@
+key: joint-retrieval-deformation
+title: "Joint Learning of 3D Shape Retrieval and Deformation"
+authors:
+    - name: Mikaela Angelina Uy
+      link: https://mikacuy.github.io/
+    - name: Vladimir G. Kim
+      link: http://www.vovakim.com/
+    - name: Minhyuk Sung
+    - name: Noam Aigerman
+      link: https://noamaig.github.io/
+    - name: Siddhartha Chaudhuri
+      link: https://www.cse.iitb.ac.in/~sidch/
+    - name: Leonidas Guibas
+      link: https://geometry.stanford.edu/member/guibas/
+#authors_note:
+venue: CVPR 2021
+#publication_note:
+project: https://joint-retrieval-deformation.github.io/
+arXiv: https://arxiv.org/abs/2101.07889
+code: https://github.com/mikacuy/joint_learning_retrieval_deformation

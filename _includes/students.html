@@ -1,0 +1,91 @@
+<div class="students-container container-block">
+
+    <h2 class="container-block-title">
+        Students
+    </h2>
+
+    {% assign students = site.data.students.phd %}
+    {% if students.size > 0 %}
+        <h3 class="container-block-subtitle">
+            Ph.D. Students
+        </h3>
+
+        <div class="student-table">
+            {% for item in students %}
+                {% assign mod = forloop.index | modulo: 2 %}
+                {% if mod == 1 %}
+                    {% if forloop.first == false %}
+                        </div>
+                    {% endif %}
+                    <div class="student-table-row">
+                {% endif %}
+
+                <div class="student-cell">
+                    {% if item.link %}
+                        <a href="{{ item.link }}" target="_blank">{{ item.name }}</a>
+                    {% else %}
+                        {{ item.name }}
+                    {% endif %}
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+
+    {% assign students = site.data.students.ms %}
+    {% if students.size > 0 %}
+        <h3 class="container-block-subtitle">
+            Masters Students
+        </h3>
+
+        <div class="student-table">
+            {% for item in students %}
+                {% assign mod = forloop.index | modulo: 2 %}
+                {% if mod == 1 %}
+                    {% if forloop.first == false %}
+                        </div>
+                    {% endif %}
+                    <div class="student-table-row">
+                {% endif %}
+
+                <div class="student-cell">
+                    {% if item.link %}
+                        <a href="{{ item.link }}" target="_blank">{{ item.name }}</a>
+                    {% else %}
+                        {{ item.name }}
+                    {% endif %}
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+
+    {% assign students = site.data.students.undergrad %}
+    {% if students.size > 0 %}
+        <h3 class="container-block-subtitle">
+            Undergraduate Students
+        </h3>
+
+        <div class="student-table">
+            {% for item in students %}
+                {% assign mod = forloop.index | modulo: 2 %}
+                {% if mod == 1 %}
+                    {% if forloop.first == false %}
+                        </div>
+                    {% endif %}
+                    <div class="student-table-row">
+                {% endif %}
+
+                <div class="student-cell">
+                    {% if item.link %}
+                        <a href="{{ item.link }}" target="_blank">{{ item.name }}</a>
+                    {% else %}
+                        {{ item.name }}
+                    {% endif %}
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+
+</div><!--//students-->

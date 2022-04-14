@@ -1,0 +1,23 @@
+key: complement-me
+title: "ComplementMe: Weakly-Supervised Component Suggestions for 3D Modeling"
+authors:
+    - name: Minhyuk Sung
+    - name: Hao Su
+      link: http://cseweb.ucsd.edu/~haosu/
+    - name: Vladimir G. Kim
+      link: http://www.vovakim.com/
+    - name: Siddhartha Chaudhuri
+      link: https://www.cse.iitb.ac.in/~sidch/
+    - name: Leonidas Guibas
+      link: https://geometry.stanford.edu/member/guibas/
+#authors_note:
+venue: SIGGRAPH Asia 2017
+publication_note: Featured in an ACM press release
+project_exist: true
+pdf_exist: true
+slides_exist: true
+arXiv: https://arxiv.org/abs/1708.01841
+code: https://github.com/mhsung/complement-me
+press_release:
+    - link: https://www.eurekalert.org/news-releases/724719
+    - link: https://scienmag.com/simplifying-assembly-based-design-for-3-d-modeling/

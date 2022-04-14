@@ -1,0 +1,13 @@
+key: unprojection
+title: "Image Unprojection for 3D Surface Reconstruction: A Triangulation-based Approach"
+authors:
+    - name: Min-Hyuk Sung
+    - name: Hwasup Lim
+      link: https://www.hwasup.net/
+    - name: Hyoung-Gon Kim
+    - name: Sang Chul Ahn
+      link: https://sites.google.com/view/asckist
+#authors_note:
+venue: ICIP 2013
+#publication_note:
+link: https://doi.org/10.1109/ICIP.2013.6738034

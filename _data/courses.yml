@@ -1,0 +1,10 @@
+courses:
+  - title: "CS492(A): Machine Learning for 3D Data"
+    link: https://mhsung.github.io/kaist-cs492a-spring-2022/
+    time: Spring 2022
+  - title: "CS492(D): Geometric Modeling and Processing"
+    link: https://mhsung.github.io/kaist-cs492d-fall-2021/
+    time: Fall 2021
+  - title: "CS492(H): Machine Learning for 3D Data"
+    link: https://mhsung.github.io/courses/kaist-cs492h-spring-2021/
+    time: Spring 2021

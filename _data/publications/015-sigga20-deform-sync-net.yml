@@ -1,0 +1,19 @@
+key: deform-sync-net
+title: "DeformSyncNet: Deformation Transfer via Synchronized Shape Deformation Spaces"
+authors:
+    - name: Minhyuk Sung*
+    - name: Zhenyu Jiang*
+      link: https://zhenyujiang.me/
+    - name: Panos Achlioptas
+      link: https://optas.github.io/
+    - name: Niloy Mitra
+      link: http://www0.cs.ucl.ac.uk/staff/n.mitra/
+    - name: Leonidas Guibas
+      link: https://geometry.stanford.edu/member/guibas/
+authors_note: equal contributions
+venue: SIGGRAPH Asia 2020
+#publication_note:
+project_exist: true
+arXiv: http://arxiv.org/abs/2009.01456
+pdf_exist: true
+code: https://github.com/Steve-Tod/DeformSyncNet

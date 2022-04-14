@@ -1,0 +1,17 @@
+key: ctrl-c
+title: "CTRL-C: Camera calibration TRansformer with Line-Classification"
+authors:
+    - name: Jinwoo Lee
+    - name: Hyunsung Go
+    - name: Hyunjoon Lee
+      link: https://sites.google.com/site/eldercrow/
+    - name: Sunghyun Cho
+      link: https://www.scho.pe.kr/
+    - name: Minhyuk Sung
+    - name: Junho Kim
+      link: https://home1.kookmin.ac.kr/~junho/
+#authors_note:
+venue: ICCV 2021
+#publication_note:
+arXiv: https://arxiv.org/abs/2109.02259
+code: https://github.com/jwlee-vcl/CTRL-C

@@ -1,0 +1,18 @@
+key: deep-meta-handles
+title: "DeepMetaHandles: Learning Deformation Meta-Handles of 3D Meshes with Biharmonic Coordinates"
+authors:
+    - name: Minghua Liu
+      link: http://cseweb.ucsd.edu/~mil070/
+    - name: Minhyuk Sung
+    - name: Radomír Měch
+      link: https://research.adobe.com/person/radomir-mech/
+    - name: Hao Su
+      link: http://cseweb.ucsd.edu/~haosu/
+#authors_note:
+venue: CVPR 2021
+publication_note: Oral
+project_exist: true
+arXiv: https://arxiv.org/abs/2102.09105
+code: https://github.com/Colin97/DeepMetaHandles
+web_demo: https://mhsung.github.io/deep-meta-handles-demo/web_demo.html
+supplementary: http://cseweb.ucsd.edu/~mil070/deep_meta_handles_supp_animations.html

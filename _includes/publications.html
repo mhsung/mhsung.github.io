@@ -1,655 +1,130 @@
+{% assign publications = site.data.publications %}
+{% assign my_name = site.data.data.sidebar.name %}
+{% assign my_name_legacy = site.data.data.sidebar.name_legacy %}
 <section class="section publications-section">
-  <!--<h2 class="section-title"><i class="fa fa-archive"></i>Publications</h2>-->
-  <h2 class="section-title">Publications</h2>
 
-  <div class="table">
+    <h2 class="section-title">
+        Publications
+    </h2>
 
-    <!-- cvpr 22' 3/3 -->
-    <div class="table-row">
-      <div class="thumbnail-cell">
-        <img class="thumbnail" src="{{site.baseurl}}/assets/images/partglot-cvpr22-thumbnail.png" alt="thumbnail"/>
-      </div>
-      <div class="description-cell">
-        <span class="title">
-          <a href="https://arxiv.org/abs/2112.06390" target="_blank">
-            PartGlot: Learning Shape Part Segmentation from Language Reference Games
-          </a>
-        </span><br>
-        <span class="summary">
-          <a href="https://github.com/63days" target="_blank">Juil Koo</a>, 
-          <a href="https://ianhuang0630.github.io/" target="_blank">Ian Huang</a>,  
-          <a href="https://optas.github.io/" target="_blank">Panos Achlioptas</a>, 
-          <a href="https://geometry.stanford.edu/member/guibas/" target="_blank">Leonidas Guibas</a>, 
-          <b>Minhyuk Sung</b>
-          <br>
-          CVPR 2022 <b>(Oral)</b><br>
-          <a href="{{site.baseurl}}/papers/partglot.html" target="_blank">Project</a> | 
-          <a href="https://arxiv.org/abs/2112.06390" target="_blank">arXiv</a> | 
-          <a href="https://github.com/63days/PartGlot" target="_blank">Code</a>
-        </span>
-      </div>
+    <div class="publication-table">
+        {% for paper_hash in publications reversed %}
+        <div class="publication-table-row">
+            {% assign paper = paper_hash[1] %}
+            <div class="publication-thumbnail-cell">
+                <img class="thumbnail"
+                src="{{ site.baseurl }}/assets/images/{{ paper.key }}-thumbnail.png"
+                alt="thumbnail"/>
+            </div>
+
+            <div class="publication-description-cell">
+                <div class="publication-title">
+                    {% if paper.project_exist %}
+                        <a href="{{ site.baseurl }}/publications/{{ paper.key }}" target=_blank>{{ paper.title }}</a>
+                    {% elsif paper.project %}
+                        <a href="{{ paper.project }}" target=_blank>{{ paper.title }}</a>
+                    {% elsif paper.arXiv %}
+                        <a href="{{ paper.arXiv }}" target=_blank>{{ paper.title }}</a>
+                    {% elsif paper.link %}
+                        <a href="{{ paper.link }}" target=_blank>{{ paper.title }}</a>
+                    {% else %}
+                        {{ paper.title }}
+                    {% endif %}
+                </div>
+
+                <div class="publication-summary">
+                    {% assign author_names = "" | split: "/" %}
+                    {% for author in paper.authors %}
+                        {% if author.name contains my_name or author.name contains my_name_legacy %}
+                            {%- capture author_name -%}
+                                <b>{{ author.name }}</b>
+                            {%- endcapture -%}
+                        {% else %}
+                            {% if author.link %}
+                                {%- capture author_name -%}
+                                    <a href="{{ author.link }}" target=_blank>{{ author.name }}</a>
+                                {%- endcapture -%}
+                            {% else %}
+                                {%- capture author_name -%}
+                                    {{ author.name }}
+                                {%- endcapture -%}
+                            {% endif %}
+                        {% endif %}
+                        {% assign author_names = author_names | push: author_name %}
+                    {% endfor %}
+                    {{ author_names | join: ', ' }}
+
+                    {% if paper.authors_note %}
+                        (* {{ paper.authors_note }})
+                    {% endif %}
+                    <br>
+
+                    {{ paper.venue }}
+                    {% if paper.publication_note %}
+                        <b>({{ paper.publication_note }})</b>
+                    {% endif %}
+                    <br>
+
+                    {% if paper.project_exist %}
+                        <a href="{{ site.baseurl }}/publications/{{ paper.key }}" target=_blank>Project</a>&ensp;
+                    {% elsif paper.project %}
+                        <a href="{{ paper.project }}" target=_blank>Project</a>&ensp;
+                    {% endif %}
+
+                    {% if paper.arXiv %}
+                        <a href="{{ paper.arXiv }}" target=_blank>arXiv</a>&ensp;
+                    {% endif %}
+
+                    {% if paper.pdf_exist %}
+                        <a href="{{ site.baseurl }}/assets/files/{{ paper.key }}.pdf" target=_blank>PDF</a>&ensp;
+                    {% elsif paper.pdf %}
+                        <a href="{{ paper.pdf }}" target=_blank>PDF</a>&ensp;
+                    {% endif %}
+
+                    {% if paper.slides_exist %}
+                        <a href="{{ site.baseurl }}/assets/files/{{ paper.key }}-slides.pptx" target=_blank>Slides</a>&ensp;
+                    {% elsif paper.slides %}
+                        <a href="{{ paper.slides }}" target=_blank>Slides</a>&ensp;
+                    {% endif %}
+
+                    {% if paper.poster_exist %}
+                        <a href="{{ site.baseurl }}/assets/files/{{ paper.key }}-poster.pdf" target=_blank>Poster</a>&ensp;
+                    {% elsif paper.poster %}
+                        <a href="{{ paper.poster }}" target=_blank>Poster</a>&ensp;
+                    {% endif %}
+
+                    {% if paper.video %}
+                        <a href="{{ paper.video }}" target=_blank>Video</a>&ensp;
+                    {% endif %}
+
+                    {% if paper.web_demo %}
+                        <a href="{{ paper.web_demo }}" target=_blank>Web Demo</a>&ensp;
+                    {% endif %}
+
+                    {% if paper.supplementary_exist %}
+                        <a href="{{ site.baseurl }}/assets/files/{{ paper.key }}-supplementary.pdf" target=_blank>Supplementary</a>&ensp;
+                    {% elsif paper.supplementary %}
+                        <a href="{{ paper.supplementary }}" target=_blank>Supplementary</a>&ensp;
+                    {% endif %}
+
+                    {% if paper.code %}
+                        <a href="{{ paper.code }}" target=_blank>Code</a>&ensp;
+                    {% endif %}
+
+                    {% if paper.link %}
+                        <a href="{{ paper.link }}" target=_blank>Link</a>&ensp;
+                    {% endif %}
+
+                    {% if paper.press_release %}
+                        {% for press_release in paper.press_release %}
+                            <a href="{{ press_release.link }}" target=_blank>Media {{ forloop.index }}</a>&ensp;
+                        {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+
+        </div><!--//item-->
+        {% endfor %}
     </div>
-
-    <!-- cvpr 22' 2/3 -->
-    <div class="table-row">
-      <div class="thumbnail-cell">
-        <img class="thumbnail" src="{{site.baseurl}}/assets/images/pop-out-motion-cvpr22-thumbnail.png" alt="thumbnail"/>
-      </div>
-      <div class="description-cell">
-        <span class="title">
-          Pop-Out Motion: 3D-Aware Image Deformation via Learning the Shape Laplacian
-        </span><br>
-        <span class="summary">
-          Jihyun Lee*, 
-          <b>Minhyuk Sung</b>*, 
-          Hyunjin Kim,  
-          <a href="https://sites.google.com/view/tkkim/home" target="_blank">Tae-Kyun Kim</a> 
-          (* equal contribution)
-          <br>
-          CVPR 2022<br>
-          <a href="https://arxiv.org/abs/2203.15235" target="_blank">arXiv</a> | 
-          <a href="https://youtu.be/gHxwHxIZiuM" target="_blank">Video</a> | 
-          <a href="https://github.com/jyunlee/Pop-Out-Motion" target="_blank">Code</a>
-        </span>
-      </div>
-    </div>
-
-    <!-- cvpr 22' 1/3 -->
-    <div class="table-row">
-      <div class="thumbnail-cell">
-        <img class="thumbnail" src="{{site.baseurl}}/assets/images/point2cyl-cvpr22-thumbnail.png" alt="thumbnail"/>
-      </div>
-      <div class="description-cell">
-        <span class="title">
-          <a href="https://arxiv.org/abs/2112.09329" target="_blank">
-            Point2Cyl: Reverse Engineering 3D Objects from Point Clouds to Extrusion Cylinders
-          </a>
-        </span><br>
-        <span class="summary">
-          <a href="https://mikacuy.github.io/" target="_blank">Mikaela Angelina Uy</a>, 
-          <a href="https://yuyuchang.github.io/" target="_blank">Yen-yu Chang</a>,
-          <b>Minhyuk Sung</b>,
-          <a href="https://www.purvigoel.com/" target="_blank">Purvi Goel</a>,
-          <a href="https://www.autodesk.com/research/people/joseph-lambourne" target="_blank">Joseph Lambourne</a>,
-          <a href="http://tbirdal.me/" target="_blank">Tolga Birdal</a>, 
-          <a href="https://geometry.stanford.edu/member/guibas/" target="_blank">Leonidas Guibas</a>
-          <br>
-          CVPR 2022<br>
-          <a href="https://arxiv.org/abs/2112.09329" target="_blank">arXiv</a> 
-        </span>
-      </div>
-    </div>
-
-    <!-- icra 22' -->
-    <div class="table-row">
-      <div class="thumbnail-cell">
-        <img class="thumbnail" src="{{site.baseurl}}/assets/images/iln-icra22-thumbnail.png" alt="thumbnail"/>
-      </div>
-      <div class="description-cell">
-        <span class="title">
-          <a href="https://sgvr.kaist.ac.kr/~yskwon/papers/icra22-iln/" target="_blank">
-            Implicit LiDAR Network: LiDAR Super-Resolution via Interpolation Weight Prediction
-          </a>
-        </span><br>
-        <span class="summary">
-          <a href="https://sgvr.kaist.ac.kr/~yskwon/" target="_blank">Youngsun Kwon</a>,
-          <b>Minhyuk Sung</b>*,
-          <a href="https://sgvr.kaist.ac.kr/~sungeui/" target="_blank">Sung-Eui Yoon</a>* 
-          (* co-corresponding authors)
-          <br>
-          ICRA 2022<br>
-          <a href="https://sgvr.kaist.ac.kr/~yskwon/papers/icra22-iln/" target="_blank">Project</a> | 
-          <a href="https://arxiv.org/abs/2203.06413" target="_blank">arXiv</a> | 
-          <a href="https://sgvr.kaist.ac.kr/~yskwon/papers/icra22-iln/ICRA22_iln.pdf" target="_blank">PDF</a> | 
-          <a href="https://github.com/PinocchioYS/iln" target="_blank">Code</a>
-        </span>
-      </div>
-    </div>
-
-    <!-- iccv 21' 2/2 -->
-    <div class="table-row">
-      <div class="thumbnail-cell">
-        <img class="thumbnail" src="{{site.baseurl}}/assets/images/cpfn-iccv21-thumbnail.png" alt="thumbnail"/>
-      </div>
-      <div class="description-cell">
-        <span class="title">
-          <a href="https://arxiv.org/abs/2109.00113" target="_blank">
-            CPFN: Cascaded Primitive Fitting Networks for High-Resolution Point Clouds
-          </a>
-        </span><br>
-        <span class="summary">
-          <a href="http://erictuanle.com/" target="_blank">Eric-Tuan Lê</a>,
-          <b>Minhyuk Sung</b>,
-          <a href="http://www.duygu-ceylan.com/" target="_blank">Duygu Ceylan</a>,
-          <a href="https://research.adobe.com/person/radomir-mech/" target="_blank">Radomír Měch</a>,
-          <a href="https://perso.telecom-paristech.fr/boubek/" target="_blank">Tamy Boubekeur</a>, 
-          <a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/" target="_blank">Niloy Mitra</a>
-          <br>
-          ICCV 2021<br>
-          <a href="https://arxiv.org/abs/2109.00113" target="_blank">arXiv</a> | 
-          <a href="https://github.com/erictuanle/CPFN" target="_blank">Code</a>
-        </span>
-      </div>
-    </div>
-
-    <!-- iccv 21' 1/2 -->
-    <div class="table-row">
-      <div class="thumbnail-cell">
-        <img class="thumbnail" src="{{site.baseurl}}/assets/images/ctrl-c-iccv21-thumbnail.png" alt="thumbnail"/>
-      </div>
-      <div class="description-cell">
-        <span class="title">
-          <a href="https://arxiv.org/abs/2109.02259" target="_blank">
-            CTRL-C: Camera calibration TRansformer with Line-Classification
-          </a>
-        </span><br>
-        <span class="summary">
-          Jinwoo Lee,
-          Hyunsung Go,
-          <a href="https://sites.google.com/site/eldercrow/" target="_blank">Hyunjoon Lee</a>,
-          <a href="https://www.scho.pe.kr/" target="_blank">Sunghyun Cho</a>,
-          <b>Minhyuk Sung</b>,  
-          <a href="https://home1.kookmin.ac.kr/~junho/" target="_blank">Junho Kim</a>
-          <br>
-          ICCV 2021<br>
-          <a href="https://arxiv.org/abs/2109.02259" target="_blank">arXiv</a> | 
-          <a href="https://github.com/jwlee-vcl/CTRL-C" target="_blank">Code</a>
-        </span>
-      </div>
-    </div>
-
-    <!-- cvpr 21' 3/3 -->
-    <div class="table-row">
-      <div class="thumbnail-cell">
-        <img class="thumbnail" src="{{site.baseurl}}/assets/images/deep-meta-handles-cvpr21-thumbnail.png" alt="thumbnail"/>
-      </div>
-      <div class="description-cell">
-        <span class="title">
-          <a href="{{site.baseurl}}/papers/deep-meta-handles.html" target="_blank">
-            DeepMetaHandles: Learning Deformation Meta-Handles of 3D Meshes with Biharmonic Coordinates
-          </a>
-        </span><br>
-        <span class="summary">
-          <a href="http://cseweb.ucsd.edu/~mil070/" target="_blank">Minghua Liu</a>, 
-          <b>Minhyuk Sung</b>, 
-          <a href="https://research.adobe.com/person/radomir-mech/" target="_blank">Radomír Měch</a>,  
-          <a href="http://cseweb.ucsd.edu/~haosu/" target="_blank">Hao Su</a>
-          <br>
-          CVPR 2021 <b>(Oral)</b><br>
-          <a href="{{site.baseurl}}/papers/deep-meta-handles.html" target="_blank">Project</a> | 
-          <a href="https://arxiv.org/abs/2102.09105" target="_blank">arXiv</a> | 
-          <a href="https://github.com/Colin97/DeepMetaHandles" target="_blank">Code</a> | 
-          <a href="https://mhsung.github.io/deep-meta-handles-demo/web_demo.html" target="_blank">Web Demo</a> | 
-          <a href="http://cseweb.ucsd.edu/~mil070/deep_meta_handles_supp_animations.html" target="_blank">Supplementary (Animations)</a>
-        </span>
-      </div>
-    </div>
-
-    <!-- cvpr 21' 2/3 -->
-    <div class="table-row">
-      <div class="thumbnail-cell">
-        <img class="thumbnail" src="{{site.baseurl}}/assets/images/multibodysync-cvpr21-thumbnail.png" alt="thumbnail"/>
-      </div>
-      <div class="description-cell">
-        <span class="title">
-          <a href="https://cg.cs.tsinghua.edu.cn/people/~huangjh/publication/multibodysync/" target="_blank">
-            MultiBodySync: Multi-Body Segmentation and Motion Estimation via 3D Scan Synchronization
-          </a>
-        </span><br>
-        <span class="summary">
-          <a href="https://cg.cs.tsinghua.edu.cn/people/~huangjh/" target="_blank">Jiahui Huang</a>, 
-          <a href="http://ai.stanford.edu/~hewang/" target="_blank">He Wang</a>, 
-          <a href="http://tbirdal.me/" target="_blank">Tolga Birdal</a>, 
-          <b>Minhyuk Sung</b>, 
-          <a href="https://webapps.unitn.it/du/en/Persona/PER0222455/Pubblicazioni" target="_blank">Federica Arrigoni</a>, 
-          <a href="https://cg.cs.tsinghua.edu.cn/#people.htm#shimin.htm" target="_blank">Shi-Min Hu</a>,  
-          <a href="https://geometry.stanford.edu/member/guibas/" target="_blank">Leonidas Guibas</a>
-          <br>
-          CVPR 2021 <b>(Oral)</b><br>
-          <a href="https://cg.cs.tsinghua.edu.cn/people/~huangjh/publication/multibodysync/" target="_blank">Project</a> | 
-          <a href="https://arxiv.org/abs/2101.06605" target="_blank">arXiv</a> | 
-          <a href="https://github.com/huangjh-pub/multibody-sync" target="_blank">Code</a>
-        </span>
-      </div>
-    </div>
-
-    <!-- cvpr 21' 1/3 -->
-    <div class="table-row">
-      <div class="thumbnail-cell">
-        <img class="thumbnail" src="{{site.baseurl}}/assets/images/joint-retrieval-deformation-cvpr21-thumbnail.png" alt="thumbnail"/>
-      </div>
-      <div class="description-cell">
-        <span class="title">
-          <a href="https://joint-retrieval-deformation.github.io/" target="_blank">
-            Joint Learning of 3D Shape Retrieval and Deformation
-          </a>
-        </span><br>
-        <span class="summary">
-          <a href="https://mikacuy.github.io/" target="_blank">Mikaela Angelina Uy</a>, 
-          <a href="http://www.vovakim.com/" target="_blank">Vladimir G. Kim</a>, 
-          <b>Minhyuk Sung</b>, 
-          <a href="https://noamaig.github.io/" target="_blank">Noam Aigerman</a>, 
-          <a href="https://www.cse.iitb.ac.in/~sidch/" target="_blank">Siddhartha Chaudhuri</a>,  
-          <a href="https://geometry.stanford.edu/member/guibas/" target="_blank">Leonidas Guibas</a>
-          <br>
-          CVPR 2021<br>
-          <a href="https://joint-retrieval-deformation.github.io/" target="_blank">Project</a> | 
-          <a href="https://arxiv.org/abs/2101.07889" target="_blank">arXiv</a> | 
-          <a href="https://github.com/mikacuy/joint_learning_retrieval_deformation" target="_blank">Code</a>
-        </span>
-      </div>
-    </div>
-
-    <!-- sigga asia 20' -->
-    <div class="table-row">
-      <div class="thumbnail-cell">
-        <img class="thumbnail" src="{{site.baseurl}}/assets/images/deform-sync-net/thumbnail.png" alt="thumbnail"/>
-      </div>
-      <div class="description-cell">
-        <span class="title">
-          <a href="{{site.baseurl}}/papers/deform-sync-net.html" target="_blank">
-            DeformSyncNet: Deformation Transfer via Synchronized Shape Deformation Spaces
-          </a>
-        </span><br>
-        <span class="summary">
-          <b>Minhyuk Sung</b>*,
-          <a href="https://zhenyujiang.me/" target="_blank">Zhenyu Jiang</a>*,
-          <a href="http://ai.stanford.edu/~optas/" target="_blank">Panos Achlioptas</a>,
-          <a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/" target="_blank">Niloy Mitra</a>,  
-          <a href="https://geometry.stanford.edu/member/guibas/" target="_blank">Leonidas Guibas</a>
-          (* equal contribution)
-          <br>
-          SIGGRAPH Asia 2020<br>
-          <a href="{{site.baseurl}}/papers/deform-sync-net.html" target="_blank">Project</a> | 
-          <a href="http://arxiv.org/abs/2009.01456" target="_blank">arXiv</a> | 
-          <a href="{{site.baseurl}}/assets/files/deform-sync-net.pdf" target="_blank">PDF</a> | 
-          <a href="https://github.com/Steve-Tod/DeformSyncNet" target="_blank">Code</a>
-        </span>
-      </div>
-    </div>
-
-    <!-- eccv 20' 4/4 -->
-    <div class="table-row">
-      <div class="thumbnail-cell">
-        <img class="thumbnail" src="{{site.baseurl}}/assets/images/deformation-aware-eccv20-thumbnail.png" alt="thumbnail"/>
-      </div>
-      <div class="description-cell">
-        <span class="title">
-          <a href="https://deformscan2cad.github.io/" target="_blank">
-            Deformation-Aware 3D Shape Embedding and Retrieval
-          </a>
-        </span><br>
-        <span class="summary">
-          <a href="https://mikacuy.github.io/" target="_blank">Mikaela Angelina Uy</a>,
-          <a href="https://cs.stanford.edu/people/jingweih/" target="_blank">Jingwei Huang</a>,
-          <b>Minhyuk Sung</b>,
-          <a href="http://tbirdal.me/" target="_blank">Tolga Birdal</a>,  
-          <a href="https://geometry.stanford.edu/member/guibas/" target="_blank">Leonidas Guibas</a>
-          <br>
-          ECCV 2020<br>
-          <a href="https://deformscan2cad.github.io/" target="_blank">Project</a> | 
-          <a href="https://arxiv.org/abs/2004.01228" target="_blank">arXiv</a> | 
-          <a href="https://deformscan2cad.github.io/assets/slides.pdf" target="_blank">Slides</a> | 
-          <a href="https://github.com/mikacuy/deformation_aware_embedding" target="_blank">Code</a>
-        </span>
-      </div>
-    </div>
-
-    <!-- eccv 20' 3/4 -->
-    <div class="table-row">
-      <div class="thumbnail-cell">
-        <img class="thumbnail" src="{{site.baseurl}}/assets/images/neural-parser-eccv20-thumbnail.png" alt="thumbnail"/>
-      </div>
-      <div class="description-cell">
-        <span class="title">
-          <a href="https://arxiv.org/abs/2007.11855" target="_blank">
-            Neural Geometric Parser for Single Image Camera Calibration
-          </a>
-        </span><br>
-        <span class="summary">
-          Jinwoo Lee,
-          <b>Minhyuk Sung</b>,
-          <a href="https://sites.google.com/site/eldercrow/" target="_blank">Hyunjoon Lee</a>,  
-          <a href="https://home1.kookmin.ac.kr/~junho/" target="_blank">Junho Kim</a>
-          <br>
-          ECCV 2020<br>
-          <a href="https://arxiv.org/abs/2007.11855" target="_blank">arXiv</a>
-        </span>
-      </div>
-    </div>
-
-    <!-- eccv 20' 2/4 -->
-    <div class="table-row">
-      <div class="thumbnail-cell">
-        <img class="thumbnail" src="{{site.baseurl}}/assets/images/pix2surf-eccv20-thumbnail.png" alt="thumbnail"/>
-      </div>
-      <div class="description-cell">
-        <span class="title">
-          <a href="https://geometry.stanford.edu/projects/pix2surf/" target="_blank">
-            Pix2Surf: Learning Parametric 3D Surface Models of Objects from Images
-          </a>
-        </span><br>
-        <span class="summary">
-          Jiahui Lei,
-          <a href="http://srinathsridhar.com/" target="_blank">Srinath Sridhar</a>,
-          <a href="http://paulguerrero.net/" target="_blank">Paul Guerrero</a>,
-          <b>Minhyuk Sung</b>,
-          <a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/" target="_blank">Niloy Mitra</a>,  
-          <a href="https://geometry.stanford.edu/member/guibas/" target="_blank">Leonidas Guibas</a>
-          <br>
-          ECCV 2020<br>
-          <a href="https://geometry.stanford.edu/projects/pix2surf/" target="_blank">Project</a> | 
-          <a href="https://arxiv.org/abs/2008.07760" target="_blank">arXiv</a> | 
-          <a href="https://geometry.stanford.edu/projects/pix2surf/pub/pix2surf.pdf" target="_blank">PDF</a> | 
-          <a href="https://geometry.stanford.edu/projects/pix2surf/pub/pix2surf_supp.pdf" target="_blank">Supplementary</a> | 
-          <a href="https://github.com/JiahuiLei/Pix2Surf" target="_blank">Code</a>
-        </span>
-      </div>
-    </div>
-
-    <!-- eccv 20' 1/4 -->
-    <div class="table-row">
-      <div class="thumbnail-cell">
-        <img class="thumbnail" src="{{site.baseurl}}/assets/images/part-assembly-eccv20-thumbnail.png" alt="thumbnail"/>
-      </div>
-      <div class="description-cell">
-        <span class="title">
-          <a href="https://cs.stanford.edu/~kaichun/impartass/" target="_blank">
-            Learning 3D Part Assembly from a Single Image
-          </a>
-        </span><br>
-        <span class="summary">
-          <a href="https://antheali.github.io/" target="_blank">Yichen Li</a>*,
-          <a href="https://cs.stanford.edu/~kaichun/" target="_blank">Kaichun Mo</a>*,
-          <a href="https://linsats.github.io/" target="_blank">Lin Shao</a>,
-          <b>Minhyuk Sung</b>,  
-          <a href="https://geometry.stanford.edu/member/guibas/" target="_blank">Leonidas Guibas</a>
-          (* equal contribution)
-          <br>
-          ECCV 2020<br>
-          <a href="https://cs.stanford.edu/~kaichun/impartass/" target="_blank">Project</a> | 
-          <a href="https://arxiv.org/abs/2003.09754" target="_blank">arXiv</a> | 
-          <a href="https://cs.stanford.edu/~kaichun/impartass/slides.pdf" target="_blank">Slides</a> | 
-          <a href="https://github.com/AntheaLi/3DPartAssembly" target="_blank">Code</a>
-        </span>
-      </div>
-    </div>
-
-    <!-- Dissertation -->
-    <div class="table-row">
-      <div class="thumbnail-cell">
-        <img class="thumbnail" src="{{site.baseurl}}/assets/images/SU_Seal_Red_resized.png" alt="thumbnail"/>
-      </div>
-      <div class="description-cell">
-        <span class="title">
-          <a href="https://searchworks.stanford.edu/view/13333384" target="_blank">
-            Learning and Exploring the Compositional Structure of 3D Data
-          </a>
-        </span><br>
-        <span class="summary">
-          <b>Minhyuk Sung</b><br>
-          Dissertation. Stanford University. 2019.<br>
-          <a href="https://searchworks.stanford.edu/view/13333384" target="_blank">Link</a>
-        </span>
-      </div>
-    </div>
-
-    <!-- cvpr 19' 2/2 -->
-    <div class="table-row">
-      <div class="thumbnail-cell">
-        <img class="thumbnail" src="{{site.baseurl}}/assets/images/spfn-thumbnail.png" alt="thumbnail"/>
-      </div>
-      <div class="description-cell">
-        <span class="title">
-          <a href="https://github.com/lingxiaoli94/SPFN" target="_blank">
-            Supervised Fitting of Geometric Primitives to 3D Point Clouds
-          </a>
-        </span><br>
-        <span class="summary">
-          <a href="https://www.csail.mit.edu/person/lingxao-li" target="_blank">Lingxiao Li</a>*,
-          <b>Minhyuk Sung</b>*,
-          <a href="https://anastasiadk.github.io/" target="_blank">Anastasia Dubrovina</a>,
-          <a href="https://ericyi.github.io/" target="_blank">Li Yi</a>, 
-          <a href="https://geometry.stanford.edu/member/guibas/" target="_blank">Leonidas Guibas</a>
-          (* equal contribution)
-          <br>
-          CVPR 2019 <b>(Oral)</b><br>
-          <a href="https://arxiv.org/abs/1811.08988" target="_blank">arXiv</a> | 
-          <a href="https://www.youtube.com/watch?v=BQZ5xKd5kis&t=5815s" target="_blank">Video</a> | 
-          <a href="https://github.com/lingxiaoli94/SPFN" target="_blank">Code</a>
-        </span>
-      </div>
-    </div>
-
-    <!-- cvpr 19' 1/2 -->
-    <div class="table-row">
-      <div class="thumbnail-cell">
-        <img class="thumbnail" src="{{site.baseurl}}/assets/images/gspn-thumbnail.png" alt="thumbnail"/>
-      </div>
-      <div class="description-cell">
-        <span class="title">
-          <a href="https://github.com/ericyi/GSPN" target="_blank">
-            GSPN: Generative Shape Proposal Network for 3D Instance Segmentation in Point Cloud
-          </a>
-        </span><br>
-        <span class="summary">
-          <a href="https://ericyi.github.io/" target="_blank">Li Yi</a>,
-          Wang Zhao,
-          <a href="http://ai.stanford.edu/~hewang/" target="_blank">He Wang</a>,
-          <b>Minhyuk Sung</b>, 
-          <a href="https://geometry.stanford.edu/member/guibas/" target="_blank">Leonidas Guibas</a>
-          <br>
-          CVPR 2019<br>
-          <a href="https://arxiv.org/abs/1812.03320" target="_blank">arXiv</a> | 
-          <a href="https://github.com/ericyi/GSPN" target="_blank">Code</a>
-        </span>
-      </div>
-    </div>
-
-    <!-- neurips 18' -->
-    <div class="table-row">
-      <div class="thumbnail-cell">
-        <img class="thumbnail" src="{{site.baseurl}}/assets/images/deep-functional-dictionaries-thumbnail.png" alt="thumbnail"/>
-      </div>
-      <div class="description-cell">
-        <span class="title">
-          <a href="https://github.com/mhsung/deep-functional-dictionaries" target="_blank">
-            Deep Functional Dictionaries: Learning Consistent Semantic Structures on 3D Models from Functions
-          </a>
-        </span><br>
-        <span class="summary">
-          <b>Minhyuk Sung</b>,
-          <a href="http://cseweb.ucsd.edu/~haosu/" target="_blank">Hao Su</a>,
-          <a href="https://ronaldiscool.github.io/" target="_blank">Ronald Yu</a>, 
-          <a href="https://geometry.stanford.edu/member/guibas/" target="_blank">Leonidas Guibas</a>
-          <br>
-          NeurIPS 2018<br>
-          <a href="https://arxiv.org/abs/1805.09957" target="_blank">arXiv</a> | 
-          <a href="{{site.baseurl}}/assets/files/deep-functional-dictionaries.pdf" target="_blank">PDF</a> | 
-          <a href="{{site.baseurl}}/assets/files/deep-functional-dictionaries-poster.pdf" target="_blank">Poster</a> | 
-          <a href="https://github.com/mhsung/deep-functional-dictionaries" target="_blank">Code</a>
-        </span>
-      </div>
-    </div>
-
-    <!-- sgp 18' -->
-    <div class="table-row">
-      <div class="thumbnail-cell">
-        <img class="thumbnail" src="{{site.baseurl}}/assets/images/fuzzy-set-dual/thumbnail.png" alt="thumbnail"/>
-      </div>
-      <div class="description-cell">
-        <span class="title">
-          <a href="{{site.baseurl}}/papers/fuzzy-set-dual.html" target="_blank">
-            Learning Fuzzy Set Representations of Partial Shapes on Dual Embedding Spaces
-          </a>
-        </span><br>
-        <span class="summary">
-          <b>Minhyuk Sung</b>,
-          <a href="https://anastasiadk.github.io/" target="_blank">Anastasia Dubrovina</a>,
-          <a href="http://www.vovakim.com/" target="_blank">Vladimir G. Kim</a>, 
-          <a href="https://geometry.stanford.edu/member/guibas/" target="_blank">Leonidas Guibas</a>
-          <br>
-          SGP 2018 (Symposium on Geometry Processing)<br>
-          <a href="{{site.baseurl}}/papers/fuzzy-set-dual.html">Project</a> | 
-          <a href="https://arxiv.org/abs/1807.01519" target="_blank">arXiv</a> | 
-          <a href="{{site.baseurl}}/assets/files/fuzzy-set-dual.pdf" target="_blank">PDF</a> | 
-          <a href="{{site.baseurl}}/assets/files/fuzzy-set-dual-slides.pptx" target="_blank">Slides (PPTX)</a> | 
-          <a href="https://github.com/mhsung/fuzzy-set-dual" target="_blank">Code</a>
-        </span>
-      </div>
-    </div>
-
-    <!-- sigga 17' -->
-    <div class="table-row">
-      <div class="thumbnail-cell">
-        <img class="thumbnail" src="{{site.baseurl}}/assets/images/complement-me/thumbnail.png" alt="thumbnail"/>
-      </div>
-      <div class="description-cell">
-        <span class="title">
-          <a href="{{site.baseurl}}/papers/complement-me.html" target="_blank">
-            ComplementMe: Weakly-Supervised Component Suggestions for 3D Modeling
-          </a>
-        </span><br>
-        <span class="emphasis">
-        <i class="fa fa-star"></i>  Featured in an ACM press release:
-        <a href="https://www.eurekalert.org/pub_releases/2017-11/afcm-sad120417.php" target="_blank">[link1]</a> 
-        <a href="https://scienmag.com/simplifying-assembly-based-design-for-3-d-modeling/" target="_blank">[link2]</a> 
-        </span><br>
-        <span class="summary">
-          <b>Minhyuk Sung</b>,
-          <a href="http://cseweb.ucsd.edu/~haosu/" target="_blank">Hao Su</a>,
-          <a href="http://www.vovakim.com/" target="_blank">Vladimir G. Kim</a>,
-          <a href="https://www.cse.iitb.ac.in/~sidch/" target="_blank">Siddhartha Chaudhuri</a>, 
-          <a href="https://geometry.stanford.edu/member/guibas/" target="_blank">Leonidas Guibas</a>
-          <br>
-          SIGGRAPH Asia 2017<br>
-          <a href="{{site.baseurl}}/papers/complement-me.html" target="_blank">Project</a> | 
-          <a href="https://arxiv.org/abs/1708.01841" target="_blank">arXiv</a> | 
-          <a href="{{site.baseurl}}/assets/files/complement-me.pdf" target="_blank">PDF</a> | 
-          <a href="{{site.baseurl}}/assets/files/complement-me-slides.pptx" target="_blank">Slides (PPTX)</a> | 
-          <a href="https://github.com/mhsung/complement-me" target="_blank">Code</a>
-        </span>
-      </div>
-    </div>
-
-    <!-- sigga 15' -->
-    <div class="table-row">
-      <div class="thumbnail-cell">
-        <img class="thumbnail" src="{{site.baseurl}}/assets/images/structure-completion/thumbnail.png" alt="thumbnail"/>
-      </div>
-      <div class="description-cell">
-        <span class="title">
-          <a href="{{site.baseurl}}/papers/structure-completion.html" target="_blank">
-            Data-Driven Structural Priors for Shape Completion
-          </a>
-        </span><br>
-        <span class="summary">
-          <b>Minhyuk Sung</b>,
-          <a href="http://www.vovakim.com/" target="_blank">Vladimir G. Kim</a>,
-          <a href="http://rangst.github.io/" target="_blank">Roland Angst</a>, 
-          <a href="https://geometry.stanford.edu/member/guibas/" target="_blank">Leonidas Guibas</a><br>
-          SIGGRAPH Asia 2015<br>
-          <a href="{{site.baseurl}}/papers/structure-completion.html" target="_blank">Project</a> | 
-          <a href="{{site.baseurl}}/assets/files/structure-completion.pdf" target="_blank">PDF</a> | 
-          <a href="{{site.baseurl}}/assets/files/structure-completion-supplementary.pdf" target="_blank">Supplementary</a> | 
-          <a href="{{site.baseurl}}/assets/files/structure-completion-slides.pptx" target="_blank">Slides (PPTX)</a> | 
-          <a href="https://github.com/mhsung/structure-completion" target="_blank">Code</a>
-        </span>
-      </div>
-    </div>
-
-    <!-- icip 13' -->
-    <div class="table-row">
-      <div class="thumbnail-cell">
-        <img class="thumbnail" src="{{site.baseurl}}/assets/images/unprojection-thumbnail.png" alt="thumbnail"/>
-      </div>
-      <div class="description-cell">
-        <span class="title">
-          <a href="https://doi.org/10.1109/ICIP.2013.6738034" target="_blank">
-            Image Unprojection for 3D Surface Reconstruction: A Triangulation-based Approach
-          </a>
-        </span><br>
-        <span class="summary">
-          <b>Min-Hyuk Sung</b>, Hwasup Lim, Hyoung-Gon Kim,  Sang Chul Ahn<br>
-          IEEE International Conference on Image Processing (ICIP) 2013<br>
-          <a href="https://doi.org/10.1109/ICIP.2013.6738034" target="_blank">Link</a>
-        </span>
-      </div>
-    </div>
-
-    <!-- c&g 13' -->
-    <div class="table-row">
-      <div class="thumbnail-cell">
-        <img class="thumbnail" src="{{site.baseurl}}/assets/images/m-best-thumbnail.png" alt="thumbnail"/>
-      </div>
-      <div class="description-cell">
-        <span class="title">
-          <a href="https://doi.org/10.1016/j.cag.2012.11.002" target="_blank">
-            Finding the M-best consistent correspondences between 3D symmetric objects
-          </a>
-        </span><br>
-        <span class="summary">
-          <b>Min-Hyuk Sung</b> and
-          <a href="https://home1.kookmin.ac.kr/~junho/" target="_blank">Junho Kim</a><br>
-          Computers & Graphics. 2013.<br>
-          <a href="https://doi.org/10.1016/j.cag.2012.11.002" target="_blank">Link</a>
-        </span>
-      </div>
-    </div>
-
-    <!-- tvcg 12' -->
-    <div class="table-row">
-      <div class="thumbnail-cell">
-        <img class="thumbnail" src="{{site.baseurl}}/assets/images/anisotropic-thumbnail.png" alt="thumbnail"/>
-      </div>
-      <div class="description-cell">
-        <span class="title">
-          <a href="https://doi.org/10.1109/TVCG.2012.29" target="_blank">
-            A Triangulation-Invariant Method for Anisotropic Geodesic Map Computation on Surface Meshes
-          </a>
-        </span><br>
-        <span class="summary">
-          Sang Wook Yoo, Joon-Kyung Seong, <b>Min-Hyuk Sung</b>, Sung Yong Shin,  Elaine Cohen<br>
-          IEEE Transactions on Visualization and Computer Graphics (TVCG). 2012<br>
-          <a href="https://doi.org/10.1109/TVCG.2012.29" target="_blank">Link</a>
-        </span>
-      </div>
-    </div>
-
-    <!-- MS Thesis -->
-    <div class="table-row">
-      <div class="thumbnail-cell">
-        <img class="thumbnail" src="{{site.baseurl}}/assets/images/kaist-emblem1-resized.gif" alt="thumbnail"/>
-      </div>
-      <div class="description-cell">
-        <span class="title">
-          <a href="http://koasas.kaist.ac.kr/handle/10203/34894" target="_blank">
-            A Spectral Approach to Shape Matching Using a Heat Kernel Function
-          </a>
-        </span><br>
-        <span class="summary">
-          <b>Min-Hyuk Sung</b><br>
-          M.S. Thesis. Korea Advanced Institute of Science and Technology (KAIST). 2010.<br>
-          <a href="http://koasas.kaist.ac.kr/handle/10203/34894" target="_blank">Link</a>
-        </span>
-      </div>
-    </div>
-
-  </div>
-
-  <!--
-  <div class="item">
-    <span class="title">
-    </span><br>
-    <span class="description">
-
-    </span>
-  </div>
-
-  <div class="item">
-    <img class="thumbnail" src="{{site.baseurl}}/assets/images/scene-completion-thumbnail.png" alt="thumbnail" />
-
-  </div>
-  -->
 
 </section><!--//section-->

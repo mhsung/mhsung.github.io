@@ -1,0 +1,18 @@
+key: partglot
+title: "PartGlot: Learning Shape Part Segmentation from Language Reference Games"
+authors:
+    - name: Juil Koo
+      link: https://github.com/63days
+    - name: Ian Huang
+      link: https://ianhuang0630.github.io/
+    - name: Panos Achlioptas
+      link: https://optas.github.io/
+    - name: Leonidas Guibas
+      link: https://geometry.stanford.edu/member/guibas/
+    - name: Minhyuk Sung
+#authors_note:
+venue: CVPR 2022
+publication_note: Oral
+project_exist: true
+arXiv: https://arxiv.org/abs/2112.06390
+code: https://github.com/63days/PartGlot

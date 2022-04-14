@@ -1,0 +1,22 @@
+key: pix2surf
+title: "Pix2Surf: Learning Parametric 3D Surface Models of Objects from Images"
+authors:
+    - name: Jiahui Lei
+      link: https://www.cis.upenn.edu/~leijh/
+    - name: Srinath Sridhar
+      link: http://srinathsridhar.com/
+    - name: Paul Guerrero
+      link: http://paulguerrero.net/
+    - name: Minhyuk Sung
+    - name: Niloy Mitra
+      link: http://www0.cs.ucl.ac.uk/staff/n.mitra/
+    - name: Leonidas Guibas
+      link: https://geometry.stanford.edu/member/guibas/
+#authors_note:
+venue: ECCV 2020
+#publication_note:
+project: https://geometry.stanford.edu/projects/pix2surf/
+arXiv: https://arxiv.org/abs/2008.07760
+pdf: https://geometry.stanford.edu/projects/pix2surf/pub/pix2surf.pdf
+supplementary: https://geometry.stanford.edu/projects/pix2surf/pub/pix2surf_supp.pdf
+code: https://github.com/JiahuiLei/Pix2Surf

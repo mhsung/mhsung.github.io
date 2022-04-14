@@ -1,0 +1,19 @@
+key: deformation-aware
+title: "Deformation-Aware 3D Shape Embedding and Retrieval"
+authors:
+    - name: Mikaela Angelina Uy
+      link: https://mikacuy.github.io/
+    - name: Jingwei Huang
+      link: https://cs.stanford.edu/people/jingweih/
+    - name: Minhyuk Sung
+    - name: Tolga Birdal
+      link: http://tbirdal.me/
+    - name: Leonidas Guibas
+      link: https://geometry.stanford.edu/member/guibas/
+#authors_note:
+venue: ECCV 2020
+#publication_note:
+project: https://deformscan2cad.github.io/
+arXiv: https://arxiv.org/abs/2004.01228
+slides: https://deformscan2cad.github.io/assets/slides.pdf
+code: https://github.com/mikacuy/deformation_aware_embedding

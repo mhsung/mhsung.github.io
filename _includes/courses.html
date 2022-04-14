@@ -1,29 +1,51 @@
-<section class="section publications-section">
-  <!--<h2 class="section-title"><i class="fa fa-archive"></i>Courses</h2>-->
-  <h2 class="section-title">Courses</h2>
+{% assign courses = site.data.courses.courses %}
+{% assign courses_limit = 3 %}
+<div class="courses-container container-block">
 
-  <div class="table">
+    <h2 class="container-block-title">
+        Courses
+    </h2>
 
-    <div class="table-row">
-      <div class="description-cell">
-        <b>
-        <a href="https://mhsung.github.io/kaist-cs492a-spring-2022/" target="_blank">
-          CS492(A): Machine Learning for 3D Data, Spring 2022.
-        </a>
-        <br>
-        <a href="https://mhsung.github.io/kaist-cs492d-fall-2021/" target="_blank">
-          CS492(D): Geometric Modeling and Processing, Fall 2021.
-        </a>
-        <br>
-        <a href="{{site.baseurl}}/courses/kaist-cs492h-spring-2021/" target="_blank">
-          CS492(H): Machine Learning for 3D Data, Spring 2021.
-        </a>
-        </b>
-      </div>
-    </div>
+    <ul class="list-unstyled courses-list">
+        {% if page.courses_show_less %}
 
-  </div> 
+            {% for item in courses limit: courses_limit %}
+                {% if item.link %}
+                    <li>
+                        {{ item.time }}<br>
+                        <a href="{{ item.link }}" target="_blank">{{ item.title }}</a>
+                    </li>
+                {% else %}
+                    <li>
+                        {{ item.time }}<br>
+                        {{ item.title }}
+                    </li>
+                {% endif %}
+            {% endfor %}
 
-  </br>
+            {% if courses.size > courses_limit %}
+                <a href="{{ side.baseurl }}/archive/courses.html">More</a>
+            {% endif %}
 
-</section><!--//section-->
+        {% else %}
+
+            {% for item in courses %}
+                {% if item.link %}
+                    <li>
+                        {{ item.time }}<br>
+                        <a href="{{ item.link }}" target="_blank">{{ item.title }}</a>
+                    </li>
+                {% else %}
+                    <li>
+                        {{ item.time }}<br>
+                        {{ item.title }}
+                    </li>
+                {% endif %}
+            {% endfor %}
+
+            <a href="{{ side.baseurl }}/index.html">Less</a>
+
+        {% endif %}
+    </ul>
+
+</div><!--//courses-container-->

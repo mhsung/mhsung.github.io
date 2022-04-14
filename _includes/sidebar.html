@@ -1,0 +1,55 @@
+{% assign sidebar = site.data.data.sidebar %}
+<div class="sidebar-wrapper">
+
+    <div class="profile-container">
+
+        {% if sidebar.name %}
+        <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" /> 
+        {% endif %}
+
+        {% if sidebar.name %}
+        <h1 class="name">{{ sidebar.name }}</h1>
+        {% endif %}
+
+        {% if sidebar.tagline %}
+        <h3 class="tagline">{{ sidebar.tagline | markdownify }}</h3>
+        {% endif %}
+
+        <h3 class="icon">
+            {% if sidebar.email %}
+            <a href="mailto:{{ sidebar.email }}"><i class="fas fa-envelope"></i></a>  
+            {% endif %}
+
+            {% if sidebar.twitter %}
+            &nbsp;
+            <a href="https://twitter.com/{{ sidebar.twitter }}" target="_blank"><i class="fab fa-twitter"></i></a>  
+            {% endif %}
+
+            {% if sidebar.github %}
+            &nbsp;
+            <a href="https://{{ sidebar.github }}" target="_blank"><i class="fab fa-github"></i></a>  
+            {% endif %}
+
+            {% if sidebar.linkedin %}
+            &nbsp;
+            <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>  
+            {% endif %}
+
+            {% if sidebar.google-scholar %}
+            &nbsp;
+            <a href="https://scholar.google.com/citations?user={{ sidebar.google_scholar }}&hl=en" target="_blank"><i class="ai ai-google-scholar-square ai-1x"></i></a>  
+            {% endif %}
+
+            {% if sidebar.cv %}
+            &nbsp;
+            <a href="https://{{ sidebar.cv }}" target="_blank"><i class="ai ai-cv-square ai-1x"></i></a>  
+            {% endif %}
+        </h3>
+
+    </div><!--//profile-container-->
+
+    {% include contact.html %}
+    {% include courses.html %}
+    {% include students.html %}
+
+</div><!--//sidebar-wrapper-->

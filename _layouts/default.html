@@ -1,5 +1,5 @@
 ---
-layout: compress
+#Add "layout: compress" here to compress the html code
 ---
 <!DOCTYPE html>
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
@@ -9,10 +9,17 @@ layout: compress
 
 <body>
   <div class="wrapper">
-    {{content}}
+    {% include sidebar.html %}
+
+    <div class="main-wrapper">
+        {{ content }}
+    </div>
   </div>
 
-  {% include scripts.html %}
+  {% include footer.html %}
+
+{% include scripts.html %}
 </body>
+
 </html>
 

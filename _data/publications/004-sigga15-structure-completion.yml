@@ -1,0 +1,18 @@
+key: structure-completion
+title: "Data-Driven Structural Priors for Shape Completion"
+authors:
+    - name: Minhyuk Sung
+    - name: Vladimir G. Kim
+      link: http://www.vovakim.com/
+    - name: Roland Angst
+      link: http://rangst.github.io/
+    - name: Leonidas Guibas
+      link: https://geometry.stanford.edu/member/guibas/
+#authors_note: (* equal contribution)
+venue: SIGGRAPH Asia 2015
+#publication_note: Oral
+project_exist: true
+pdf_exist: true
+supplementary_exist: true
+slides_exist: true
+code: https://github.com/mhsung/structure-completion

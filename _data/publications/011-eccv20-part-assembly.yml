@@ -1,0 +1,19 @@
+key: part-assembly
+title: "Learning 3D Part Assembly from a Single Image"
+authors:
+    - name: Yichen Li*
+      link: https://antheali.github.io/
+    - name: Kaichun Mo*
+      link: https://cs.stanford.edu/~kaichun/
+    - name: Lin Shao
+      link: https://linsats.github.io/
+    - name: Minhyuk Sung
+    - name: Leonidas Guibas
+      link: https://geometry.stanford.edu/member/guibas/
+authors_note: equal contributions
+venue: ECCV 2020
+#publication_note:
+project: https://cs.stanford.edu/~kaichun/impartass/
+arXiv: https://arxiv.org/abs/2003.09754
+slides: https://cs.stanford.edu/~kaichun/impartass/slides.pdf
+code: https://github.com/AntheaLi/3DPartAssembly
