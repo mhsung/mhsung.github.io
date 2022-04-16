@@ -77,7 +77,7 @@ You'll need to prepare the followings:
 - Q. Can non-KAIST students apply?<br>
 A. Yes.
 
-- Q. Can non-KAIST students stay in a KAIST dormitory during the internship?
+- Q. Can non-KAIST students stay in a KAIST dormitory during the internship?<br>
 A. Yes.
 
 - Q. Can people who are not enrolled in any Korean institutions apply?<br>
