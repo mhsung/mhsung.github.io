@@ -5,9 +5,7 @@ title: "Call for Summer Internships"
 
 info: <a href="http://mhsung.github.io/" target="_blank">Minhyuk Sung</a>, <a href="https://www.kaist.ac.kr/" target="_blank">KAIST</a>, Summer 2021
 
-slug: internship-2021-summer
-
-date: 2021-04-20
+slug: internship-summer-2021
 ---
 
 
