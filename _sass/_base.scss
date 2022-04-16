@@ -178,6 +178,23 @@ p {
         margin-bottom: 40px;
     }
 
+    .announcement-table {
+        display: table;
+    }
+    .announcement-table-row {
+        display: table-row;
+    }
+    .announcement-cell {
+        display: table-cell;
+        padding-bottom: 5px;
+        vertical-align: top;
+        color: $text-color-secondary;
+        a {
+            color: $text-color-secondary;
+        }
+        background-color: $background-color;
+    }
+
     .news-table {
         display: table;
     }

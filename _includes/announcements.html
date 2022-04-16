@@ -1,0 +1,27 @@
+{% assign announcements = site.data.announcements.announcements %}
+
+{% if announcements.size > 0 %}
+<section class="section announcement-section">
+
+    <h2 class="section-title">
+        Announcements
+    </h2>
+
+    <div class="announcement-table">
+        {% for item in announcements %}
+
+        <div class="announcement-table-row">
+            {% if item.link %}
+                <a href="{{ site.baseurl }}/{{ item.link }}" target=_blank>
+                    <div class="announcement-cell"><b>{{ item.title }}</b></div>
+                </a>
+            {% else %}
+                <div class="announcement-cell"><b>{{ item.title }}</b></div>
+            {% endif %}
+            </mark>
+        {% endfor %}
+    </div>
+
+
+</section><!--//section-->
+{% endif %}

@@ -63,7 +63,7 @@ For reference, check out
 
 
 ### How to Apply
-<em><h>Deadline</h>: May 20 (Friday), 23:59 KST.</em>
+<em><h>Deadline</h>: Sunday, May 22, 2022 (23:59 KST).</em>
 
 Please submit the following application form:
 
