@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                font-family: 'Roboto', sans-serif;
+                background: #fff;
+                font-size: 15px;
+                -webkit-font-smoothing: antialiased;
+                -webkit-font-smoothing: auto;
+                -moz-osx-font-smoothing: grayscale;
+            }
+
+            img {
+                padding: 0;
+                display: block;
+                margin: 0 auto;
+                max-height: 960px;
+                max-width: 100%;
+                image-rendering: auto;
+                image-rendering: crisp-edges;
+                image-rendering: pixelated;
+
+                /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+                image-rendering: -webkit-optimize-contrast;
+            }
+
+            table {
+                width: 100%;
+                max-width: 960px;
+                table-layout: fixed;
+            }
+
+            td {
+                text-align: center;
+            }
+
+            thead { 
+                border-bottom: 1px solid #000;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <div id="table">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <td>Input<br>(Super-Seg.)</td>
+                        <td>Back</td>
+                        <td>Seat</td>
+                        <td>Leg</td>
+                        <td>Arm</td>
+                        <td><b>Output</b></td>
+                        <td>Ground Truth</td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+
+        <script type="text/javascript" charset="utf-8">
+            // Sample in [0, n-1] range.
+            function getRandomSample(n) {
+                return Math.floor(n * Math.random());
+            }
+
+            function renderDataInTheTable(arr) {
+                const table = document.getElementById("table");
+                categories.forEach(category => {
+                    let category_name = category[0];
+                    let category_size = category[1];
+                    let index = getRandomSample(category_size);
+                    let row = document.createElement("tr");
+                    let cell = document.createElement("td");
+                    cell.innerHTML = "<img src='images/" + category_name + "_" + String(index + 1).padStart(2, '0') + ".png'>";
+                    row.appendChild(cell);
+                    table.appendChild(row);
+                });
+            }
+
+            const categories = [['airplane', 37], ['car', 27], ['lamp', 36], ['table', 38]];
+            renderDataInTheTable(categories);
+        </script>
+
+    </body>
+</html>
