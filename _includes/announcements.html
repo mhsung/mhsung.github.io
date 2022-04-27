@@ -12,11 +12,13 @@
 
         <div class="announcement-table-row">
             {% if item.link %}
-                <a href="{{ site.baseurl }}/{{ item.link }}" target=_blank>
-                    <div class="announcement-cell"><b>{{ item.title }}</b></div>
-                </a>
+                <div class="announcement-cell">
+                    <a href="{{ site.baseurl }}/{{ item.link }}" target=_blank>{{ item.title }}</a>
+                </div>
             {% else %}
-                <div class="announcement-cell"><b>{{ item.title }}</b></div>
+                <div class="announcement-cell">
+                    {{ item.title }}
+                </div>
             {% endif %}
             </mark>
         {% endfor %}

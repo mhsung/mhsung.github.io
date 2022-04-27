@@ -22,6 +22,13 @@ h { background-color:#FFC107 }
 </style>
 
 
+<em>Deadline</em>: <h>May 15 (Sun), 23:59 KST.</h>  
+<em>Application Form</em>: <h><a href="https://docs.google.com/forms/d/e/1FAIpQLSd8hZcwgmiBnq6UFx1h56giKhLToPFh6VikuYlfiVGFT8p0bA/viewform" target="_blank">Google Form Link</a></h>
+
+<br />
+
+
+
 We’re looking for undergraduate interns who are interested in building <em>cutting-edge machine learning technologies for 3D geometric data</em>. ML for 3D is a rising topic in multiple research communities including computer vision, computer graphics, and robotics — for example, see the paper statistics of CVPR 2020 and 2021 <em><a href="https://github.com/hoya012/CVPR-2021-Paper-Statistics/blob/main/2021_cvpr/top_keywords_2020%2B2021.png" target="_blank">here</a></em>. `3D’ is ranked in the top 3 in a row. During the internship, you will work on your own research project with a topic in this field and learn and discuss with us 1) how to <em>find</em> a good research topic, 2) how to <em>develop</em> your research idea, 3) how to <em>implement and prototype</em> the idea, and finally (and possibly), 4) how to <em>demonstrate</em> the research outcomes in a paper.
 
 
@@ -63,14 +70,15 @@ For reference, check out
 
 
 ### How to Apply
-<em><h>Deadline</h>: Sunday, May 22, 2022 (23:59 KST).</em>
+<em>Deadline</em>: <h>May 15 (Sun), 23:59 KST.</h>  
 
-Please submit the following application form:
+Please submit the following application form:  
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSd8hZcwgmiBnq6UFx1h56giKhLToPFh6VikuYlfiVGFT8p0bA/viewform" target="_blank">Google Form Link</a>
 
 You'll need to prepare the followings:
-- your <em>CV/resume</em> (including your previous experience in research, internship, or course projects, and your programming skills).
+- your <em>CV/resume</em> (including your previous experience in research, internship, or course projects, and your programming skills. Not required but recommended).
 - a copy of your <em>transcript</em>, and
-- a short description of why you're interested in this internship and what you expect to do in the internship.
+- a short description of why you're interested in this internship and what you expect to do during the internship.
 
 
 ### FAQ
