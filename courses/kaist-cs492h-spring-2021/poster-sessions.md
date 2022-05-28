@@ -42,7 +42,7 @@ You will get a *20% penalty in the project evaluation if you are absent* from an
 
 #### Poster Session Logistics
 - Check your *presentation date* below. You will play a role of a *presenter* one day and a *questioner* the other day. <h>Note that your project and the other projects reviewed by you will NOT be presented on the same day.</h> When you are not presenting (playing the role of a *questioner*), find the projects you are reviewing and ask questions in detail (check the other posters as well).
-- On the date when you are presenting, you must be stand-by in front of your poster *during the entire session* and waiting for questioners.
+- On the date when you are presenting, you must be on standby in front of your poster *during the entire session* and waiting for questioners.
 - As a *presenter*, please prepare a *1-2 minutes pitch*. Questioners may bump into posters and ask presenters to "introduce your project".
 - The instructor will stop by each poster with the schedule below (subject to change).
 - All discussions during the poster sessions must be done in *English*.
