@@ -118,8 +118,8 @@ The review will be *single-blind*. Add *author names* in the report (*uncomment*
     - In the end, add *“Code is available at: {link}.”*
 
 - <b>Introduction</b>
-    - What is the *motivation* of the (original) work? Why is it important to solve the problem? What would be the potential impacts of this work in the research field, or what would be the potential applications?
-    - What is the *problem setup* the original work introduce? (Add a citation of the original work.)  What are the input and desired output? What are the given information in the training time and the given assumptions? What are the *main ideas* of the original work to solve the problem?
+    - What is the *motivation* for the (original) work? Why is it important to solve the problem? What would be the potential impacts of this work in the research field, or what would be the potential applications?
+    - What is the *problem setup* the original work introduces? (Add a citation of the original work.)  What are the input and desired output? What are the given information in the training time and the given assumptions? What are the *main ideas* of the original work to solve the problem?
     - What are the *key challenges* in implementing the proposed method? Does the framework include some components that are not implemented in public libraries (e.g., PyTorch, PyTorch3D)? Do you implement some components from scratch without the public libraries? (Using CUDA?) Is the framework complicated with lots of components? Are there technical details hidden in the paper/code? Doesn't the authors provide their code or datasets? Does the authors' code even not reproduce the results in the paper? Is the network training tricky or unstable? Or, do you improve the original work?
     - Summarize the *implementation details*. *Clearly differentiate* the parts you implemented and the parts you borrowed existing code or got some help from the external collaborators. How do you implement each part, and how do you handle the challenges? A *teaser* figure that illustrates the parts you focused on in the implementation would be great.
     - Briefly describe the *experimental setups*. Which datasets/benchmarks do you use? How do you evaluate the results? Do you make any changes in the experimental setups of the original work? If yes, why? How good are your results compared with the results reported in the original paper (or the results of the authors' code)? Do you improve the original method, or do you conduct additional experiments not shown in the original work?
@@ -167,7 +167,7 @@ The review will be *single-blind*. Add *author names* in the report (*uncomment*
     - 1-2 sentences summary of the *experimental results*.
     - In the end, add *"Code is available at: {link}."*
 - <b>Introduction</b>
-    - What is the *motivation* of the work? Why is it important to solve the problem? What would be the potential impacts of this work in the research field, or what would be the potential applications?
+    - What is the *motivation* for the work? Why is it important to solve the problem? What would be the potential impacts of this work in the research field, or what would be the potential applications?
     - What are the *challenges* in the problem? How has previous work approached this problem, and what are the limitations (add citations)? Or, why hasn't the problem been addressed while it is important?
     - What is the *problem statement*? What are the input and desired output? What are the given information in the training time and the given assumptions? A *teaser figure* that effectively illustrates the problem setup or the desired output would be great. (E.g., show the best result with the input.)
     - What are your *key ideas* for solving the challenges? It would be also great if your teaser image also describes the key ideas. (E.g. how do your key ideas make differences in the results?)
