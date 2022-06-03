@@ -2,6 +2,7 @@ key: pop-out-motion
 title: "Pop-Out Motion: 3D-Aware Image Deformation via Learning the Shape Laplacian"
 authors:
     - name: Jihyun Lee*
+      link: https://jyunlee.github.io/
     - name: Minhyuk Sung*
     - name: Hyunjin Kim
     - name: Tae-Kyun Kim
