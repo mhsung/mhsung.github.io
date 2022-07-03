@@ -1,4 +1,6 @@
 news:
+    - title: "One paper accepted to ECCV 2022."
+      time: Jul 2022
     - title: "We are now looking for undergraduate interns to join our group this summer. Click this for more details."
       time: May 2022
       link: lab/internship-summer-2022
@@ -6,14 +8,14 @@ news:
       time: Apr 2022
     - title: "Serving as a program committee member at SIGGRAPH Asia 2022."
       time: Apr 2022
-    - title: "Three papers accepted to CVPR 2022 including Juil's oral!"
+    - title: "Three papers accepted to CVPR 2022 including Juil's oral."
       time: Mar 2021
     - title: "Gave a talk in the First Wednesday Multidisciplinary Forum at KAIST."
       time: Mar 2022
     - title: "Invited as a webinar speaker at Asiagraphics."
       time: Feb 2022
       link: http://www.asiagraphics.org/webinar/#session7
-    - title: "One paper accepted to ICRA 2022!"
+    - title: "One paper accepted to ICRA 2022."
       time: Feb 2022
     - title: "Gave a talk in the Manufacturing Technology Center at Samsung Electronics."
       time: Oct 2021
@@ -27,7 +29,7 @@ news:
     - title: "We have been awarded the Google exploreCSR grant for the Rising Stars 2022 program at KAIST. Stay tuned for the details of the event!"
       time: Sep 2021
       link: https://research.google/outreach/explore-csr/recipients/
-    - title: "Two papers accepted to ICCV 2021!"
+    - title: "Two papers accepted to ICCV 2021."
       time: Jul 2021
     - title: "Gave a talk at the Korea Computer Graphics Society 2021."
       time: Jul 2021
@@ -38,7 +40,7 @@ news:
       link: https://geometry.stanford.edu/struco3d/
     - title: "Gave a talk as a colloquium speaker in the Software Graduate Program at KAIST."
       time: Apr 2021
-    - title: "Three papers accepted to CVPR 2021 including two orals!"
+    - title: "Three papers accepted to CVPR 2021 including two orals."
       time: Mar 2021
     - title: "Gave a talk at the Computer Vision Researcher Forum of Korean Computer Vision Society"
       time: Feb 2021

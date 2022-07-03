@@ -1,0 +1,17 @@
+key: spsm
+title: "The Shape Part Slot Machine: Contact-based Reasoning for Generating 3D Shapes from Parts"
+authors:
+    - name: Kai Wang
+      link: https://kwang-ether.github.io/
+    - name: Paul Guerrero
+      link: http://paulguerrero.net/
+    - name: Vladimir Kim
+      link: http://www.vovakim.com/
+    - name: Siddhartha Chaudhuri
+      link: https://www.cse.iitb.ac.in/~sidch/
+    - name: Minhyuk Sung
+    - name: Daniel Ritchie
+      link: https://dritchie.github.io/
+#authors_note:
+venue: ECCV 2022
+arXiv: https://arxiv.org/abs/2112.00584
