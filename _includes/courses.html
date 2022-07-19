@@ -12,13 +12,13 @@
             {% for item in courses limit: courses_limit %}
                 {% if item.link %}
                     <li>
-                        {{ item.time }}<br>
-                        <a href="{{ item.link }}" target="_blank">{{ item.title }}</a>
+                        <a href="{{ item.link }}" target="_blank">{{ item.title }}</a><br>
+                        {{ item.time }}
                     </li>
                 {% else %}
                     <li>
-                        {{ item.time }}<br>
-                        {{ item.title }}
+                        {{ item.title }}<br>
+                        {{ item.time }}
                     </li>
                 {% endif %}
             {% endfor %}
@@ -32,13 +32,13 @@
             {% for item in courses %}
                 {% if item.link %}
                     <li>
-                        {{ item.time }}<br>
-                        <a href="{{ item.link }}" target="_blank">{{ item.title }}</a>
+                        <a href="{{ item.link }}" target="_blank">{{ item.title }}</a><br>
+                        {{ item.time }}
                     </li>
                 {% else %}
                     <li>
-                        {{ item.time }}<br>
-                        {{ item.title }}
+                        {{ item.title }}<br>
+                        {{ item.time }}
                     </li>
                 {% endif %}
             {% endfor %}
