@@ -1,0 +1,16 @@
+key: ladis
+title: "LADIS: Language Disentanglement for 3D Shape Editing"
+authors:
+    - name: Ian Huang
+      link: https://ianhuang0630.github.io/me/
+    - name: Panos Achlioptas
+      link: https://optas.github.io/
+    - name: Tianyi Zhang
+      link: https://tiiiger.github.io/
+    - name: Sergei Tulyakov
+      link: http://www.stulyakov.com/
+    - name: Minhyuk Sung
+    - name: Leonidas Guibas
+      link: https://geometry.stanford.edu/member/guibas/
+#authors_note:
+venue: Findings of EMNLP 2022
