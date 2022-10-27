@@ -60,11 +60,11 @@ For reference, check out
 - Candidates who have taken or audited the <em><a href="{{site.baseurl}}/kaist-cs492a-spring-2022/" target="_blank">CS492(A): Machine Learning for 3D Data</a></em> and/or <em><a href="{{site.baseurl}}/kaist-cs492j-fall-2022/" target="_blank">CS492(J): Geometric Modeling and Processing</a></em> courses will be preferred (but not required). All potential candidates will be asked to finish following the course materials before starting the internship.
 - Interns will be required to be <em>physically present</em> in our lab during the internship.<br>
   Location: <a href="https://goo.gl/maps/Cv7wKzf4jhA1ezuh7" target="_blank">KAIST, N1 Bldg, Rm 622, 291 Daehak-ro, Yuseong-gu, Daejeon, Korea 34141. </a>
-- Candidates who can extend the internship after the summer will be preferred. (Remote work can be considered for the extension.)
+- Candidates who can extend the internship after the winter will be preferred. (Remote work can be considered for the extension.)
 
 
 ### Conditions
-- Interns will be expected to commit to the internship for <em>full-time at least 8 weeks</em> this summer. The starting and the end dates are flexible, but the desired start and end dates are:<br>
+- Interns will be expected to commit to the internship for <em>full-time at least 8 weeks</em> this winter. The starting and the end dates are flexible, but the desired start and end dates are:<br>
   **Start date: Jan 2 (Mon)**<br>
   **End date: Feb 24 (Fri)**<br>
 - Interns will be <em>paid</em> and provided with a desk in our lab and computing resources (access to either KCloud or our own GPU servers).
