@@ -1,5 +1,8 @@
 news:
-    - title: "We are now looking for undergraduate interns to join our group this winter. Click this for more details. The deadline is Nov 14 (Mon), 23:59 KST."
+    - title: "Gave a talk about language-3D & differential Poisson Solver at the KAIST GSAI Colloquium and KIST. Click to download the slides."
+      time: Nov 2022
+      link: https://kaistackr-my.sharepoint.com/:b:/g/personal/mhsung_kaist_ac_kr/Eat0kepdoURCqF18vbgc3wEBuOF6skhtg-LxlS_woOsp-w?e=wJyRCa
+    - title: "We are now looking for undergraduate interns to join our group this winter. Click for more details. The deadline is Nov 14 (Mon), 23:59 KST."
       time: Oct 2022
       link: lab/internship-winter-2022
     - title: "One paper accepted to WACV 2023 (Algorithm Track)."
@@ -15,7 +18,7 @@ news:
       time: Aug 2022
     - title: "Serving as an associate editor of Graphical Models."
       time: Aug 2022
-    - title: "I wrote a blog post about 'How do I structure a paper?' at SIGGRAPH Research Career Development Committee (RCDC) webpage. Click this to check it out."
+    - title: "I wrote a blog post about 'How do I structure a paper?' at SIGGRAPH Research Career Development Committee (RCDC) webpage. Click to check it out."
       time: Aug 2022
       link: https://research.siggraph.org/blog/guides/how-do-i-structure-a-paper/
     - title: "Virtually visited Mohamed Elhoseiny's group at KAUST and gave a talk about language and 3D."
