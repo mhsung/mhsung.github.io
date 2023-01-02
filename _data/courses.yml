@@ -1,4 +1,7 @@
 courses:
+  - title: "CS380: Introduction to Computer Graphics"
+    link: https://mhsung.github.io/kaist-cs380-spring-2023/
+    time: Spring 2023
   - title: "CS492(J): Geometric Modeling and Processing"
     link: https://mhsung.github.io/kaist-cs492j-fall-2022/
     time: Fall 2022
