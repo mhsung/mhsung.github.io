@@ -1,4 +1,7 @@
 news:
+    - title: I uploaded the lecture recordings of the 3D ML course on the course webpage. Click this to move to the course webpage. Hope the lectures would be helpful to students studying 3D ML.
+      time: Jan 2023
+      link: https://mhsung.github.io/kaist-cs492a-spring-2022/
     - title: Juil Koo passed his M.S. thesis defense. Congrats!
       time: Dec 2022
       link: https://63days.github.io/
@@ -20,6 +23,9 @@ news:
       link: https://research.typeform.com/to/cYQEYa5L
     - title: "Serving as a senior program committee member at AAAI 2023."
       time: Sep 2022
+    - title: "We are hosting the 2022 Women Tech Stars workshop at KAIST, supported by the Google ExploreCSR program. Click this to check out the webpage."
+      time: Aug 2022
+      link: https://womentechstars.github.io/2022s/index.html
     - title: "Visited GrUVi at SFU on the trip to SIGGRAPH 2022 and gave a talk."
       time: Aug 2022
     - title: "Serving as an associate editor of Graphical Models."
@@ -31,7 +37,7 @@ news:
       time: Jul 2022
     - title: "Gave a lecture on \"Introduction to Neural Rendering\" at the Summer School of KCGS 2022. Click to download the slides."
       time: Jul 2022
-      link: https://kaistackr-my.sharepoint.com/:b:/g/personal/mhsung_kaist_ac_kr/EanhSZErRqJIksYJXhyow3YBNJPxGOikgjqIYf_zMdcrUQ?e=UMEDHV
+      link: https://kaistackr-my.sharepoint.com/:b:/g/personal/mhsung_kaist_ac_kr/EdeUUd9HV9hJthtwyVqpzDsBCxr-9EE_00NXlaANiXz_bg?e=EQGinB
     - title: "One paper accepted to ECCV 2022."
       time: Jul 2022
     - title: "Gave a talk at KCC 2022."
