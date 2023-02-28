@@ -1,16 +1,20 @@
-#phd:
-ms:
+phd:
     - name: Juil Koo
       link: https://63days.github.io/
+ms:
     - name: Hyunjin Kim
     - name: Kunho Kim
     - name: Eunji Hong
+    - name: Jaihoon Kim
 undergrad:
-    - name: Nguyen M. Hieu
-    - name: Yesung Hwang
-    - name: Yuseung Lee
-    - name: Chanhyeok Park
-    - name: Baha E. Yaldiz
     - name: Seungwoo Yoo
       link: https://dvelopery0115.github.io/
+    - name: Chanhyeok Park
+    - name: Yuseung Lee
+    - name: Nguyen M. Hieu
+    - name: Haun Kim
+    - name: Jangmin Lee
+    - name: Hyunho Yang
+    #- name: Baha E. Yaldiz
+    #- name: Yesung Hwang
 
