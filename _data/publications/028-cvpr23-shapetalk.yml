@@ -1,0 +1,13 @@
+key: shapetalk
+title: "ShapeTalk: A Language Dataset and Framework for 3D Shape Edits and Deformations"
+authors:
+    - name: Panos Achlioptas
+      link: https://optas.github.io/
+    - name: Ian Huang
+      link: https://ianhuang0630.github.io/me/
+    - name: Minhyuk Sung
+    - name: Sergey Tulyakov
+      link: http://www.stulyakov.com/
+    - name: Leonidas Guibas
+      link: https://geometry.stanford.edu/member/guibas/
+venue: CVPR 2023
