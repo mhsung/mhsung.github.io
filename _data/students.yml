@@ -12,9 +12,10 @@ undergrad:
     - name: Chanhyeok Park
     - name: Yuseung Lee
     - name: Nguyen M. Hieu
+      link: https://min-hieu.github.io
     - name: Haun Kim
-    - name: Jangmin Lee
     - name: Hyunho Yang
+    #- name: Jangmin Lee
     #- name: Baha E. Yaldiz
     #- name: Yesung Hwang
 
