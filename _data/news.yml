@@ -1,4 +1,7 @@
 news:
+    - title: "Co-organizing a workshop at CVPR 2023: Structural and Compositional Learning on 3D Data."
+      time: Mar 2023
+      link: https://struco3d.github.io/cvpr2023/
     - title: "Two papers accepted to CVPR 2023."
       time: Feb 2023
     - title: I uploaded the lecture recordings of the 3D ML course on the course webpage. Click this to move to the course webpage. Hope the lectures would be helpful to students studying 3D ML.
@@ -9,7 +12,7 @@ news:
       link: https://63days.github.io/
     - title: "Hosted KAIST Geometric and Visual Computing Workshop (GVC Workshop). Click this for more details."
       time: Nov 2022
-      link: gvc-workshop-2022/
+      link: https://mhsung.github.io/gvc-workshop-2022/
     - title: "Gave a talk about language and 3D & differential Poisson Solver at the KAIST GSAI Colloquium and KIST. Click to download the slides."
       time: Nov 2022
       link: https://kaistackr-my.sharepoint.com/:b:/g/personal/mhsung_kaist_ac_kr/Eat0kepdoURCqF18vbgc3wEBuOF6skhtg-LxlS_woOsp-w?e=wJyRCa
