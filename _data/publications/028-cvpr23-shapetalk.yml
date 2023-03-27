@@ -1,5 +1,5 @@
-key: changeit3d
-title: "ChangeIt3D: Language-Assisted 3D Shape Edits and Deformations"
+key: shapetalk
+title: "ShapeTalk: A Language Dataset and Framework for 3D Shape Edits and Deformations"
 authors:
     - name: Panos Achlioptas
       link: https://optas.github.io/
