@@ -9,12 +9,12 @@ ms:
 undergrad:
     - name: Seungwoo Yoo
       link: https://dvelopery0115.github.io/
-    - name: Chanhyeok Park
     - name: Yuseung Lee
     - name: Nguyen M. Hieu
       link: https://min-hieu.github.io
     - name: Haun Kim
-    - name: Hyunho Yang
+    # - name: Chanhyeok Park
+    # - name: Hyunho Yang
     #- name: Jangmin Lee
     #- name: Baha E. Yaldiz
     #- name: Yesung Hwang
