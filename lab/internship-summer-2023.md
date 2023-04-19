@@ -87,7 +87,7 @@ A. Yes.
 A. Yes.
 
 - Q. Can people who are not enrolled in any Korean institutions apply?<br>
-A. Yes, Yes, but we recommend applying for the internship via the <a href="http://summer.kaist.ac.kr/" target="_blank">KAIST International Summer School</a> program.. 
+A. Yes, but we recommend applying for the internship via the <a href="http://summer.kaist.ac.kr/" target="_blank">KAIST International Summer School</a> program.
 
 
 <!--
