@@ -23,7 +23,7 @@ h { background-color:#FFC107 }
 
 
 <h4>
-<em>Deadline</em>: <h>Apr 29 (Sat), 23:59 KST.</h><br>
+<em>Deadline</em>: <h>Apr 30 (Sun), 23:59 KST.</h><br>
 <br />
 <em>Application Form</em>: <h><a href="https://research.typeform.com/to/iRb4g0Xx" target="_blank">Link</a></h><br>
 <br />
@@ -71,7 +71,7 @@ For reference, check out
 
 
 ### How to Apply
-<em>Deadline</em>: <h>Apr 29 (Mon), 23:59 KST.</h><br>
+<em>Deadline</em>: <h>Apr 30 (Sun), 23:59 KST.</h><br>
 <em>Application Form</em>: <h><a href="https://research.typeform.com/to/iRb4g0Xx" target="_blank">Link</a></h><br>
 
 You'll need to prepare the following files:
