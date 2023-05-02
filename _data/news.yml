@@ -1,4 +1,9 @@
 news:
+    - title: "Serving as a technical paper committee member at SIGGRAPH Asia 2023."
+      time: Apr 2023
+    - title: "Serving as a local arrangement chair at Pacific Graphics 2023."
+      time: Apr 2023
+      link: https://pg2023.org/
     - title: "Co-organizing a workshop at CVPR 2023: Structural and Compositional Learning on 3D Data."
       time: Mar 2023
       link: https://struco3d.github.io/cvpr2023/
@@ -56,7 +61,7 @@ news:
       link: lab/internship-summer-2022
     - title: "Gave a talk at Samsung Display about neural rendering."
       time: Apr 2022
-    - title: "Serving as a program committee member at SIGGRAPH Asia 2022."
+    - title: "Serving as a technical paper committee member at SIGGRAPH Asia 2022."
       time: Apr 2022
     - title: "Three papers accepted to CVPR 2022 including Juil's oral."
       time: Mar 2021
