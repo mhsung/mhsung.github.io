@@ -1,4 +1,6 @@
 courses:
+  - title: "CS479: Machine Learning for 3D Data"
+    time: Fall 2023
   - title: "CS380: Introduction to Computer Graphics"
     link: https://mhsung.github.io/kaist-cs380-spring-2023/
     time: Spring 2023
