@@ -120,6 +120,12 @@
                             <a href="{{ press_release.link }}" target=_blank>Media {{ forloop.index }}</a>&ensp;
                         {% endfor %}
                     {% endif %}
+
+                    {% if paper.etc %}
+                        {% for etc in paper.etc %}
+                            <a href="{{ etc.link }}" target=_blank>{{ etc.name }}</a>&ensp;
+                        {% endfor %}
+                    {% endif %}
                 </div>
             </div>
 

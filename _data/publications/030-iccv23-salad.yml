@@ -1,0 +1,19 @@
+key: salad
+title: "SALAD: Part-Level Latent Diffusion for 3D Shape Generation and Manipulation"
+authors:
+    - name: Juil Koo*
+      link: http://63days.github.io/
+    - name: Seungwoo Yoo*
+      link: https://dvelopery0115.github.io/
+    - name: Minh Hieu Nguyen*
+      link: http://min-hieu.github.io/
+    - name: Minhyuk Sung
+authors_note: equal contributions
+venue: ICCV 2023
+project: https://salad3d.github.io/
+arXiv: https://arxiv.org/abs/2303.12236
+pdf: https://salad3d.github.io/assets/salad.pdf
+code: https://github.com/63days/salad
+etc:
+    - name: 3Dpresso (Text-to-3D)
+      link: https://3dpresso.ai/textto3d

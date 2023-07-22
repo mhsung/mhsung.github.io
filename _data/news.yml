@@ -1,4 +1,10 @@
 news:
+    - title: "SALAD has been accepted at ICCV 2023. Kudos to Juil, Seungwoo, and Hieu! SALAD is now powering the text-to-3D service at 3Dpresso by ReconLabs. Click here to check it out."
+      time: July 2023
+      link: https://3dpresso.ai/textto3d
+    - title: "I presented a tutorial talk at the Korea AI Association conference titled \"3D Generation via 2D Priors and Neural Rendering: Recent Advances, Limitations, and Future Directions.\" Click here to download the slides."
+      time: July 2023
+      link: https://kaistackr-my.sharepoint.com/:b:/g/personal/mhsung_kaist_ac_kr/EbWgBXi-UuVOpOvVnUTPFSsBLNblqH7NAPgGonEA_7gLxA?e=tSqbHd
     - title: "Gave a talk at Osstem Implant."
       time: Jun 2023
     - title: "Gave a talk about 3D generative models at the POSTECH CSE/GSAI seminar series. Click to download the slides."
@@ -14,7 +20,7 @@ news:
       link: https://struco3d.github.io/cvpr2023/
     - title: "Two papers accepted to CVPR 2023."
       time: Feb 2023
-    - title: I uploaded the lecture recordings of the 3D ML course on the course webpage. Click this to move to the course webpage. Hope the lectures would be helpful to students studying 3D ML.
+    - title: "I uploaded the lecture recordings of the 3D ML course on the course webpage. Click this to move to the course webpage. Hope the lectures would be helpful to students studying 3D ML."
       time: Jan 2023
       link: https://mhsung.github.io/kaist-cs492a-spring-2022/
     - title: Juil Koo passed his M.S. thesis defense. Congrats!
