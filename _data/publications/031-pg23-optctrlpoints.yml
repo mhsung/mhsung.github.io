@@ -1,0 +1,14 @@
+key: optctrlpoints
+title: "OptCtrlPoints: Optimizing Control Points for Biharmonic 3D Shape Deformation"
+authors:
+    - name: Kunho Kim
+    - name: Mikaela Angelina Uy
+      link: https://mikacuy.github.io/
+    - name: Despoina Paschalidou
+      link: https://paschalidoud.github.io/
+    - name: Alec Jacobson
+      link: https://www.cs.toronto.edu/~jacobson/
+    - name: Leonidas Guibas
+      link: https://geometry.stanford.edu/member/guibas/
+    - name: Minhyuk Sung
+venue: Pacific Graphics 2023 (Full Paper)
