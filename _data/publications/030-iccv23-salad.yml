@@ -14,8 +14,7 @@ project: https://salad3d.github.io/
 arXiv: https://arxiv.org/abs/2303.12236
 pdf: https://salad3d.github.io/assets/salad.pdf
 code: https://github.com/63days/salad
+hugging_face: https://huggingface.co/spaces/KAIST-Geometric-AI-Lab/salad-demo
 etc:
-    - name: Hugging Face
-      link: https://huggingface.co/spaces/KAIST-Geometric-AI-Lab/salad-demo
     - name: 3Dpresso (Text-to-3D)
       link: https://3dpresso.ai/textto3d

@@ -115,6 +115,10 @@
                         <a href="{{ paper.link }}" target=_blank>Link</a>&ensp;
                     {% endif %}
 
+                    {% if paper.hugging_face %}
+                        <a href="{{ paper.hugging_face }}" target=_blank>Hugging Face</a>&ensp;
+                    {% endif %}
+
                     {% if paper.press_release %}
                         {% for press_release in paper.press_release %}
                             <a href="{{ press_release.link }}" target=_blank>Media {{ forloop.index }}</a>&ensp;

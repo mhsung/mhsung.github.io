@@ -1,0 +1,12 @@
+key: fourierhandflow
+title: "FourierHandFlow: Neural 4D Hand Representation Using Fourier Query Flow"
+authors:
+    - name: Jihyun Lee
+      link: https://jyunlee.github.io/
+    - name: Junbong Jang
+    - name: Donghwan Kim
+    - name: Minhyuk Sung
+    - name: Tae-Kyun Kim
+      link: https://sites.google.com/view/tkkim/
+venue: NeurIPS 2023
+arXiv: https://arxiv.org/abs/2307.08100
