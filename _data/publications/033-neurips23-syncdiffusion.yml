@@ -8,7 +8,7 @@ authors:
     - name: Minhyuk Sung
 venue: NeurIPS 2023
 project: https://syncdiffusion.github.io/
-arxiv: https://arxiv.org/abs/2306.05178
+arXiv: https://arxiv.org/abs/2306.05178
 pdf: https://syncdiffusion.github.io/static/syncdiffusion_pdf.pdf
 code: https://github.com/KAIST-Geometric-AI-Group/SyncDiffusion
 hugging_face: https://huggingface.co/spaces/KAIST-Geometric-AI-Lab/syncdiffusion-demo
