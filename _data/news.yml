@@ -1,7 +1,12 @@
 news:
+    - title: I presented a tutorial at Pacific Graphics about 3D generative models.
+      time: Oct 2023
+    - title: "I gave a talk at University College London and Adobe Research Paris with the title: \"Towards Shape Editability and Multi-View Consistency in 3D Generation.\" Click here to download the slides."
+      time: Oct 2023
+      link: https://kaistackr-my.sharepoint.com/:b:/g/personal/mhsung_kaist_ac_kr/EVIKXKGuVzpOhYMD1BEiY2sBSt0XH0Ej9QW0Ua4I9ZWirg?e=ogMgCA
     - title: "Two papers accepted to NeurIPS 2023."
       time: Sep 2023
-    - title: "Gave a talk as a colloquium speaker at the KAIST Metaverse Program."
+    - title: "I gave a talk as a colloquium speaker at the KAIST Metaverse Program."
       time: Sep 2023
     - title: "OptCtrlPoints has been accepted to Pacific Graphics 2023 as a full paper. Congrats Kunho!"
       time: Aug 2023
@@ -10,16 +15,16 @@ news:
     - title: "SALAD has been accepted at ICCV 2023. Kudos to Juil, Seungwoo, and Hieu! Click here to check out our Hugging Face demo on our project webpage."
       time: Jul 2023
       link: https://salad3d.github.io/
-    - title: "Gave a talk at Samsung Advanced Institute of Technology."
+    - title: "I gave a talk at Samsung Advanced Institute of Technology."
       time: Jul 2023
     - title: "I presented a tutorial talk at the Korea AI Association conference titled \"3D Generation via 2D Priors and Neural Rendering: Recent Advances, Limitations, and Future Directions.\" Click here to download the slides."
       time: Jul 2023
       link: https://kaistackr-my.sharepoint.com/:b:/g/personal/mhsung_kaist_ac_kr/EbWgBXi-UuVOpOvVnUTPFSsBLNblqH7NAPgGonEA_7gLxA?e=tSqbHd
-    - title: "Gave a talk at Ontact Health."
+    - title: "I gave a talk at Ontact Health."
       time: Jul 2023
-    - title: "Gave a talk at Osstem Implant."
+    - title: "I gave a talk at Osstem Implant."
       time: Jun 2023
-    - title: "Gave a talk about 3D generative models at the POSTECH CSE/GSAI seminar series. Click to download the slides."
+    - title: "I gave a talk about 3D generative models at the POSTECH CSE/GSAI seminar series. Click to download the slides."
       time: Jun 2023
       link: https://kaistackr-my.sharepoint.com/:b:/g/personal/mhsung_kaist_ac_kr/Ef9rKhHIMLNDphBi3ZM0460Be-vwQXKAGt2cmaIZ8FRg6A?e=5RreLi
     - title: "Serving as a technical paper committee member at SIGGRAPH Asia 2023."
@@ -41,7 +46,7 @@ news:
     - title: "Hosted KAIST Geometric and Visual Computing Workshop (GVC Workshop). Click this for more details."
       time: Nov 2022
       link: https://mhsung.github.io/gvc-workshop-2022/
-    - title: "Gave a talk about language and 3D & differential Poisson Solver at the KAIST GSAI Colloquium and KIST. Click to download the slides."
+    - title: "I gave a talk about language and 3D & differential Poisson Solver at the KAIST GSAI Colloquium and KIST. Click to download the slides."
       time: Nov 2022
       link: https://kaistackr-my.sharepoint.com/:b:/g/personal/mhsung_kaist_ac_kr/Eat0kepdoURCqF18vbgc3wEBuOF6skhtg-LxlS_woOsp-w?e=wJyRCa
     - title: "We are now looking for undergraduate interns to join our group this winter. Click for more details. The deadline is Nov 14 (Mon), 23:59 KST."
@@ -71,12 +76,12 @@ news:
       link: https://3dmm-icme2022.github.io/
     - title: "Virtually visited Mohamed Elhoseiny's group at KAUST and gave a talk about language and 3D."
       time: Jul 2022
-    - title: "Gave a lecture on \"Introduction to Neural Rendering\" at the Summer School of KCGS 2022. Click to download the slides."
+    - title: "I gave a lecture on \"Introduction to Neural Rendering\" at the Summer School of KCGS 2022. Click to download the slides."
       time: Jul 2022
       link: https://kaistackr-my.sharepoint.com/:b:/g/personal/mhsung_kaist_ac_kr/EdeUUd9HV9hJthtwyVqpzDsBCxr-9EE_00NXlaANiXz_bg?e=EQGinB
     - title: "One paper accepted to ECCV 2022."
       time: Jul 2022
-    - title: "Gave a talk at KCC 2022."
+    - title: "I gave a talk at KCC 2022."
       time: Jun 2022
       link: https://www.kiise.or.kr/conference/main/getContent.do?CC=KCC&CS=2022&PARENT_ID=011400&content_no=1618
     - title: "Visited Stanford University and gave a talk about language and 3D. Click to download the slides."
@@ -85,49 +90,49 @@ news:
     - title: "We are now looking for undergraduate interns to join our group this summer. Click this for more details."
       time: May 2022
       link: lab/internship-summer-2022
-    - title: "Gave a talk at Samsung Display about neural rendering."
+    - title: "I gave a talk at Samsung Display about neural rendering."
       time: Apr 2022
     - title: "Serving as a technical paper committee member at SIGGRAPH Asia 2022."
       time: Apr 2022
     - title: "Three papers accepted to CVPR 2022 including Juil's oral."
       time: Mar 2021
-    - title: "Gave a talk at the First Wednesday Multidisciplinary Forum at KAIST."
+    - title: "I gave a talk at the First Wednesday Multidisciplinary Forum at KAIST."
       time: Mar 2022
     - title: "Invited as a webinar speaker at Asiagraphics."
       time: Feb 2022
       link: http://www.asiagraphics.org/webinar/#session7
     - title: "One paper accepted to ICRA 2022."
       time: Feb 2022
-    - title: "Gave a talk at the Manufacturing Technology Center at Samsung Electronics."
+    - title: "I gave a talk at the Manufacturing Technology Center at Samsung Electronics."
       time: Oct 2021
-    - title: "Gave a talk as a colloquium speaker in the School of Biomedical Engineering at Korea University."
+    - title: "I gave a talk as a colloquium speaker in the School of Biomedical Engineering at Korea University."
       time: Oct 2021
     - title: "Serving as an International Program Committee member at Eurographics 2022."
       time: Sep 2021
       link: https://eg2022.univ-reims.fr/or-full-ipc.html
-    - title: "Gave a talk as a seminar speaker in the School of Integrated Technology at GIST."
+    - title: "I gave a talk as a seminar speaker in the School of Integrated Technology at GIST."
       time: Sep 2021
     - title: "We have been awarded the Google exploreCSR grant for the Rising Stars 2022 program at KAIST. Stay tuned for the details of the event!"
       time: Sep 2021
       link: https://research.google/outreach/explore-csr/recipients/
     - title: "Two papers accepted to ICCV 2021."
       time: Jul 2021
-    - title: "Gave a talk at the Korea Computer Graphics Society 2021."
+    - title: "I gave a talk at the Korea Computer Graphics Society 2021."
       time: Jul 2021
-    - title: "Gave a talk as a colloquium speaker in the School of Computing at KAIST."
+    - title: "I gave a talk as a colloquium speaker in the School of Computing at KAIST."
       time: May 2021
     - title: "Co-organizing a workshop at ICCV 2021: Structural and Compositional Learning on 3D Data."
       time: Apr 2021
       link: https://geometry.stanford.edu/struco3d/
-    - title: "Gave a talk as a colloquium speaker in the Software Graduate Program at KAIST."
+    - title: "I gave a talk as a colloquium speaker in the Software Graduate Program at KAIST."
       time: Apr 2021
     - title: "Three papers accepted to CVPR 2021 including two orals."
       time: Mar 2021
-    - title: "Gave a talk at the Computer Vision Researcher Forum of Korean Computer Vision Society"
+    - title: "I gave a talk at the Computer Vision Researcher Forum of Korean Computer Vision Society"
       time: Feb 2021
-    - title: "Gave a talk at the Graduate School of Culture Technology at KAIST."
+    - title: "I gave a talk at the Graduate School of Culture Technology at KAIST."
       time: Feb 2021
-    - title: "Gave a talk at Kakao Brain."
+    - title: "I gave a talk at Kakao Brain."
       time: Jan 2021
     - title: "I started as an assistant professor in the School of Computing at KAIST."
       time: Jan 2021
