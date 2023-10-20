@@ -1,11 +1,15 @@
 news:
-    - title: I presented a tutorial at Pacific Graphics about 3D generative models.
+    - title: "One paper accepted to 3DV 2024."
       time: Oct 2023
+    - title: I presented a tutorial at Pacific Graphics about 3D generative models. Click here for more details.
+      time: Oct 2023
+      link: https://pg2023.org/courses
     - title: "I gave a talk at University College London and Adobe Research Paris with the title: \"Towards Shape Editability and Multi-View Consistency in 3D Generation.\" Click here to download the slides."
       time: Oct 2023
       link: https://kaistackr-my.sharepoint.com/:b:/g/personal/mhsung_kaist_ac_kr/EVIKXKGuVzpOhYMD1BEiY2sBSt0XH0Ej9QW0Ua4I9ZWirg?e=ogMgCA
-    - title: "Two papers accepted to NeurIPS 2023."
+    - title: "Two papers accepted to NeurIPS 2023. Congratulations Yuseung on the first paper! Please check out our Hugging Face demo on our project webpage by clicking here."
       time: Sep 2023
+      link: https://syncdiffusion.github.io/
     - title: "I gave a talk as a colloquium speaker at the KAIST Metaverse Program."
       time: Sep 2023
     - title: "OptCtrlPoints has been accepted to Pacific Graphics 2023 as a full paper. Congrats Kunho!"
