@@ -47,9 +47,11 @@ Research topics include, but are not limited to:
 - Discovering structure in 3D
 - Diffusion Models on Graphs
 
-For reference, check out our recent research on <em><a href="{{site.baseurl}}/" target="_blank">my webpage</a></em>,
-and the following course webpage:
-- <em><a href="{{site.baseurl}}/kaist-cs479-fall-2023/" target="_blank">CS479: Machine Learning for 3D Data</a></em> course webpage.
+To find more information, visit the following:
+- Explore our recent research on my <em><a href="{{site.baseurl}}/" target="_blank">my webpage</a></em>.
+- Check out my tutorial talk <em><a href="https://kaistackr-my.sharepoint.com/:b:/g/personal/mhsung_kaist_ac_kr/EVIKXKGuVzpOhYMD1BEiY2sBSt0XH0Ej9QW0Ua4I9ZWirg?e=ogMgCA" target="_blank">slides</a></em> covering NeRF, diffusion models, and 3D generation.
+- Dive into my talk <em><a href="https://kaistackr-my.sharepoint.com/:b:/g/personal/mhsung_kaist_ac_kr/EeHEwtyEHDlLuQt7C_NyKV8BqHYHMX_f023JQ-jKEflFNA?e=q7d3hL" target="_blank">slides</a></em> that focus on 3D shape generation and editing.
+- Visit the <em><a href="{{site.baseurl}}/kaist-cs479-fall-2023/" target="_blank">CS479: Machine Learning for 3D Data</a></em> course webpage for additional resources.
 
 
 ### Requirements
