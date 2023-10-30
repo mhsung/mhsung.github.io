@@ -3,7 +3,7 @@ layout: page
 
 title: "Call for Internships"
 
-info: <a href="http://mhsung.github.io/" target="_blank">Minhyuk Sung</a>, <a href="https://www.kaist.ac.kr/" target="_blank">KAIST</a>, Summer 2023
+info: <a href="http://mhsung.github.io/" target="_blank">Minhyuk Sung</a>, <a href="https://www.kaist.ac.kr/" target="_blank">KAIST</a>, Winter 2023
 
 slug: internship-winter-2023
 ---
@@ -84,7 +84,7 @@ A. Yes.
 A. Yes.
 
 - Q. Can people who are not enrolled in any Korean institutions apply?<br>
-A. Yes, but we recommend applying for the internship via the <a href="http://winter.kaist.ac.kr/" target="_blank">KAIST International Summer School</a> program.
+A. Yes, but we recommend applying for the internship via the <a href="http://winter.kaist.ac.kr/" target="_blank">KAIST International Winter School</a> program.
 
 
 <!--
