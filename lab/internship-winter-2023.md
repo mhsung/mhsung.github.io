@@ -48,7 +48,7 @@ Research topics include, but are not limited to:
 - Diffusion Models on Graphs
 
 To find more information, visit the following:
-- Explore our recent research on my <em><a href="{{site.baseurl}}/" target="_blank">my webpage</a></em>.
+- Explore our recent research on my <em><a href="{{site.baseurl}}/" target="_blank">webpage</a></em>.
 - Check out my tutorial talk <em><a href="https://kaistackr-my.sharepoint.com/:b:/g/personal/mhsung_kaist_ac_kr/EVIKXKGuVzpOhYMD1BEiY2sBSt0XH0Ej9QW0Ua4I9ZWirg?e=ogMgCA" target="_blank">slides</a></em> covering NeRF, diffusion models, and 3D generation.
 - Dive into my talk <em><a href="https://kaistackr-my.sharepoint.com/:b:/g/personal/mhsung_kaist_ac_kr/EeHEwtyEHDlLuQt7C_NyKV8BqHYHMX_f023JQ-jKEflFNA?e=q7d3hL" target="_blank">slides</a></em> that focus on 3D shape generation and editing.
 - Visit the <em><a href="{{site.baseurl}}/kaist-cs479-fall-2023/" target="_blank">CS479: Machine Learning for 3D Data</a></em> course webpage for additional resources.
@@ -85,8 +85,8 @@ A. Yes.
 - Q. Can non-KAIST students stay in a KAIST dormitory during the internship?<br>
 A. Yes.
 
-- Q. Can people who are not enrolled in any Korean institutions apply?<br>
-A. Yes, but we recommend applying for the internship via the <a href="http://winter.kaist.ac.kr/" target="_blank">KAIST International Winter School</a> program.
+- Q. Can international students who are not enrolled in any Korean institutions apply?<br>
+A. Yes, KAIST has a <a href="https://io.kaist.ac.kr/menu/io.do?mguid=D4CD2D0A-21E5-E511-940C-2C44FD7DF8B9" target="_blank">Visiting Student Researcher Program</a>, although it is preferred for students who intend to undertake a longer-term internship (at least six months).
 
 
 <!--
