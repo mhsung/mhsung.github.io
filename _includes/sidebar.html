@@ -15,6 +15,8 @@
         <h3 class="tagline">{{ sidebar.tagline | markdownify }}</h3>
         {% endif %}
 
+        <h3 class="group-name"><b><a href="https://visualai.kaist.ac.kr/" target="_blank">KAIST Visual AI Group</a></b></h3>
+
         <h3 class="icon">
             {% if sidebar.email %}
             <a href="mailto:{{ sidebar.email }}"><i class="fas fa-envelope"></i></a>  
@@ -50,6 +52,6 @@
 
     {% include contact.html %}
     {% include courses.html %}
-    {% include students.html %}
+    <!-- include students.html -->
 
 </div><!--//sidebar-wrapper-->
