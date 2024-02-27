@@ -1,0 +1,13 @@
+key: interhandgen
+title: "InterHandGen: Two-Hand Interaction Generation via Cascaded Reverse Diffusion"
+authors:
+    - name: Jihyun Lee
+      link: https://jyunlee.github.io/
+    - name: Shunsuke Saito
+      link: https://shunsukesaito.github.io/
+    - name: Giljoo Nam
+      link: https://sites.google.com/view/gjnam
+    - name: Minhyuk Sung
+    - name: Tae-Kyun Kim
+      link: https://sites.google.com/view/tkkim/
+venue: CVPR 2024

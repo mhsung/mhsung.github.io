@@ -1,0 +1,16 @@
+key: apap
+title: "As-Plausible-As-Possible: Semantic-Aware Shape Deformation using 2D Diffusion Priors"
+authors:
+    - name: Seungwoo Yoo*
+      link: https://dvelopery0115.github.io/
+    - name: Kunho Kim*
+      link: https://soulmates2.github.io/
+    - name: Vladimir Kim
+      link: http://www.vovakim.com/
+    - name: Minhyuk Sung
+authors_note: co-first authors
+venue: CVPR 2024
+project: https://as-plausible-as-possible.github.io
+arXiv: https://arxiv.org/abs/2311.16739
+pdf: https://as-plausible-as-possible.github.io/static/APAP.pdf
+code: https://github.com/KAIST-Visual-AI-Group/APAP

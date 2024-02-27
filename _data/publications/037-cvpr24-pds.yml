@@ -1,0 +1,14 @@
+key: pds
+title: "Posterior Distillation Sampling"
+authors:
+    - name: Juil Koo
+      link: https://63days.github.io/
+    - name: Chanho Park
+      link: https://github.com/charlieppark
+    - name: Minhyuk Sung
+venue: CVPR 2024
+project: https://posterior-distillation-sampling.github.io/
+arXiv: https://arxiv.org/abs/2311.13831
+pdf: https://posterior-distillation-sampling.github.io/static/assets/pds.pdf
+code: https://github.com/KAIST-Visual-AI-Group/PDS
+hugging_face: https://huggingface.co/KAIST-Visual-AI-Lab
