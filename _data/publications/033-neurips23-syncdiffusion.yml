@@ -11,4 +11,4 @@ project: https://syncdiffusion.github.io/
 arXiv: https://arxiv.org/abs/2306.05178
 pdf: https://syncdiffusion.github.io/static/syncdiffusion_pdf.pdf
 code: https://github.com/KAIST-Geometric-AI-Group/SyncDiffusion
-hugging_face: https://huggingface.co/spaces/KAIST-Geometric-AI-Lab/syncdiffusion-demo
+hugging_face: https://huggingface.co/spaces/KAIST-Visual-AI-Group/syncdiffusion-demo
