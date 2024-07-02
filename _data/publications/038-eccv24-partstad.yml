@@ -2,6 +2,7 @@ key: partstad
 title: "PartSTAD: 2D-to-3D Part Segmentation Task Adaptation"
 authors:
     - name: Hyunjin Kim
+      link: https://kormachine.github.io/
     - name: Minhyuk Sung
 venue: ECCV 2024
 arXiv: https://arxiv.org/abs/2401.05906
