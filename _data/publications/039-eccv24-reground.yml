@@ -1,7 +1,7 @@
 key: reground
 title: "ReGround: Improving Textual and Spatial Grounding at No Cost"
 authors:
-    - name: Yuseung Lee
+    - name: Phillip Y. Lee
       link: https://phillipinseoul.github.io/
     - name: Minhyuk Sung
 venue: ECCV 2024
