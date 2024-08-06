@@ -1,4 +1,7 @@
 courses:
+  - title: "CS492(D): Diffusion Models and Their Applications"
+    link: https://mhsung.github.io/kaist-cs492d-fall-2024/
+    time: Fall 2024
   - title: "CS580: Computer Graphics"
     link: https://mhsung.github.io/kaist-cs580-spring-2024/
     time: Spring 2024
