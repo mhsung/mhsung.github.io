@@ -1,8 +1,8 @@
 news:
-    - title: 'I presented a tutorial on "Diffusion Models for Visual Content Generation" at Eurographics 2024. Click here for more details.'
+    - title: "I presented a tutorial on \"Diffusion Models for Visual Content Generation\" at SIGGRAPH 2024. Click here for more details."
       link: https://geometry.cs.ucl.ac.uk/courses/diffusion4ContentCreation_sigg24/
       time: Aug 2024
-    - title: "I gave talks at Stanford and Adobe Research on "Visual Content Generation with Image Diffusion Models". Click here to download the slides."
+    - title: "I gave talks at Stanford and Adobe Research on \"Visual Content Generation with Image Diffusion Models\". Click here to download the slides."
       link: https://onedrive.live.com/?authkey=%21AHL%5FdHl6y%5FVYEao&id=60562023B6640282%2132943&cid=60562023B6640282&parId=root&parQt=sharedby&o=OneUp
       time: July 2024
     - title: "Two papers have been accepted to ECCV 2024."
@@ -12,12 +12,12 @@ news:
       time: Jun 2024
     - title: "Serving as an International Program Committee member at Eurographics 2025."
       time: Jun 2024
-    - title: "I gave talks at TUM, ETH, and École Polytechnique on "Visual Content Generation with Image Diffusion Models". Click here to download the slides."
+    - title: "I gave talks at TUM, ETH, and École Polytechnique on \"Visual Content Generation with Image Diffusion Models\". Click here to download the slides."
       link: https://onedrive.live.com/?authkey=%21AOnPCAWYCSEMQSw&id=60562023B6640282%215513&cid=60562023B6640282&parId=root&parQt=sharedby&o=OneUp
       time: Apr 2024
     - title: "Serving as a technical paper committee member at SIGGRAPH Asia 2024."
       time: Mar 2024
-    - title: 'I presented a tutorial on "Diffusion Models for Visual Computing" at Eurographics 2024. Click here for more details.'
+    - title: "I presented a tutorial on \"Diffusion Models for Visual Computing\" at Eurographics 2024. Click here for more details."
       link: https://geometry.cs.ucl.ac.uk/courses/diffusion4VC_eg24/
       time: Apr 2024
     - title: "Serving as a technical paper committee member at SIGGRAPH Asia 2024."
