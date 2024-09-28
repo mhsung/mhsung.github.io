@@ -1,11 +1,11 @@
 key: synctweedies
 title: "SyncTweedies: A General Generative Framework Based on Synchronized Diffusions"
 authors:
-    - name: Jaihoon Kim\*
+    - name: Jaihoon Kim*
       link: https://jh27kim.github.io/
-    - name: Juil Koo\*
+    - name: Juil Koo*
       link: https://63days.github.io/
-    - name: Kyeongmin Yeo\*
+    - name: Kyeongmin Yeo*
     - name: Minhyuk Sung
 authors_note: equal contributions
 venue: NeurIPS 2024
