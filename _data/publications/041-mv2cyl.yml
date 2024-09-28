@@ -1,0 +1,11 @@
+key: mv2cyl
+title: "MV2Cyl: Reconstructing 3D Extrusion Cylinders from Multi-View Images"
+authors:
+    - name: Eunji Hong
+    - name: Nguyen Minh Hieu
+      link: https://hieuristics.xyz/
+    - name: Mikaela Angelina Uy
+      link: https://mikacuy.github.io/
+    - name: Minhyuk Sung
+venue: NeurIPS 2024
+arXiv: https://arxiv.org/abs/2406.10853
