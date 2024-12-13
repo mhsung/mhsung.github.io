@@ -8,5 +8,6 @@ authors:
     - name: Minhyuk Sung
 authors_note: equal contributions
 venue: NeurIPS 2024
-arXiv: https://arxiv.org/abs/2410.20474
 project: https://groundit-diffusion.github.io/
+arXiv: https://arxiv.org/abs/2410.20474
+code: https://github.com/KAIST-Visual-AI-Group/GrounDiT/
