@@ -1,6 +1,11 @@
 news:
+<<<<<<< HEAD
     - title: "One paper has been accepted to ICLR 2025."
       time: Jan 2025
+=======
+    - title: "I gave a talk at the University of Tokyo on \"Visual Content Generation with Image Diffusion Models\"."
+      time: Dec 2024
+>>>>>>> a1e30d1a2954c741e3933cc7e9d7c7956d6f8c7c
     - title: "Serving as an area chair at ICCV 2025."
       time: Dec 2024
     - title: "Four papers have been accepted to NeurIPS 2024."
