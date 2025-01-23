@@ -1,0 +1,9 @@
+key: stochsync
+title: "StochSync: Stochastic Diffusion Synchronization for Image Generation in Arbitrary Spaces"
+authors:
+    - name: Kyeongmin Yeo*
+    - name: Jaihoon Kim*
+      link: https://jh27kim.github.io/
+    - name: Minhyuk Sung
+authors_note: equal contributions
+venue: ICLR 2025
