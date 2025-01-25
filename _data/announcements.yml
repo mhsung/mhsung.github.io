@@ -1,17 +1,14 @@
 announcements:
-<<<<<<< HEAD
   # - title: "Call for Internship for Winter 2024: We are currently seeking undergraduate interns to join our group this winter. Click here for more details."
   #   time: Nov 2024
   #   link: https://visualai.kaist.ac.kr/internship/
   # - title: "We are now recruiting MS students to join our group next spring. Click this to apply. The deadline is Oct 8 (Sun), 23:59 KST."
   #   time: Sep 2023
-=======
   #  - title: "Call for Internship for Winter 2024: We are currently seeking undergraduate interns to join our group this winter. Click here for more details."
   #    time: Nov 2024
   #    link: https://visualai.kaist.ac.kr/internship/
   #  - title: "We are now recruiting MS students to join our group next spring. Click this to apply. The deadline is Oct 8 (Sun), 23:59 KST."
   #    time: Sep 2024
->>>>>>> a1e30d1a2954c741e3933cc7e9d7c7956d6f8c7c
   # - title: "We are now looking for undergraduate interns to join our group this winter. The deadline is November 12 (Sun), 23:59 KST. Click this to apply."
   #   time: Oct 2023
   #   link: lab/internship-winter-2023
