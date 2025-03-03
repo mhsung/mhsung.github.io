@@ -8,7 +8,7 @@ sidebar:
   name: Minhyuk Sung
   name_legacy: Min-Hyuk Sung
   tagline: |
-    Assistant Professor  
+    Associate Professor   
     [School of Computing](http://cs.kaist.ac.kr/){:target="_blank"}  
     [Graduate School of AI](http://gsai.kaist.ac.kr/){:target="_blank"}  
     [KAIST](http://www.kaist.ac.kr/){:target="_blank"}
@@ -34,5 +34,5 @@ sidebar:
 profile:
     title: Biography
     summary: |
-      I am an assistant professor in the [School of Computing](http://cs.kaist.ac.kr/){:target="_blank"} at [KAIST](http://www.kaist.ac.kr/){:target="_blank"}, leading the [KAIST Visual AI Group](https://visualai.kaist.ac.kr/){:target="_blank"}. I am also affiliated with the [Graduate School of AI](http://gsai.kaist.ac.kr/){:target="_blank"} and the [Metaverse Program](https://meta.kaist.ac.kr/){:target="_blank"}. Before joining KAIST, I was a research scientist at [Adobe Research](https://research.adobe.com/){:target="_blank"}. I received my Ph.D. from [Stanford University](https://www.stanford.edu/){:target="_blank"}, advised by [Leonidas Guibas](http://geometry.stanford.edu/member/guibas){:target="_blank"}, and received M.S. and B.S. degrees from [KAIST](http://www.kaist.ac.kr/){:target="_blank"}. My research focuses on generating, analyzing, and manipulating visual data based on learning novel neural representations. I'm the recipient of the Asiapgraphics Researcher Award in 2024.<br><br>I am looking for motivated students to join my group. Please reach out to me via <a href="mailto: {{site.email}}">email</a> if you are interested in.<br>[**Information for Prospective Students**](https://visualai.kaist.ac.kr/join_us/){:target="_blank"}
+      I am an associate professor in the [School of Computing](http://cs.kaist.ac.kr/){:target="_blank"} at [KAIST](http://www.kaist.ac.kr/){:target="_blank"}, leading the [KAIST Visual AI Group](https://visualai.kaist.ac.kr/){:target="_blank"}. I am also affiliated with the [Graduate School of AI](http://gsai.kaist.ac.kr/){:target="_blank"} and the [Metaverse Program](https://meta.kaist.ac.kr/){:target="_blank"}. Before joining KAIST, I was a research scientist at [Adobe Research](https://research.adobe.com/){:target="_blank"}. I received my Ph.D. from [Stanford University](https://www.stanford.edu/){:target="_blank"}, advised by [Leonidas Guibas](http://geometry.stanford.edu/member/guibas){:target="_blank"}, and received M.S. and B.S. degrees from [KAIST](http://www.kaist.ac.kr/){:target="_blank"}. My research focuses on generating, analyzing, and manipulating visual data based on learning novel neural representations. I'm the recipient of the Asiapgraphics Researcher Award in 2024.<br><br>I am looking for motivated students to join my group. Please reach out to me via <a href="mailto: {{site.email}}">email</a> if you are interested in.<br>[**Information for Prospective Students**](https://visualai.kaist.ac.kr/join_us/){:target="_blank"}
     summary_legacy: <br>My [Erdős number](https://en.wikipedia.org/wiki/Erd%C5%91s_number) is 3 (Minhyuk Sung → Leonidas Guibas → Frances Yao → Paul Erdős).
