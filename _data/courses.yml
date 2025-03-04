@@ -1,4 +1,5 @@
-courses:  - title: "CS479: Machine Learning for 3D Data"
+courses:
+  - title: "CS479: Machine Learning for 3D Data"
     link: https://mhsung.github.io/kaist-cs479-spring-2025/
     time: Spring 2025
   - title: "CS492(D): Diffusion Models and Their Applications"
