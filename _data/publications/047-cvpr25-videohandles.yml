@@ -1,0 +1,16 @@
+key: videohandles
+title: "VideoHandles: Editing 3D Object Compositions in Videos Using Video Generative Priors"
+authors:
+    - name: Juil Koo
+      link: https://63days.github.io/
+    - name: Paul Guerrero
+      link: https://paulguerrero.net/
+    - name: Chun-Hao Paul Huang
+      link: https://paulchhuang.wixsite.com/chhuang
+    - name: Duygu Ceylan
+      link: https://www.duygu-ceylan.com/
+    - name: Minhyuk Sung 
+venue: CVPR 2025
+project: https://videohandles.github.io/
+arXiv: https://arxiv.org/abs/2503.01107
+pdf: https://videohandles.github.io/static/assets/videohandles.pdf

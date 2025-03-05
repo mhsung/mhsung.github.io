@@ -1,0 +1,19 @@
+key: egocentric
+title: "Egocentric Whole-Body Motion Diffusion with Exemplar-Based Identity Conditioning"
+authors:
+    - name: Jihyun Lee
+      link: https://jyunlee.github.io/
+    - name: Weipeng Xu
+      link: https://sites.google.com/view/xuweipeng
+    - name: Alexander Richard
+      link: https://alexanderrichard.github.io/
+    - name: Shih-En Wei
+    - name: Shunsuke Saito
+      link: https://shunsukesaito.github.io/
+    - name: Shaojie Bai
+    - name: Te-Li Wang
+    - name: Minhyuk Sung
+    - name: Tae-Kyun Kim
+      link: https://sites.google.com/view/tkkim/home
+    - name: Jason Saragih 
+venue: CVPR 2025
