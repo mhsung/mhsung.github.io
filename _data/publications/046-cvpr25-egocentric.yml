@@ -1,5 +1,5 @@
 key: egocentric
-title: "Egocentric Whole-Body Motion Diffusion with Exemplar-Based Identity Conditioning"
+title: "REWIND: Real-Time Egocentric Whole-Body Motion Diffusion with Exemplar-Based Identity Conditioning"
 authors:
     - name: Jihyun Lee
       link: https://jyunlee.github.io/
@@ -17,3 +17,5 @@ authors:
       link: https://sites.google.com/view/tkkim/home
     - name: Jason Saragih 
 venue: CVPR 2025
+project: https://jyunlee.github.io/projects/rewind/
+arXiv: https://arxiv.org/pdf/2504.04956
