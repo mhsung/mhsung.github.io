@@ -1,0 +1,19 @@
+key: apc
+title: "Perspective-Aware Reasoning in Vision-Language Models via Mental Imagery Simulation"
+authors:
+    - name: Phillip Y. Lee
+      link: https://phillipinseoul.github.io/
+    - name: Jihyeon Je
+      link: https://jihyeonje.com/
+    - name: Chanho Park
+      link: https://charlieppark.kr/
+    - name: Mikaela Angelina Uy
+      link: https://mikacuy.github.io/
+    - name: Leonidas Guibas
+      link: https://geometry.stanford.edu/?member=guibas
+    - name: Minhyuk Sung
+venue: ICCV 2025
+project: https://apc-vlm.github.io/
+arXiv: https://arxiv.org/abs/2504.17207
+pdf: https://apc-vlm.github.io/static/Perspective_Aware_Reasoning_Preprint.pdf
+code: https://github.com/KAIST-Visual-AI-Group/APC-VLM

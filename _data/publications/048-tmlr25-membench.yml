@@ -1,0 +1,13 @@
+key: membench
+title: "MemBench: Memorized Image Trigger Prompt Dataset for Diffusion Models"
+authors:
+    - name: Chunsan Hong
+      link: https://sites.google.com/view/chunsanhong
+    - name: Tae-Hyun Oh*
+      link: https://ami.kaist.ac.kr/members/tae-hyun-oh
+    - name: Minhyuk Sung*
+authors_note: co-corresponding authors
+venue: TMLR
+arXiv: https://arxiv.org/abs/2407.17095
+pdf: https://openreview.net/pdf?id=z3RIiidJgD
+code: https://github.com/chunsanHong/MemBench_code
