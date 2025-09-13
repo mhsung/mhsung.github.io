@@ -3,7 +3,7 @@ courses:
     link: https://diffusion.kaist.ac.kr/
     time: Fall 2025
   - title: "CS479: Machine Learning for 3D Data"
-    link: https://mhsung.github.io/kaist-cs479-spring-2025/
+    link: http://3dml.kaist.ac.kr/
     time: Spring 2025
   - title: "CS492(D): Diffusion Models and Their Applications"
     link: https://mhsung.github.io/kaist-cs492d-fall-2024/

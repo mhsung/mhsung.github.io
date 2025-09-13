@@ -1,6 +1,14 @@
 news:
+    - title: "One paper has been accepted to WACV 2026."
+      time: Sep 2025
+    - title: "I talked about \"The Present and Future of Content Generation\" at the KAIST AI Transformation Workshop. Click to check out the recording."
+      time: Aug 2025
+      link: https://www.youtube.com/watch?v=148A4I1dJ4U
+    - title: "I gave talks at NVIDIA, Google, Stanford, and SFU titled \"Inference-Time Guided Generation Using Diffusion and Flow Models\". Click to download the slides."
+      time: Aug 2025
+      link: https://drive.google.com/file/d/1zexSlwFvJiuDY2ye2e2lwAurSlGM2F1l/view?pli=1
     - title: "I gave lectures on diffusion models at MLSS-Senegal 2025."
-      time: July 2025
+      time: Jul 2025
       link: https://mlss-senegal.github.io/
     - title: "One paper has been accepted to ICCV 2025."
       time: Jun 2025
