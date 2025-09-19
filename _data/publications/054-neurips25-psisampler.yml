@@ -1,0 +1,17 @@
+key: psisampler
+title: "Ψ-Sampler: Initial Particle Sampling for SMC-Based Inference-Time Reward Alignment in Score Models"
+authors:
+    - name: Taehoon Yoon*
+      link: https://github.com/taehoon-yoon/
+    - name: Yunhong Min*
+      link: https://myh4832.github.io/
+    - name: Kyeongmin Yeo*
+      link: https://32v.github.io/
+    - name: Minhyuk Sung
+authors_note: equal contributions
+venue: NeurIPS 2025
+publication_note: Spotlight
+project: https://psi-sampler.github.io/
+arXiv: https://arxiv.org/abs/2506.01320
+pdf: https://arxiv.org/pdf/2506.01320
+code: https://github.com/KAIST-Visual-AI-Group/Psi-Sampler

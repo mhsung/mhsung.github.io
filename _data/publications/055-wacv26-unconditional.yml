@@ -1,0 +1,14 @@
+key: unconditional
+title: "Unconditional Priors Matter! Improving Conditional Generation of Fine-Tuned Diffusion Models"
+authors:
+    - name: Prin Phunyaphibarn
+      link: https://github.com/puzzlingConundrum
+    - name: Phillip Y. Lee
+      link: https://phillipinseoul.github.io/
+    - name: Jaihoon Kim
+      link: https://jh27kim.github.io/
+    - name: Minhyuk Sung
+venue: WACV 2026
+project: https://unconditional-priors-matter.github.io/
+arXiv: https://arxiv.org/abs/2503.20240
+pdf: https://unconditional-priors-matter.github.io/static/unconditional-priors-matter.pdf

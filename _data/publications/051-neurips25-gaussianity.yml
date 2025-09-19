@@ -1,0 +1,9 @@
+key: gaussianity
+title: "Moment- and Power-Spectrum-Based Gaussianity Regularization for Text-to-Image Models"
+authors:
+    - name: Jisung Hwang
+    - name: Jaihoon Kim
+      link: https://jh27kim.github.io/
+    - name: Minhyuk Sung
+venue: NeurIPS 2025
+arXiv: https://arxiv.org/abs/2509.07027

@@ -1,0 +1,14 @@
+key: rbf
+title: "Inference-Time Scaling for Flow Models via Stochastic Generation and Rollover Budget Forcing"
+authors:
+    - name: Jaihoon Kim*
+      link: https://jh27kim.github.io/
+    - name: Taehoon Yoon*
+      link: https://github.com/taehoon-yoon/
+    - name: Jisung Hwang*
+    - name: Minhyuk Sung
+authors_note: equal contributions
+venue: NeurIPS 2025
+project: https://flow-inference-time-scaling.github.io/
+arXiv: https://arxiv.org/abs/2503.19385
+code: https://github.com/KAIST-Visual-AI-Group/Flow-Inference-Time-Scaling

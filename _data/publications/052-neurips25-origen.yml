@@ -1,0 +1,17 @@
+key: origen
+title: "ORIGEN: Zero-Shot 3D Orientation Grounding in Text-to-Image Generation"
+authors:
+    - name: Yunhong Min*
+      link: https://myh4832.github.io/
+    - name: Daehyeon Choi*
+      link: https://choidaedae.github.io/
+    - name: Kyeongmin Yeo
+      link: https://32v.github.io/
+    - name: Jihyun Lee
+      link: https://jyunlee.github.io/
+    - name: Minhyuk Sung
+authors_note: equal contributions
+venue: NeurIPS 2025
+project: https://origen2025.github.io/
+arXiv: https://arxiv.org/abs/2503.22194
+code: https://github.com/KAIST-Visual-AI-Group/ORIGEN
