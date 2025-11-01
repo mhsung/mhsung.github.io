@@ -1,7 +1,10 @@
 announcements:
-  - title: "We are now recruiting MS students to join our group next spring. Click this to apply. The deadline is Oct 12 (Sun), 23:59 KST."
-    time: Sep 2025
-    link: https://visualai.kaist.ac.kr/join_us/
+  - title: "Call for Internship for Winter 2025-2026: We are currently seeking undergraduate interns to join our group this winter. Click here for more details."
+    time: Nov 2024
+    link: https://visualai.kaist.ac.kr/internship/
+  # - title: "We are now recruiting MS students to join our group next spring. Click this to apply. The deadline is Oct 12 (Sun), 23:59 KST."
+  #   time: Sep 2025
+  #   link: https://visualai.kaist.ac.kr/join_us/
   # - title: "Call for Internship for Summer 2025: We are currently seeking undergraduate interns to join our group this summer. Click here for more details."
   #   time: Apr 2025
   #   link: https://visualai.kaist.ac.kr/internship/
