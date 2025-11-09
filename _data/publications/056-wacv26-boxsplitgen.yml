@@ -1,0 +1,12 @@
+key: boxsplitgen
+title: "BoxSplitGen: A Generative Model for 3D Part Bounding Boxes in Varying Granularity"
+authors:
+    - name: Juil Koo*
+      link: https://63days.github.io/
+    - name: Wei-Tung Lin*
+    - name: Chanho Park
+      link: https://charlieppark.kr/
+    - name: Chanhyeok Park
+    - name: Minhyuk Sung
+authors_note: equal contributions
+venue: WACV 2026
