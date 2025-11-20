@@ -1,4 +1,6 @@
 news:
+    - title: "Serving as an area chair at ICML 2026."
+      time: Nov 2025
     - title: "One paper has been accepted to 3DV 2026."
       time: Nov 2025
     - title: "One paper has been accepted to WACV 2026 (in the secound round)."
@@ -13,6 +15,8 @@ news:
       time: Aug 2025
       link: https://www.youtube.com/watch?v=148A4I1dJ4U
     - title: "I gave talks at NVIDIA, Google, Stanford, and SFU titled \"Inference-Time Guided Generation Using Diffusion and Flow Models\". Click to download the slides."
+      time: Aug 2025
+    - title: "Serving as an area chair at ICLR 2026."
       time: Aug 2025
       link: https://drive.google.com/file/d/1zexSlwFvJiuDY2ye2e2lwAurSlGM2F1l/view?pli=1
     - title: "I gave lectures on diffusion models at MLSS-Senegal 2025."
