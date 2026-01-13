@@ -1,0 +1,12 @@
+key: diffusion-rollout
+title: "DiffusionRollout: Uncertainty-Aware Rollout Planning in Long-Horizon PDE Solving"
+authors:
+    - name: Seungwoo Yoo*
+      link: https://dvelopery0115.github.io/
+    - name: Juil Koo*
+      link: https://63days.github.io/
+    - name: Daehyeon Choi*
+      link: https://choidaedae.github.io/
+    - name: Minhyuk Sung
+authors_note: equal contributions
+venue: TMLR
