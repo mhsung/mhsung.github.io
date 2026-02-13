@@ -1,0 +1,13 @@
+key: pairflow
+title: "PairFlow: Closed-Form Source-Target Coupling for Few-Step Generation in Discrete Flow Models"
+authors:
+    - name: Mingue Park*
+    - name: Jisung Hwang*
+    - name: Seungwoo Yoo*
+      link: https://dvelopery0115.github.io/
+    - name: Kyeongmin Yeo
+      link: https://32v.github.io/
+    - name: Minhyuk Sung
+authors_note: equal contributions
+venue: ICLR 2026
+arXiv: https://arxiv.org/html/2512.20063v2

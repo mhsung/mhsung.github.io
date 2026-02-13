@@ -1,0 +1,15 @@
+key: bezierflow
+title: "BézierFlow: Learning Bézier Stochastic Interpolant Schedulers for Few-Step Generation"
+authors:
+    - name: Yunhong Min*
+      link: https://myh4832.github.io/
+    - name: Juil Koo*
+      link: https://63days.github.io/
+    - name: Seungwoo Yoo
+      link: https://dvelopery0115.github.io/
+    - name: Minhyuk Sung
+authors_note: equal contributions
+venue: ICLR 2026
+arXiv: https://arxiv.org/abs/2512.13255
+project: https://bezierflow.github.io/
+code: https://github.com/KAIST-Visual-AI-Group/BezierFlow

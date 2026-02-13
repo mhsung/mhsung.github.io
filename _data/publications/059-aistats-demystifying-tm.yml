@@ -1,0 +1,12 @@
+key: demystifying-tm
+title: "Demystifying Transition Matching: When and Why It Can Beat Flow Matching"
+authors:
+    - name: Jaihoon Kim
+      link: https://jh27kim.github.io/
+    - name: Rajarshi Saha
+      link: https://sites.google.com/view/rajarshi-saha/home
+    - name: Minhyuk Sung
+    - name: Youngsuk Park
+      link: https://youngsuk0723.github.io/
+venue: AISTATS 2026
+arXiv: https://arxiv.org/abs/2510.17991
