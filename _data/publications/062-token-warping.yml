@@ -1,0 +1,16 @@
+key: token-warping
+title: "Token Warping Helps MLLMs Look from Nearby Viewpoints"
+authors:
+    - name: Phillip Y. Lee*
+      link: https://phillipinseoul.github.io/
+    - name: Chanho Park*
+      link: https://charlieppark.kr/
+    - name: Mingue Park
+      link: https://uygnim99.github.io/
+    - name: Seungwoo Yoo
+      link: https://dvelopery0115.github.io/
+    - name: Juil Koo
+      link: https://63days.github.io/
+    - name: Minhyuk Sung
+authors_note: equal contributions
+venue: CVPR 2026
