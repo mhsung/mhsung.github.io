@@ -14,3 +14,6 @@ authors:
     - name: Minhyuk Sung
 authors_note: equal contributions
 venue: CVPR 2026
+arXiv: https://arxiv.org/abs/2604.02870
+project: https://token-warping-mllm.github.io/
+code: https://github.com/KAIST-Visual-AI-Group/Token-Warping-MLLM
