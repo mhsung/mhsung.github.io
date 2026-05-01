@@ -1,0 +1,7 @@
+key: projected-gradient
+title: "Projected Gradient Ascent for Efficient Reward-Guided Updates with One-Step Generative Models"
+authors:
+    - name: Jisung Hwang
+    - name: Minhyuk Sung
+venue: ICML 2026
+arXiv: https://arxiv.org/abs/2602.08646
