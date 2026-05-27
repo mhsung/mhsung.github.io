@@ -1,7 +1,7 @@
 key: matlat
 title: "MatLat: Material Latent Space for PBR Texture Generation"
 authors:
-    - name: Kyeongmin Yeo 
+    - name: Kyeongmin Yeo
       link: https://32v.github.io/
     - name: Yunhong Min
       link: https://myh4832.github.io/
@@ -11,3 +11,4 @@ authors:
 venue: CVPR 2026
 project: https://matlat-proj.github.io/
 arXiv: https://arxiv.org/abs/2512.17302
+code: https://github.com/KAIST-Visual-AI-Group/MatLat
