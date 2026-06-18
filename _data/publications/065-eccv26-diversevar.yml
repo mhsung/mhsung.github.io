@@ -1,0 +1,13 @@
+key: diversevar
+title: "DiverseVAR: Balancing Diversity and Quality of Next-Scale Visual Autoregressive Models"
+authors:
+    - name: Mingue Park*
+      link: https://uygnim99.github.io/
+    - name: Prin Phunyaphibarn*
+      link: https://prinphunya.github.io/
+    - name: Phillip Y. Lee
+      link: https://phillipinseoul.github.io/
+    - name: Minhyuk Sung
+authors_note: equal contributions
+venue: ECCV 2026
+arXiv: https://arxiv.org/abs/2511.21415

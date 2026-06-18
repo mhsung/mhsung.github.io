@@ -1,0 +1,8 @@
+key: gradient-preconditioning
+title: "Gradient Preconditioning for Efficient and Reliable Reward-Guided Generation"
+authors:
+    - name: Jisung Hwang
+      link: https://jisung0111.github.io/
+    - name: Minhyuk Sung
+venue: ICML 2026
+arXiv: https://arxiv.org/abs/2602.08646

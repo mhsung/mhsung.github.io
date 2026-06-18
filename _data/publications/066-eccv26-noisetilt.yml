@@ -1,0 +1,15 @@
+key: noisetilt
+title: "NoiseTilt: Noise-Tilted Reverse Kernels for Diffusion Reward Alignment"
+authors:
+    - name: Jisung Hwang
+      link: https://jisung0111.github.io/
+    - name: Yunhong Min
+      link: https://myh4832.github.io/
+    - name: Jaihoon Kim
+      link: https://jh27kim.github.io/
+    - name: I-Chao Shen*
+      link: https://jdily.github.io/
+    - name: Minhyuk Sung*
+authors_note: co-corresponding authors
+venue: ECCV 2026
+arXiv: https://arxiv.org/abs/2606.18066
