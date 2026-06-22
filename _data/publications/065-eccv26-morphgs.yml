@@ -1,0 +1,11 @@
+key: morphgs
+title: "MorphGS: Morphology-Adaptive Articulated Motion Transfer from Videos"
+authors:
+    - name: Taeyeon Kim*
+    - name: Youngju Na*
+    - name: Jumin Lee
+    - name: Minhyuk Sung
+    - name: Sung-eui Yoon
+authors_note: equal contributions
+venue: ECCV 2026
+arXiv: https://arxiv.org/abs/2601.02716
