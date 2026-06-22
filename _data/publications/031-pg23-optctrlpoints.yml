@@ -1,5 +1,5 @@
 key: optctrlpoints
-title: "OptCtrlPoints: Optimizing Control Points for Biharmonic 3D Shape Deformation"
+title: "OptCtrlPoints: Finding the Optimal Control Points for Biharmonic 3D Shape Deformation"
 authors:
     - name: Kunho Kim
     - name: Mikaela Angelina Uy
