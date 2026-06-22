@@ -26,6 +26,7 @@
 %\documentclass[a4paper,10pt]{article} % Default font size and paper size
 \documentclass[letterpaper,10pt]{article} % Default font size and paper size
 
+\usepackage{kotex}
 \usepackage{fontspec} % For loading fonts
 %\defaultfontfeatures{Mapping=tex-text}
 %\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
@@ -40,7 +41,7 @@
 
 \usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
 
-\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+\usepackage[dvipsnames]{xcolor} % Required for specifying custom colors
 
 %\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be
 %\usepackage{fullpage}
@@ -62,7 +63,10 @@
 % if there is a needed pagebreak nearby.
 \newcommand{\blankline}{\quad\pagebreak[2]}
 
+\usepackage{array}
 \usepackage{makecell}
+\usepackage{xltabular}
+
 
 \begin{document}
 
@@ -76,13 +80,13 @@
 
 \par{\centering{\large
 Associate Professor,
-\href{http://cs.kaist.ac.kr/}{School of Computing},
+\href{http://aic.kaist.ac.kr/}{Department of AI Computing},
 \href{http://www.kaist.ac.kr/}{KAIST}
 }\bigskip\par}
 
 \par{\centering{
 \begin{tabular}{c|rl}
-  E3-5, Room 507                    & \textsc{Phone:} & +82-42-350-3587 \\
+  E3-5, Room 507                    & \textsc{Phone:} & +82-42-350-1911 \\
   291 Daehak-ro, Yuseong-gu         & \textsc{Email:} & \href{mailto:mhsung@kaist.ac.kr}{mhsung@kaist.ac.kr} \\
   Daejeon, 34141, Republic of Korea & \textsc{Website:} & \href{https://mhsung.github.io}{https://mhsung.github.io}
 \end{tabular}
@@ -104,9 +108,9 @@ Associate Professor,
 %	RESEARCH INTERESTS
 %----------------------------------------------------------------------------------------
 
-\section{Research Interests}
-Generative AI, 3D Machine Learning, Geometry Processing, Computer Graphics, Computer Vision.\\
-\blankline
+%\section{Research Interests}
+%Generative AI, 3D Machine Learning, Geometry Processing, Computer Graphics, Computer Vision.\\
+%\blankline
 
 
 %----------------------------------------------------------------------------------------
@@ -115,9 +119,17 @@ Generative AI, 3D Machine Learning, Geometry Processing, Computer Graphics, Comp
 
 \section{Employment}
 
-Associate Professor \hfill{\textsc{Mar 2025 - Present}\\
-\href{http://cs.kaist.ac.kr/}{\textbf{School of Computing}}, \href{http://www.kaist.ac.kr/}{\textbf{KAIST}}, Daejeon, Republic of Korea\\
-Affiliated with the \href{https://gsai.kaist.ac.kr/}{\textbf{Graduate School of AI}} and the \href{https://meta.kaist.ac.kr/}{\textbf{Metaverse Program}}
+Associate Professor \hfill{\textsc{Mar 2026 - Present}\\
+\href{http://aic.kaist.ac.kr/}{\textbf{Department of AI Computing}}, \href{http://www.kaist.ac.kr/}{\textbf{KAIST}}, Daejeon, Republic of Korea\\
+Affiliated with
+the \href{https://cs.kaist.ac.kr/}{\textbf{School of Computing}}, \\
+the \href{https://gsai.kaist.ac.kr/}{\textbf{Graduate School of AI}}, and\\
+the \href{https://meta.kaist.ac.kr/}{\textbf{Metaverse Program}}
+
+%------------------------------------------------
+
+Associate Professor \hfill{\textsc{Mar 2025 - Feb 2026}\\
+\href{http://cs.kaist.ac.kr/}{\textbf{School of Computing}}, \href{http://www.kaist.ac.kr/}{\textbf{KAIST}}, Daejeon, Republic of Korea
 
 %------------------------------------------------
 
@@ -294,6 +306,108 @@ Researcher \hfill{\textsc{Mar 2010 - Jul 2013}}\\
 
 \begin{enumerate}
 
+\item \label{eccv26_2}
+\href{https://arxiv.org/abs/2606.18066}{\textbf{NoiseTilt: Noise-Tilted Reverse Kernels for Diffusion Reward Alignment}}\\
+Jisung Hwang, Yunhong Min, Jaihoon Kim, I-Chao Shen*, \textbf{Minhyuk Sung}* (* co-corresponding authors)\\
+ECCV 2026\\
+\blankline
+
+\item \label{eccv26_1}
+\href{https://arxiv.org/abs/2511.21415}{\textbf{DiverseVAR: Balancing Diversity and Quality of Next-Scale Visual Autoregressive Models}}\\
+Mingue Park*, Prin Phunyaphibarn*, Phillip Y. Lee, \textbf{Minhyuk Sung} (* equal contributions)\\
+ECCV 2026\
+\blankline
+
+\item \label{icml26}
+\href{https://arxiv.org/abs/2602.08646}{\textbf{Gradient Preconditioning for Efficient and Reliable Reward-Guided Generation}}\\
+Jisung Hwang, \textbf{Minhyuk Sung}\\
+ICML 2026\\
+\blankline
+
+\item \label{cvpr26_2}
+\href{https://arxiv.org/abs/2512.17302}{\textbf{MatLat: Material Latent Space for PBR Texture Generation}}\\
+Kyeongmin Yeo, Yunhong Min, Jaihoon Kim, \textbf{Minhyuk Sung}\\
+CVPR 2026\\
+\blankline
+
+\item \label{cvpr26_1}
+\href{https://arxiv.org/abs/2604.02870}{\textbf{Token Warping Helps MLLMs Look from Nearby Viewpoints}}\\
+Phillip Y. Lee*, Chanho Park*, Mingue Park, Seungwoo Yoo, Juil Koo, \textbf{Minhyuk Sung} (* equal contributions)\\
+CVPR 2026\\
+\blankline
+
+\item \label{aistats26}
+\href{https://arxiv.org/abs/2510.17991}{\textbf{Demystifying Transition Matching: When and Why It Can Beat Flow Matching}}\\
+Jaihoon Kim, Rajarshi Saha, \textbf{Minhyuk Sung}, Youngsuk Park\\
+AISTATS 2026\\
+\blankline
+
+\item \label{iclr26_2}
+\href{https://arxiv.org/abs/2512.13255}{\textbf{B\'ezierFlow: Learning B\'ezier Stochastic Interpolant Schedulers for Few-Step Generation}}\\
+Yunhong Min*, Juil Koo*, Seungwoo Yoo, \textbf{Minhyuk Sung} (* equal contributions)\\
+ICLR 2026\\
+\blankline
+
+\item \label{iclr26_1}
+\href{https://arxiv.org/abs/2512.20063}{\textbf{PairFlow: Closed-Form Source-Target Coupling for Few-Step Generation in Discrete Flow Models}}\\
+Mingue Park*, Jisung Hwang*, Seungwoo Yoo*, Kyeongmin Yeo, \textbf{Minhyuk Sung} (* equal contributions)\\
+ICLR 2026\\
+\blankline
+
+\item \label{tmlr26}
+\href{https://arxiv.org/abs/2602.13616}{\textbf{DiffusionRollout: Uncertainty-Aware Rollout Planning in Long-Horizon PDE Solving}}\\
+Seungwoo Yoo*, Juil Koo*, Daehyeon Choi*, \textbf{Minhyuk Sung} (* equal contributions)\\
+TMLR\\
+\blankline
+
+\item \label{3dv26}
+\href{https://arxiv.org/abs/2511.19542}{\textbf{Proxy-Free Gaussian Splats Deformation with Splat-Based Surface Estimation}}\\
+Jaeyeong Kim, Seungwoo Yoo, \textbf{Minhyuk Sung}\\
+3DV 2026\\
+\blankline
+
+\item \label{wacv26_2}
+\href{https://arxiv.org/abs/2602.20666}{\textbf{BoxSplitGen: A Generative Model for 3D Part Bounding Boxes in Varying Granularity}}\\
+Juil Koo*, Wei-Tung Lin*, Chanho Park, Chanhyeok Park, \textbf{Minhyuk Sung} (* equal contributions)\\
+WACV 2026\\
+\blankline
+
+\item \label{wacv26_1}
+\href{https://arxiv.org/abs/2503.20240}{\textbf{Unconditional Priors Matter! Improving Conditional Generation of Fine-Tuned Diffusion Models}}\\
+Prin Phunyaphibarn, Phillip Y. Lee, Jaihoon Kim, \textbf{Minhyuk Sung}\\
+WACV 2026\\
+\blankline
+
+\item \label{neurips25_5}
+\href{https://arxiv.org/abs/2506.01320}{\textbf{$\Psi$-Sampler: Initial Particle Sampling for SMC-Based Inference-Time Reward Alignment in Score Models}}\\
+Taehoon Yoon*, Yunhong Min*, Kyeongmin Yeo*, \textbf{Minhyuk Sung} (* equal contributions)\\
+NeurIPS 2025 (Spotlight)\\
+\blankline
+
+\item \label{neurips25_4}
+\href{https://arxiv.org/abs/2503.19385}{\textbf{Inference-Time Scaling for Flow Models via Stochastic Generation and Rollover Budget Forcing}}\\
+Jaihoon Kim*, Taehoon Yoon*, Jisung Hwang*, \textbf{Minhyuk Sung} (* equal contributions)\\
+NeurIPS 2025\\
+\blankline
+
+\item \label{neurips25_3}
+\href{https://arxiv.org/abs/2503.22194}{\textbf{ORIGEN: Zero-Shot 3D Orientation Grounding in Text-to-Image Generation}}\\
+Yunhong Min*, Daehyeon Choi*, Kyeongmin Yeo, Jihyun Lee, \textbf{Minhyuk Sung} (* equal contributions)\\
+NeurIPS 2025\\
+\blankline
+
+\item \label{neurips25_2}
+\href{https://arxiv.org/abs/2509.07027}{\textbf{Moment- and Power-Spectrum-Based Gaussianity Regularization for Text-to-Image Models}}\\
+Jisung Hwang, Jaihoon Kim, \textbf{Minhyuk Sung}\\
+NeurIPS 2025\\
+\blankline
+
+\item \label{neurips25_1}
+\href{https://arxiv.org/abs/2511.01924}{\textbf{Neural Green’s Functions}}\\
+Seungwoo Yoo, Kyeongmin Yeo, Jisung Hwang, \textbf{Minhyuk Sung}\\
+NeurIPS 2025\\
+\blankline
+
 \item \label{iccv25}
 \href{https://arxiv.org/abs/2504.17207}{\textbf{Perspective-Aware Reasoning in Vision-Language Models via Mental Imagery Simulation}}\\
 Phillip Y. Lee, Jihyeon Je, Chanho Park, Mikaela Angelina Uy, Leonidas Guibas, \textbf{Minhyuk Sung}\\
@@ -307,13 +421,13 @@ Chunsan Hong, Tae-Hyun Oh*, \textbf{Minhyuk Sung}*\\
 TMLR 2025\\
 \blankline
 
-\item \label{cvpr25}
+\item \label{cvpr25_2}
 \href{https://www.arxiv.org/abs/2503.01107}{\textbf{VideoHandles: Editing 3D Object Compositions in Videos Using Video Generative Priors}}\\
 Juil Koo, Paul Guerrero, Chun-Hao Paul Huang, Duygu Ceylan, \textbf{Minhyuk Sung}\\
 CVPR 2025\\
 \blankline
 
-\item \label{cvpr25}
+\item \label{cvpr25_1}
 \href{https://arxiv.org/abs/2504.04956}{\textbf{REWIND: Real-Time Egocentric Whole-Body Motion Diffusion with Exemplar-Based Identity Conditioning}}\\
 Jihyun Lee, Weipeng Xu, Alexander Richard, Shih-En Wei, Shunsuke Saito, Shaojie Bai, Te-Li Wang, \textbf{Minhyuk Sung}, Tae-Kyun Kim, Jason Saragih\\
 CVPR 2025\\
@@ -450,7 +564,7 @@ Kai Wang, Paul Guerrero, Vladimir Kim, Siddhartha Chaudhuri, \textbf{Minhyuk Sun
 ECCV 2022\\
 \blankline
 
-\item \label{cvpr22_2}
+\item \label{cvpr22_3}
 \href{https://arxiv.org/abs/2112.06390}{\textbf{PartGlot: Learning Shape Part Segmentation from Language Reference Games}}\\
 Juil Koo, Ian Huang, Panos Achlioptas, Leonidas Guibas, \textbf{Minhyuk Sung}\\
 CVPR 2022\\
@@ -662,6 +776,12 @@ Ubiquitous Robots and Ambient Intelligence (URAI) 2011 \\
 
 %\begin{tabular}{rl}
 \begin{tabular}{r|p{11cm}}
+2025 & Technology Innovation Award, Excellence Award\\
+& KAIST College of Engineering\\
+&\\
+2025 & Outstanding Lecture Award\\
+& KAIST\\
+&\\
 2024 & Young Researcher Award\\
 & Asiagraphics\\
 &\\
@@ -697,6 +817,11 @@ Ubiquitous Robots and Ambient Intelligence (URAI) 2011 \\
 
 \begin{tabular}{r|p{11cm}}
 
+\textsc{Spring 2026} & Instructor\\
+& \href{https://3dml.kaist.ac.kr/}{\textbf{CS479: Machine Learning for 3D Data}}, KAIST\\
+& \\
+
+%------------------------------------------------
 
 \textsc{Fall 2025} & Instructor\\
 & \href{https://diffusion.kaist.ac.kr/}{\textbf{CS492(C): Diffusion and Flow Models}}, KAIST\\
@@ -832,34 +957,34 @@ Ubiquitous Robots and Ambient Intelligence (URAI) 2011 \\
 %Reviewer, IEEE Computer Graphics and Applications. 2022.\\
 %Reviewer, Computer Aided Geometric Design. 2022.\\
 
-
 \begin{tabular}{r|p{11cm}}
-Program Committee
-    & 3DV 2026 Area Chair\\
-    & NeurIPS 2025 Area Chair\\
-    & SIGGRAPH Asia 2025 Technical Papers Committee Member\\
-    & Pacific Graphics 2025 Program Committee Member\\
-    & ICCV 2025 Area Chair\\
-    & ICLR 2025 Area Chair\\
-    & Eurographics 2025 International Program Committee Member\\
-    & SIGGRAPH Asia 2024 Technical Papers Committee Member\\
-    & Eurographics 2024 International Program Committee Member\\
-    & AAAI 2024 Senior Committee Member\\
-    & Pacific Graphics 2023 Program Committee Member \& Local Arrangement Chair\\
-    & SIGGRAPH Asia 2023 Technical Papers Committee Member\\
-    & AAAI 2023 Senior Committee Member\\
-    & SIGGRAPH Asia 2022 Technical Papers Committee Member\\
-    & Eurographics 2022 International Program Committee Member\\
-Associated Editor
-    & Graphical Models \\
-    &\\
+Conference Chair & \parbox[t]{11cm}{
+    SIGGRAPH Asia 2027 Technical Communications Chair\\
+    Korea Computer Graphics Society (KCGS) 2026 Co-Program Chair\\
+    Pacific Graphics 2023 Local Arrangement Chair\\
+    }\\
+
+\makecell[tr]{Program Committee Member \&\\Area Chair} & \parbox[t]{11cm}{
+    NeurIPS (2025, 2026), ICML (2026), ICLR (2025, 2026), AAAI (2023, 2024).\\
+    SIGGRAPH (2026), SIGGRAPH Asia (2022, 2023, 2024, 2025), Eurographics (2022, 2024, 2025), Pacific Graphics (2023, 2025, 2026).\\
+    ICCV (2025), 3DV (2026).\\
+    }\\
+
+\makecell[tr]{Associate Editor \&\\Action Editor} & \parbox[t]{11cm}{
+    TMLR (2026--Present)\\
+    Computers \& Graphics (2024--Present)\\
+    Graphical Models (2022--Present)\\
+    }\\
+
 %Reviewer & SIGGRAPH, SIGGRAPH Asia, Eurographics, \\
 %  & CVPR, ICCV, ECCV, 3DV, WACV, NeurIPS, ICML, ICLR, \\
 %  & ACM TOG, IEEE TVCG, CGF, TVC, C\&G, IEEE TPAMI, IEEE RA-L. \\
-Workshop Co-Organizer
-    & \href{https://struco3d.github.io/cvpr2023/}{Structural and Compositional Learning on 3D Data Workshop} at CVPR 2023\\
-    & \href{https://mhsung.github.io/gvc-workshop-2022/}{KAIST Geometric and Visual Computing Workshop}\\
-    & \href{https://struco3d.github.io/iccv2021/}{Structural and Compositional Learning on 3D Data Workshop} at ICCV 2021\\
+
+Workshop Co-Organizer & \parbox[t]{11cm}{
+    \href{https://musi-workshop.github.io/}{Workshop on Multimodal Spatial Intelligence} at CVPR 2026\\
+    \href{https://struco3d.github.io/cvpr2023/}{Structural and Compositional Learning on 3D Data Workshop} at CVPR 2023\\
+    \href{https://mhsung.github.io/gvc-workshop-2022/}{KAIST Geometric and Visual Computing Workshop}\\
+    \href{https://struco3d.github.io/iccv2021/}{Structural and Compositional Learning on 3D Data Workshop} at ICCV 2021}\\
 \end{tabular}\\
 
 \blankline
@@ -870,56 +995,76 @@ Workshop Co-Organizer
 %----------------------------------------------------------------------------------------
 
 \section{Talks}
-\begin{tabular}{r|p{11cm}}
-Aug 2024 & Simon Fraser University. Invited Speaker.\\
-Aug 2024 & Stanford University. Invited Speaker.\\
-Aug 2024 & Google. Invited Speaker.\\
-Aug 2024 & NVIDIA. Invited Speaker.\\
-Feb 2025 & Asiagraphics Workshop on Intelligent Graphics. Invited Speaker.\\
-Dec 2024 & The University of Tokyo. Invited Speaker.\\
-Dec 2024 & SIGGRAPH Asia 2024. K-BOF Speaker.\\
-Dec 2024 & SIGGRAPH Asia 2024. Pre-Conference Workshop Speaker.\\
-Jul 2024 & SIGGRAPH 2024. Tutorial Speaker.\\
-Jul 2024 & Adobe Research. Invited Speaker.\\
-Jul 2024 & Stanford University. Invited Speaker.\\
-Jun 2024 & 2nd Workshop on Compositional 3D Vision (C3DV) at CVPR 2024. Invited Speaker.\\
-Apr 2024 & \'Ecole Polytechnique. Invited Speaker.\\
-Apr 2024 & ETH Z\"urich. Invited Speaker.\\
-Apr 2024 & Technical University of Munich. Invited Speaker.\\
-Apr 2024 & Eurographics 2024. Tutorial Speaker.\\
-Jan 2024 & KAIST. AI-X Workshop. Invited Speaker.\\
-Jan 2024 & POSTECH. Invited Speaker.\\
-Dec 2023 & NVIDIA Toronto AI Lab. Invited Speaker.\\
-Oct 2023 & Pacific Graphics 2023. Tutorial Speaker.\\
-Oct 2023 & Adobe Research Paris. Invited Speaker.\\
-Sep 2023 & University College London. Invited Speaker.\\
-Sep 2023 & KAIST. Metaverse Program. Colloquium Speaker.\\
-Jul 2023 & Samsung Advanced Institute of Technology. Invited Speaker.\\
-Jul 2023 & Korea AI Association Conference. Tutorial Speaker.\\
-Jul 2023 & Ontact Health. Invited Speaker.\\
-Jun 2023 & Osstem Implant. Invited Speaker.\\
-Jun 2023 & POSTECH CSE/GSAI. Seminar Speaker.\\
-Nov 2022 & KIST. Invited Speaker.\\
-Nov 2022 & KAIST. Kim Jaechul Graduate School of Artificial Intelligence. Colloquium Speaker.\\
-Aug 2022 & SFU. GrUVi Group. Invited Speaker.\\
-Jul 2022 & KAUST. Mohamed Elhoseiny's Group. Virtual Invited Speaker.\\
-Jul 2022 & KCGS 2022. Summer School Speaker. \\
-May 2022 & KCC 2022. New Researcher Session Speaker.\\
-Jun 2022 & Stanford University. Invited Speaker.\\
-Apr 2022 & Samsung Display. Seminar Speaker.\\
-Mar 2022 & KAIST. The First Wednesday Multidisciplinary Forum. Speaker.\\
-Feb 2022 & Asiagraphics. Webinar Speaker.\\
-Dec 2021 & Daewoo Shipbuilding \& Marine Engineering. Mini Course Lecturer.\\
-Oct 2021 & Samsung Electronics. Manufacturing Technology Center. Seminar Speaker.\\
-Oct 2021 & Korea University. School of Biomedical Engineering. Colloquium Speaker.\\
-Sep 2021 & GIST. School of Integrated Technology. Seminar Speaker.\\
-Jul 2021 & Korea Computer Graphics Society 2021. Invited Speaker.\\
-May 2021 & KAIST. School of Computing. Colloquium Speaker.\\
-Apr 2021 & KAIST. Software Graduate Program. Colloquium Speaker.\\
-Feb 2021 & Korean Computer Vision Society. Computer Vision Researcher Forum Speaker.\\
-Feb 2021 & KAIST. Graduate School of Culture Technology. Invited Speaker.\\
-Jan 2021 & Kakao Brain. Invited Speaker.\\
-\end{tabular}\\
+\begin{xltabular}{\textwidth}{r|p{15cm}}
+Jun 10, 2026 & Netflix. Invited Speaker. ``Generative Modeling Beyond Scale: Efficiency, Guidance, and Multimodality.''\\
+Jun 9, 2026 & NVIDIA. Invited Speaker. ``Generative Modeling Beyond Scale: Efficiency, Guidance, and Multimodality.''\\
+May 15, 2026 & Singapore Vision Day 2026. Speaker. ``Generative Modeling Beyond Scale: Efficiency, Guidance, and Multimodality.''\\
+Apr 13, 2026 & KAIST. Software Graduate Program/KTAI. Colloquium Speaker. ``LLM 시대의 Computer Science 교육과 AI 연구의 미래.''\\
+Mar 18, 2026 & IVSP\&MLHMI 2026. Keynote Speaker. ``Image and Video Generation: Present and Future.''\\
+Mar 13, 2026 & Ministry of Science and ICT Expert Roundtable on Agentic AI, SW Industry, and Talent Development. Speaker. ``바이브 코딩 시대의 컴퓨터과학 교육.''\\
+Feb 23, 2026 & KAIST. Workshop on Redesigning University Education in the AI Era. Speaker. ``코드를 가르치지 않는 컴퓨터과학: 스탠퍼드는 무엇을 바꾸고 있는가.''\\
+Feb 12, 2026 & LG AI Research. Invited Speaker. ``Toward Ambulatory Vision: Generative Action Policies for Spatial Understanding.''\\
+Sep 11, 2025 & KAIST. Metaverse Program Colloquium. Colloquium Speaker. ``콘텐츠 생성 모델의 현재와 미래.''\\
+Aug 27, 2025 & KAIST. AI Transformation Workshop. Invited Speaker. ``콘텐츠 생성 모델의 현재와 미래.''\\
+Aug 15, 2025 & Simon Fraser University. Invited Speaker. ``Inference-Time Guided Generation Using Diffusion and Flow Models.''\\
+Aug 12, 2025 & SIGGRAPH 2025. Tutorial Speaker. ``Diffusion-Based Image/Video Generation.''\\
+Aug 7, 2025 & Stanford University. Invited Speaker. ``Inference-Time Guided Generation Using Diffusion and Flow Models.''\\
+Aug 6, 2025 & Google. Invited Speaker. ``Inference-Time Guided Generation Using Diffusion and Flow Models.''\\
+Aug 4, 2025 & NVIDIA. Invited Speaker. ``Inference-Time Guided Generation Using Diffusion and Flow Models.''\\
+Jul 3--4, 2025 & MLSS-Senegal 2025. Tutorial Speaker. ``Diffusion Models.''\\
+Jul 4, 2025 & SW StarLab Alumni-Student Collaboration Workshop. Tutorial Speaker. ``이미지/비디오 생성 모델의 현재와 미래.''\\
+Jun 4, 2025 & Gyeonggi Science High School. Invited Speaker. ``생성 모델의 현재와 미래.''\\
+May 19, 2025 & KAIST. Software Graduate Program/KTAI. Colloquium Speaker. ``이미지/비디오 생성 기술의 현재와 미래.''\\
+Apr 25, 2025 & Nanyang Technological University. Invited Speaker. ``Inference-Time Guided Generation Using Diffusion and Flow Models.''\\
+Apr 20, 2025 & Computational Visual Media Conference 2025. Keynote Speaker. ``Inference-Time Guided Generation Using Diffusion and Flow Models.''\\
+Feb 28, 2025 & Asiagraphics Workshop on Intelligent Graphics. Speaker. ``Guidance in the Generative Process of Diffusion Models.''\\
+Dec 9, 2024 & The University of Tokyo. Invited Speaker. ``Visual Content Generation with Image Diffusion Models: From Distillation to Diffusion Synchronization.''\\
+Dec 4, 2024 & SIGGRAPH Asia 2024. K-BOF Speaker. ``Visual Content Generation Using Diffusion Models.''\\
+Dec 2, 2024 & SIGGRAPH Asia 2024. Pre-Conference Workshop Speaker. ``Visual Content Generation Using Diffusion Models.''\\
+Jul 30, 2024 & SIGGRAPH 2024. Tutorial Speaker. ``Diffusion Models for Visual Content Generation.''\\
+Jul 23, 2024 & Adobe Research. Invited Speaker. ``Visual Content Generation with Image Diffusion Models: From Distillation to Diffusion Synchronization.''\\
+Jul 22, 2024 & Stanford University. Invited Speaker. ``Visual Content Generation with Image Diffusion Models: From Distillation to Diffusion Synchronization.''\\
+Jun 18, 2024 & CVPR 2024 Workshop on Compositional 3D Vision. Invited Speaker. ``CVPR 2024 Workshop on Compositional 3D Vision.''\\
+May 2, 2024 & \'Ecole Polytechnique. Invited Speaker. ``Visual Content Generation with Image Diffusion Models: From Distillation to Diffusion Synchronization.''\\
+Apr 22, 2024 & Eurographics 2024. Tutorial Speaker. ``Diffusion Models for Visual Computing.''\\
+Apr 19, 2024 & ETH Z\"urich. Invited Speaker. ``Visual Content Generation with Image Diffusion Models: From Distillation to Diffusion Synchronization.''\\
+Apr 17, 2024 & Technical University of Munich. Invited Speaker. ``Visual Content Generation with Image Diffusion Models: From Distillation to Diffusion Synchronization.''\\
+Jan 31, 2024 & KAIST. AI-X Workshop. Invited Speaker. ``3D Generation and Manipulation via 2D Priors Distillation.''\\
+Jan 4, 2023 & POSTECH. Invited Speaker. ``Moving Beyond 3D Generation to Editing with Image Diffusion Priors.''\\
+Dec 8, 2023 & NVIDIA. Invited Speaker. ``Moving Beyond 3D Generation to Editing with Image Diffusion Priors.''\\
+Oct 11, 2023 & Pacific Graphics 2023. Tutorial Speaker. ``3D Generation via 2D Priors and Neural Rendering: Recent Advances, Limitations, and Future Directions.''\\
+Oct 3, 2023 & Adobe Research Paris. Invited Speaker. ``Towards Shape Editability and Multi-View Consistency in 3D Generation.''\\
+Sep 29, 2023 & University College London. Invited Speaker. ``Towards Shape Editability and Multi-View Consistency in 3D Generation.''\\
+Sep 7, 2023 & KAIST. Metaverse Program Colloquium. Colloquium Speaker. ``3D Generation via 2D Priors and Neural Rendering: Recent Advances, Limitations, and Future Directions.''\\
+Jul 28, 2023 & Samsung Advanced Institute of Technology. Invited Speaker. ``3D Generation via 2D Priors and Neural Rendering: Recent Advances, Limitations, and Future Directions.''\\
+Jul 17, 2023 & Korea AI Association Conference. Tutorial Speaker. ``3D Generation via 2D Priors and Neural Rendering: Recent Advances, Limitations, and Future Directions.''\\
+Jul 11, 2023 & Ontact Health. Invited Speaker. ``Neural Rendering and 3D Generative Models.''\\
+Jun 16, 2023 & Osstem Implant. Invited Speaker. ``Neural Rendering and 3D Generative Models.''\\
+Jun 2, 2023 & POSTECH CSE/GSAI. Colloquium Speaker. ``Text-to-3D Generation, Manipulation, and Analysis.''\\
+Nov 25, 2022 & KIST. Invited Speaker. ``Language-Driven 3D Shape Analysis and Manipulation.''\\
+Nov 25, 2022 & KAIST. Kim Jaechul Graduate School of AI. Colloquium Speaker. ``Language-Driven 3D Shape Analysis and Manipulation.''\\
+Nov 2, 2022 & KAIST. School of Computing Career Concert. Speaker. ``Keep your eyes on the stars, and your feet on the ground.''\\
+Aug 24, 2022 & Chunbuk Science High School. Invited Speaker. ``Machine Learning for 3D/Geometry.''\\
+Aug 12, 2022 & Simon Fraser University. Invited Speaker. ``Language-Driven Shape Analysis and Manipulation.''\\
+Jul 27, 2022 & KAUST. Invited Speaker. ``Language-Driven Shape Analysis and Manipulation.''\\
+Jul 22, 2022 & ICME Workshop on 3D Multimedia Analytics, Search and Generation. Keynote Speaker. ``Language-Driven Shape Analysis and Manipulation.''\\
+Jul 12, 2022 & KCGS 2022. Tutorial Speaker. ``Introduction to Neural Rendering.''\\
+Jun 30, 2022 & KCC 2022. Invited Speaker. ``Learning to Discover 3D Structure.''\\
+Jun 17, 2022 & Stanford University. Invited Speaker. ``Language-Driven Shape Analysis and Manipulation.''\\
+Apr 28, 2022 & Samsung Display. Invited Speaker. ``Neural Rendering and Beyond.''\\
+Mar 10, 2022 & KAIST. The First Wednesday Multidisciplinary Forum. Invited Speaker. ``AI-powered digital twin creation and manipulation.''\\
+Feb 22, 2022 & Asiagraphics. Webinar Speaker. ``Discovering the Compositional Structure in 3D Shapes -- From Supervised to Unsupervised Learning.''\\
+Dec 23--24, 2021 & Daewoo Shipbuilding \& Marine Engineering. Tutorial Speaker. ``3D Deep Learning.''\\
+Oct 12, 2021 & Samsung Electronics. Manufacturing Technology Center. Invited Speaker. ``3D Deep Learning -- Toward Learning the Compositional Structure in 3D Shapes.''\\
+Oct 6, 2021 & Korea University. School of Biomedical Engineering. Colloquium Speaker. ``3D Deep Learning -- Toward Learning the Compositional Structure in 3D Shapes.''\\
+Sep 23, 2021 & GIST. School of Integrated Technology. Colloquium Speaker. ``3D Deep Learning -- Toward Learning the Compositional Structure in 3D Shapes.''\\
+Jul 7, 2021 & KCGS 2021. Tutorial Speaker. ``Learning to Deform: 3D Content Creation via Mesh Deformation.''\\
+May 10, 2021 & KAIST. School of Computing. Colloquium Speaker. ``3D Deep Learning -- Toward Learning the Compositional Structure in 3D Shapes.''\\
+Apr 8, 2021 & KAIST. Software Graduate Program. Colloquium Speaker. ``3D Deep Learning -- Toward Learning the Compositional Structure in 3D Shapes.''\\
+Feb 19, 2021 & Korean Computer Vision Society. Computer Vision Researcher Forum Speaker. ``3D Deep Learning -- Toward Learning the Compositional Structure in 3D Shapes.''\\
+Jan 22, 2021 & KAIST. Graduate School of Culture Technology. Colloquium Speaker. ``3D Deep Learning -- Toward Learning the Compositional Structure in 3D Shapes.''\\
+Jan 20, 2021 & Kakao Brain. Invited Speaker. ``3D Deep Learning -- Toward Learning the Compositional Structure in 3D Shapes.''\\
+\end{xltabular}
 
 \blankline
 
