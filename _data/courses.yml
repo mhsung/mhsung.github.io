@@ -1,5 +1,5 @@
 courses:
-  - title: "AIC313: Introduction to Generative Models"
+  - title: "AIC313/CS378: Introduction to Generative Models"
     link: https://generative-models.kaist.ac.kr/
     time: Fall 2026
   - title: "CS479: Machine Learning for 3D Data"
