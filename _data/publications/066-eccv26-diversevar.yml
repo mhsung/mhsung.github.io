@@ -10,4 +10,6 @@ authors:
     - name: Minhyuk Sung
 authors_note: equal contributions
 venue: ECCV 2026
+project: https://diverse-var.github.io/
 arXiv: https://arxiv.org/abs/2511.21415
+code: https://github.com/KAIST-Visual-AI-Group/DiverseVAR
