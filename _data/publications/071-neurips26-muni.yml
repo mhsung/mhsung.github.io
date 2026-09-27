@@ -1,0 +1,13 @@
+key: muni
+title: "MUNI: Multimodal Unified Latent Diffusion for Coherent Any-to-Any Generation"
+authors:
+    - name: Kyeongmin Yeo*
+      link: https://32v.github.io/
+    - name: Yunhong Min*
+      link: https://myh4832.github.io/
+    - name: Minhyuk Sung
+authors_note: equal contributions
+venue: NeurIPS 2026
+project: https://muni-proj.github.io/
+arXiv: https://arxiv.org/abs/2606.16408
+code: https://github.com/KAIST-Visual-AI-Group/MUNI

@@ -1,0 +1,13 @@
+key: vrhs
+title: "Retrieval Heads Meet Vision: Uncovering How VLMs Locate and Extract Visual Information"
+authors:
+    - name: Chanho Park
+      link: https://charlieppark.kr/
+    - name: Daehyeon Choi
+      link: https://choidaedae.github.io/
+    - name: Jihyun Lee
+      link: https://jyunlee.github.io/
+    - name: Minhyuk Sung
+venue: NeurIPS 2026
+project: https://visual-retrieval-heads.github.io/
+arXiv: https://arxiv.org/abs/2608.27417
