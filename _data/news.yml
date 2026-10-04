@@ -7,7 +7,7 @@ news:
       time: Aug 2026
     - title: "Serving as an area chair at 3DV 2027."
       time: Aug 2026
-    - title: "Serving as a senior program committee member at AAAI 2026."
+    - title: "Serving as a senior program committee member at AAAI 2027."
       time: Jul 2026
     - title: "I gave a lecture in the Seocho AI College AI-Transformation Program."
       time: Jul 2026
@@ -31,17 +31,17 @@ news:
     - title: "One paper has been accepted to ICML 2026."
       time: May 2026
     - title: "I gave a talk as a colloquium speaker in the Software Graduate Program at KAIST on \"CS Education and AI Research in the Era of LLMs\"."
-      time: April 2025
+      time: Apr 2026
     - title: "Serving as an area chair at NeurIPS 2026."
       time: Mar 2026
     - title: "I gave a talk at IVSP&MLHMI 2026 conference on \"Image and Video Generation: Present and Future\"."
-      time: Mar 2025
+      time: Mar 2026
     - title: "I gave a presentation at the Ministry of Science and ICT expert roundtable on \"Talent Development in the Agentic AI Era\"."
-      time: Mar 2025
+      time: Mar 2026
     - title: "Two papers have been accepted to CVPR 2026, including one highlight!"
       time: Feb 2026
     - title: "I gave a presentation at the \"Redesigning University Education in the AI Era\" workshop at KAIST."
-      time: Feb 2025
+      time: Feb 2026
       link: https://kaist.ac.kr/news/html/news/?mode=V&mng_no=58510&skey=keyword&sval=AI%20%EC%8B%9C%EB%8C%80%EC%9D%98%20%EB%8C%80%ED%95%99%EA%B5%90%EC%9C%A1%20%EC%9E%AC%EC%84%A4%EA%B3%84%20%EC%9B%8C%ED%81%AC%EC%88%8D&list_s_date=&list_e_date=&GotoPage=1
     - title: "We are organizing the 2nd Workshop on Multimodal Spatial Intelligence at CVPR 2026. The Call for Papers is now open! Click to check out the workshop webpage."
       link: https://musi-workshop.github.io/
@@ -63,25 +63,33 @@ news:
       time: Nov 2025
     - title: "One paper has been accepted to 3DV 2026."
       time: Nov 2025
-    - title: "One paper has been accepted to WACV 2026 (in the secound round)."
+    - title: "One paper has been accepted to WACV 2026 (in the second round)."
       time: Nov 2025
     - title: "Serving as a technical paper committee member at SIGGRAPH 2026."
       time: Oct 2025
+    - title: "I gave a talk at the KAIST Metaverse Program Colloquium on \"The Present and Future of Content Generation\"."
+      time: Sep 2025
     - title: "Five papers have been accepted to NeurIPS 2025, including one spotlight."
       time: Sep 2025
     - title: "One paper has been accepted to WACV 2026 (in the first round)."
       time: Sep 2025
+    - title: "I presented a tutorial at SIGGRAPH 2025 on \"Diffusion-Based Image/Video Generation\"."
+      time: Aug 2025
     - title: "I talked about \"The Present and Future of Content Generation\" at the KAIST AI Transformation Workshop. Click to check out the recording."
       time: Aug 2025
       link: https://www.youtube.com/watch?v=148A4I1dJ4U
     - title: "I gave talks at NVIDIA, Google, Stanford, and SFU titled \"Inference-Time Guided Generation Using Diffusion and Flow Models\". Click to download the slides."
       time: Aug 2025
+      link: https://drive.google.com/file/d/1zexSlwFvJiuDY2ye2e2lwAurSlGM2F1l/view?pli=1
     - title: "Serving as an area chair at ICLR 2026."
       time: Aug 2025
-      link: https://drive.google.com/file/d/1zexSlwFvJiuDY2ye2e2lwAurSlGM2F1l/view?pli=1
+    - title: "I gave a tutorial at the SW StarLab Alumni-Student Collaboration Workshop on \"The Present and Future of Image and Video Generation Models\"."
+      time: Jul 2025
     - title: "I gave lectures on diffusion models at MLSS-Senegal 2025."
       time: Jul 2025
       link: https://mlss-senegal.github.io/
+    - title: "I gave a talk at Gyeonggi Science High School on \"The Present and Future of Generative Models\"."
+      time: Jun 2025
     - title: "One paper has been accepted to ICCV 2025."
       time: Jun 2025
     - title: "One paper has been accepted to TMLR."
@@ -96,16 +104,18 @@ news:
     - title: "Serving as an area chair at NeurIPS 2025."
       time: Apr 2025
     - title: "Serving as a technical paper committee member at SIGGRAPH Asia 2025."
-      time: Mar 2024
+      time: Mar 2025
     - title: "Serving as a program committee member at Pacific Graphics 2025."
-      time: Mar 2024
-    - title: "I gave a talk at the Asiagraphics Workshop on Intelligent Graphics titled \"Guidance in the Generative Process of Diffusion Models\". click to download the slides."
-      time: feb 2025
+      time: Mar 2025
+    - title: "I gave a talk at the Asiagraphics Workshop on Intelligent Graphics titled \"Guidance in the Generative Process of Diffusion Models\". Click to download the slides."
+      time: Feb 2025
       link: https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL2IvYy82MDU2MjAyM2I2NjQwMjgyL0Vhd0Z1UDJrd0Y5RG5FOC1uS3ZzQjUwQm9XazlGVVRRanBKZC1QUWlOYW44bHc&cid=60562023B6640282&id=60562023B6640282%21sfdb805acc0a4435f9c4f3e9cabec079d&parId=60562023B6640282%212031&o=OneUp
     - title: "Two papers have been accepted to CVPR 2025."
       time: Feb 2025
     - title: "One paper has been accepted to ICLR 2025."
       time: Jan 2025
+    - title: "I gave talks at the SIGGRAPH Asia 2024 pre-conference workshop and K-BOF on \"Visual Content Generation Using Diffusion Models\"."
+      time: Dec 2024
     - title: "I gave a talk at the University of Tokyo on \"Visual Content Generation with Image Diffusion Models\"."
       time: Dec 2024
     - title: "Serving as an area chair at ICCV 2025."
@@ -133,8 +143,6 @@ news:
     - title: "I gave talks at TUM, ETH, and École Polytechnique on \"Visual Content Generation with Image Diffusion Models\". Click here to download the slides."
       link: https://onedrive.live.com/?authkey=%21AOnPCAWYCSEMQSw&id=60562023B6640282%215513&cid=60562023B6640282&parId=root&parQt=sharedby&o=OneUp
       time: Apr 2024
-    - title: "Serving as a technical paper committee member at SIGGRAPH Asia 2024."
-      time: Mar 2024
     - title: "I presented a tutorial on \"Diffusion Models for Visual Computing\" at Eurographics 2024. Click here for more details."
       link: https://geometry.cs.ucl.ac.uk/courses/diffusion4VC_eg24/
       time: Apr 2024
@@ -142,6 +150,8 @@ news:
       time: Mar 2024
     - title: "Three papers have been accepted at CVPR 2024."
       time: Feb 2024
+    - title: "I gave a talk at the KAIST AI-X Workshop on \"3D Generation and Manipulation via 2D Priors Distillation\"."
+      time: Jan 2024
     - title: "I gave a talk at POSTECH."
       time: Jan 2024
     - title: "I gave a talk at NVIDIA Toronto AI Lab with the title: \"Moving Beyond 3D Generation to Editing with Image Diffusion Priors\". Click here to download the slides."
@@ -195,6 +205,8 @@ news:
     - title: Juil Koo passed his M.S. thesis defense. Congrats!
       time: Dec 2022
       link: https://63days.github.io/
+    - title: "I gave a talk at the KAIST School of Computing Career Concert titled \"Keep your eyes on the stars, and your feet on the ground\"."
+      time: Nov 2022
     - title: "Hosted KAIST Geometric and Visual Computing Workshop (GVC Workshop). Click this for more details."
       time: Nov 2022
       link: https://mhsung.github.io/gvc-workshop-2022/
@@ -213,6 +225,8 @@ news:
       link: https://research.typeform.com/to/cYQEYa5L
     - title: "Serving as a senior program committee member at AAAI 2023."
       time: Sep 2022
+    - title: "I gave a talk at Jeonbuk Science High School on \"Machine Learning for 3D/Geometry\"."
+      time: Aug 2022
     - title: "We are hosting the 2022 Women Tech Stars workshop at KAIST, supported by the Google ExploreCSR program. Click this to check out the webpage."
       time: Aug 2022
       link: https://womentechstars.github.io/2022s/index.html
@@ -247,7 +261,7 @@ news:
     - title: "Serving as a technical paper committee member at SIGGRAPH Asia 2022."
       time: Apr 2022
     - title: "Three papers accepted to CVPR 2022 including Juil's oral."
-      time: Mar 2021
+      time: Mar 2022
     - title: "I gave a talk at the First Wednesday Multidisciplinary Forum at KAIST."
       time: Mar 2022
     - title: "Invited as a webinar speaker at Asiagraphics."
@@ -255,6 +269,8 @@ news:
       link: http://www.asiagraphics.org/webinar/#session7
     - title: "One paper accepted to ICRA 2022."
       time: Feb 2022
+    - title: "I gave a tutorial at Daewoo Shipbuilding & Marine Engineering on \"3D Deep Learning\"."
+      time: Dec 2021
     - title: "I gave a talk at the Manufacturing Technology Center at Samsung Electronics."
       time: Oct 2021
     - title: "I gave a talk as a colloquium speaker in the School of Biomedical Engineering at Korea University."

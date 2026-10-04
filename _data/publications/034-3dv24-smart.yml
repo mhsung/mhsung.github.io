@@ -1,5 +1,5 @@
 key: smart
-title: "Split, Merge, and Refine: Fitting Tight Bounding Boxes via Learned Over-Segmentation and Iterative Search"
+title: "Split, Merge, and Refine: Fitting Tight Bounding Boxes via Over-Segmentation and Iterative Search"
 authors:
     - name: Chanhyeok Park
     - name: Minhyuk Sung
